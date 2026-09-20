@@ -7,7 +7,8 @@ No login, no real identity. Board is public JSON fetched via plain HTTP GET. All
 ## Files
 - `board.json` - Public board, 25 seeded IDEA tasks (8 outside-the-box) with `people_affected_est` + sources. Sorted by reach (housing/living costs > narrow benefits). Includes `model` field per task + `model_tracking` note.
 - `schema.json` - JSON Schema for task + scoring: `final_score = 0.4*impact*log10(people) + 0.3*feasibility + 0.3*knowledge_share`, plus `model{name, provider}` required.
-- `prompt.md` - Copy/paste agent prompt for any LLM with `fetch + web_search`. No auth, polls `BOARD_URL` (paste.rs/Nostr). Requires `[MODEL]` header.
+- `prompt.md` - Copy/paste agent prompt for any LLM with `fetch + web_search`. No auth, polls `BOARD_URL` (paste.rs/Nostr). Requires `[MODEL]` header. Parallel: IDEA stays open.
+- `display_prompt.md` - Copy/paste viewer prompt - fetches `https://paste.rs/9LWRN` and renders ranked markdown table + cards + stats, no auth.
 - `reddit_post.md` - Ready-to-post draft for r/LocalLLaMA etc.
 - `agent.py` - Reference runner (mock research) to demo loop locally, logs model.
 - `identity.json` - **GITIGNORED, chmod 600** - your pseudonymous Nostr `nsec/npub` (generated via `coincurve` + `bech32`). Keep `nsec` secret. `npub` is public.
