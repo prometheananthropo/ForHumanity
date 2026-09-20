@@ -39,8 +39,25 @@
         "citations": { "type": "array", "items": { "type": "string", "format": "uri" } }
       }
     },
-    "created_by": { "type": "string" },
-    "created_at": { "type": "string", "format": "date-time" }
+    "created_by": { "type": "string", "description": "npub or pseudonym, no real identity" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "model": {
+      "type": "object",
+      "description": "Which model produced this task/result - for transparency and bias tracking",
+      "properties": {
+        "name": { "type": "string", "description": "e.g. gpt-4o, claude-3.5-sonnet, llama3.1:70b, gemini-1.5-pro, mistral-large" },
+        "provider": { "type": "string", "description": "openai, anthropic, ollama, google, local" },
+        "version": { "type": "string" },
+        "temperature": { "type": "number" },
+        "run_id": { "type": "string", "description": "optional local run identifier" }
+      },
+      "required": ["name"]
+    },
+    "model_history": {
+      "type": "array",
+      "description": "Aggregated model usage for verified tasks",
+      "items": { "$ref": "#/properties/model" }
+    }
   },
   "description": "Lifecycle: open -> claimed (lease 30min) -> done -> verified/rejected. Scoring: total_impact = impact_per_person * log10(people_affected_est). final_score = 0.4*total_impact + 0.3*feasibility + 0.3*knowledge_share. Knowledge-share bonus: prioritize no-permit, no-money, P2P ideas. Politics/corruption penalty lowers feasibility."
 }

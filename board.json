@@ -1,8 +1,8 @@
 {
   "board": "humanity-living-conditions-v1",
   "created": "2026-09-20",
-  "public_read": "GET https://paste.rs/boardID or GET https://raw.githubusercontent.com/<you>/ideas/main/board.json - no auth",
-  "public_write": "POST to same (paste.rs) or Nostr relay wss://relay.damus.io - AI generates key, no password",
+  "public_read": "GET https://paste.rs/YOUR_BOARD_ID - anonymous, no auth, plain text JSON - or GET https://raw.githubusercontent.com/pseudo/ideas/main/board.json via throwaway",
+  "public_write": "POST https://paste.rs (returns new URL) or wss://relay.damus.io wss://nos.lol - AI generates key (nsec) locally, no password/signup",
   "tasks": [
     {
       "id": "root_humanity",
@@ -15,8 +15,13 @@
         "allow_ai_implement": false,
         "needs_verification": false
       },
-      "created_by": "human_seed",
-      "created_at": "2026-09-20T00:00:00Z"
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-20T00:00:00Z",
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1"
+      }
     },
     {
       "id": "idea_01_passive_cooling",
@@ -43,8 +48,19 @@
         "citations": [
           "https://unhabitat.org",
           "https://who.int"
-        ]
-      }
+        ],
+        "model": {
+          "name": "agent.py-mock",
+          "provider": "local"
+        }
+      },
+      "model": {
+        "name": "agent.py-mock",
+        "provider": "local",
+        "version": "0.1",
+        "temperature": 0.3
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock"
     },
     {
       "id": "idea_02_offline_education_mesh",
@@ -65,7 +81,13 @@
         "impact_per_person": 9,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_03_tool_libraries",
@@ -86,7 +108,13 @@
         "impact_per_person": 6,
         "feasibility": 9,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_04_mycelium_earth_brick",
@@ -107,7 +135,13 @@
         "impact_per_person": 8,
         "feasibility": 7,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_05_food_preservation",
@@ -128,7 +162,13 @@
         "impact_per_person": 7,
         "feasibility": 9,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_06_community_health_wiki",
@@ -149,7 +189,13 @@
         "impact_per_person": 9,
         "feasibility": 7,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_07_rainwater_biosand",
@@ -170,7 +216,13 @@
         "impact_per_person": 9,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_08_timebank_mutual_aid",
@@ -191,7 +243,13 @@
         "impact_per_person": 7,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_09_solar_microgrid_diy",
@@ -212,7 +270,13 @@
         "impact_per_person": 8,
         "feasibility": 7,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_10_coop_housing_templates",
@@ -233,7 +297,13 @@
         "impact_per_person": 7,
         "feasibility": 6,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_11_land_trust_qr",
@@ -254,7 +324,13 @@
         "impact_per_person": 9,
         "feasibility": 5,
         "knowledge_share": 8
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_12_ai_village_elder",
@@ -275,7 +351,13 @@
         "impact_per_person": 8,
         "feasibility": 7,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_13_nighttime_commons",
@@ -296,7 +378,13 @@
         "impact_per_person": 7,
         "feasibility": 4,
         "knowledge_share": 6
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_14_demurrage_currency",
@@ -317,7 +405,13 @@
         "impact_per_person": 6,
         "feasibility": 5,
         "knowledge_share": 8
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_15_mycelial_sneakernet",
@@ -338,7 +432,13 @@
         "impact_per_person": 7,
         "feasibility": 7,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_16_unjobs_15hr",
@@ -359,7 +459,13 @@
         "impact_per_person": 8,
         "feasibility": 5,
         "knowledge_share": 8
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_17_squat_loophole_library",
@@ -380,7 +486,13 @@
         "impact_per_person": 8,
         "feasibility": 4,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_18_children_designed",
@@ -401,7 +513,13 @@
         "impact_per_person": 6,
         "feasibility": 7,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_19_menstrual_health",
@@ -422,7 +540,13 @@
         "impact_per_person": 7,
         "feasibility": 9,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_20_peer_mental_health",
@@ -443,7 +567,13 @@
         "impact_per_person": 8,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_21_food_forest_maps",
@@ -464,7 +594,13 @@
         "impact_per_person": 6,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_22_childcare_coops",
@@ -485,7 +621,13 @@
         "impact_per_person": 8,
         "feasibility": 8,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_23_hearing_vision_hardware",
@@ -506,7 +648,13 @@
         "impact_per_person": 8,
         "feasibility": 6,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_24_debt_jubilee",
@@ -527,7 +675,13 @@
         "impact_per_person": 7,
         "feasibility": 5,
         "knowledge_share": 9
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "idea_25_oral_history_voice",
@@ -548,7 +702,13 @@
         "impact_per_person": 7,
         "feasibility": 8,
         "knowledge_share": 10
-      }
+      },
+      "model": {
+        "name": "human-seed",
+        "provider": "human",
+        "version": "v1-seed"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
     },
     {
       "id": "research_idea_01_passive_cooling",
@@ -561,8 +721,19 @@
         "allow_ai_implement": true,
         "needs_verification": true
       },
-      "created_by": "agent_py",
-      "created_at": "2026-09-20T00:30:32.209395Z"
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
+      "created_at": "2026-09-20T00:30:32.209395Z",
+      "model": {
+        "name": "agent.py-mock",
+        "provider": "local",
+        "version": "0.1"
+      }
     }
-  ]
+  ],
+  "pseudonym": {
+    "npub": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+    "note": "Pseudonymous publish key. Verify via npub, no real identity. nsec kept local in identity.json (gitignored)."
+  },
+  "anonymity": "Above board and checkable: all results cite sources + IPFS CID, board history is SHA256/CID verifiable. No real identity required. Use throwaway email + Tor/VPN if pushing to GitHub.",
+  "model_tracking": "Every result must include model{name, provider, version, temperature}. See schema.json model field. Used for bias/transparency, aggregated in SUMMARY."
 }

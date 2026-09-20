@@ -22,9 +22,11 @@ def score(impact, people, feasibility, knowledge):
     final = 0.4*total + 0.3*feasibility + 0.3*knowledge
     return round(total,2), round(final,2)
 
+MODEL = {"name": "agent.py-mock", "provider": "local", "version": "0.1", "temperature": 0.3}
+
 def mock_research(task):
     # Simulate web_search + synthesis
-    return f"### Research for {task['id']}: {task['title']}\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- People affected estimate verified: {task.get('people_affected_est','?')} ({task.get('people_affected_source','')})\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n"
+    return f"### Research for {task['id']}: {task['title']}\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: {MODEL['name']} ({MODEL['provider']})\n- People affected estimate verified: {task.get('people_affected_est','?')} ({task.get('people_affected_source','')})\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n"
 
 def pick_task(board):
     opens = [t for t in board["tasks"] if t["status"]=="open"]
@@ -50,14 +52,18 @@ def main():
             "category": "food",
             "people_affected_est": 500000000,
             "people_affected_source": "FAO",
-            "initial_scores": {"impact_per_person":6,"feasibility":8,"knowledge_share":9}
+            "initial_scores": {"impact_per_person":6,"feasibility":8,"knowledge_share":9},
+            "model": MODEL,
+            "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock"
         })
         save_board(board)
         return
 
     print(f"[CLAIM][ID:{task['id']}] type:{task['type']} title:{task['title']}")
+    print(f"[MODEL] {MODEL['name']} provider:{MODEL['provider']}")
     # mock claim
     task["status"] = "claimed"
+    task["model"] = MODEL
     save_board(board)
     time.sleep(0.5)
 
@@ -67,7 +73,7 @@ def main():
     # For IDEA tasks, we simulate RESEARCH completion: create RESEARCH task then FEASIBILITY later
     # Here we just mark IDEA as done and create next step
     task["status"] = "done"
-    task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"]}
+    task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
 
     if task["type"] == "IDEA":
         new_task = {
@@ -78,8 +84,9 @@ def main():
             "body": f"Deep dive on {task['title']}",
             "status": "open",
             "flags": {"allow_ai_implement": task["flags"]["allow_ai_implement"], "needs_verification": True},
-            "created_by": "agent_py",
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z"
+            "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
+            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
+            "model": MODEL
         }
         board["tasks"].append(new_task)
         print(f"Created derived RESEARCH {new_task['id']}")
@@ -94,7 +101,8 @@ def main():
             "status": "open",
             "flags": {"allow_ai_implement": True, "needs_verification": True},
             "scores": {"impact_per_person":7,"feasibility":8,"knowledge_share":9,"total_impact":total,"final_score":final},
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z"
+            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
+            "model": MODEL
         }
         board["tasks"].append(new_task)
         print(f"Created derived FEASIBILITY {new_task['id']} final={final}")
@@ -106,7 +114,8 @@ def main():
             "title": f"Verify: {task['title']}",
             "body": "Double-check citations and counter-evidence",
             "status": "open",
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z"
+            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
+            "model": MODEL
         }
         board["tasks"].append(new_task)
         print(f"Created derived VERIFY {new_task['id']}")
