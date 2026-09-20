@@ -1,0 +1,568 @@
+{
+  "board": "humanity-living-conditions-v1",
+  "created": "2026-09-20",
+  "public_read": "GET https://paste.rs/boardID or GET https://raw.githubusercontent.com/<you>/ideas/main/board.json - no auth",
+  "public_write": "POST to same (paste.rs) or Nostr relay wss://relay.damus.io - AI generates key, no password",
+  "tasks": [
+    {
+      "id": "root_humanity",
+      "parent_id": null,
+      "type": "ROOT",
+      "title": "How do we improve living conditions for humanity?",
+      "body": "Root research question. All IDEA tasks are children of this. Goal: generate, research, verify and implement knowledge-shareable improvements. See prompt.md for rubric.",
+      "status": "done",
+      "flags": {
+        "allow_ai_implement": false,
+        "needs_verification": false
+      },
+      "created_by": "human_seed",
+      "created_at": "2026-09-20T00:00:00Z"
+    },
+    {
+      "id": "idea_01_passive_cooling",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "body": "Open guide for retrofitting existing housing with no-electricity cooling. Target: informal housing, rentals. Source: UN Habitat + WHO heat deaths rise.",
+      "status": "done",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "UNEP 2024: 2B+ exposed to extreme heat in inadequate housing",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 9,
+        "knowledge_share": 10
+      },
+      "result": {
+        "markdown": "### Research for idea_01_passive_cooling: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- People affected estimate verified: 2000000000 (UNEP 2024: 2B+ exposed to extreme heat in inadequate housing)\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n",
+        "citations": [
+          "https://unhabitat.org",
+          "https://who.int"
+        ]
+      }
+    },
+    {
+      "id": "idea_02_offline_education_mesh",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Offline-first P2P education mesh (IPFS textbooks on $20 phones, no internet)",
+      "body": "Sneakernet + mesh to share textbooks/Khan Academy offline. For areas with no internet/school.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "ITU 2024: 2.6B offline; UNESCO: 244M out-of-school",
+      "initial_scores": {
+        "impact_per_person": 9,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_03_tool_libraries",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Community tool libraries + repair cafés network template",
+      "body": "Kit to start local lending library for tools/appliances, reduce cost of living, repair instead of buy.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "World Bank: 1.5B face high cost of durable goods",
+      "initial_scores": {
+        "impact_per_person": 6,
+        "feasibility": 9,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_04_mycelium_earth_brick",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "DIY mycelium + earth brick construction manual (grows housing material)",
+      "body": "Grow bricks from mycelium/straw/earth, no cement, low cost. Open hardware molds.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1600000000,
+      "people_affected_source": "UN Habitat 2023: 1.6B in inadequate housing",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 7,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_05_food_preservation",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Local food preservation & fermentation knowledge base (reduce waste, improve nutrition)",
+      "body": "Traditional preservation adapted to modern contexts, no fridge needed.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 2500000000,
+      "people_affected_source": "FAO 2023: 2.5B food insecure, 1/3 food wasted",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 9,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_06_community_health_wiki",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Community health worker offline wiki (diagnosis + treatment guides for common issues)",
+      "body": "Offline-first wiki for 80% of primary care that doesn't need doctor. Based on WHO guidelines.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "WHO 2023: 3B lack access to essential health services",
+      "initial_scores": {
+        "impact_per_person": 9,
+        "feasibility": 7,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_07_rainwater_biosand",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Rainwater harvesting + biosand filter open hardware (safe water without pipes)",
+      "body": "Build from local sand/gravel/barrels. Guide + maintenance schedule.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "water",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "UNICEF 2023: 2B lack safely managed drinking water",
+      "initial_scores": {
+        "impact_per_person": 9,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_08_timebank_mutual_aid",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Timebank + mutual aid coordination protocol (no money, hour-for-hour exchange)",
+      "body": "Open protocol + printable ledger + simple app that works via SMS/mesh. For informal economies.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 4000000000,
+      "people_affected_source": "ILO 2023: 2B informal workers + 1.6B unpaid care",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_09_solar_microgrid_diy",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Solar microgrid DIY kit (open source, village-scale, repairable)",
+      "body": "Schematics + sourcing + safety guide for 1-10kW microgrids from used panels.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "energy",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "IEA 2023: 760M no electricity, 2B unreliable",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 7,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_10_coop_housing_templates",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Cooperative housing + tenant rights legal templates (50 countries)",
+      "body": "Copy-paste legal docs for co-ops, community land trusts, anti-eviction. Translate + localize.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "OECD 2023: 1B+ rent-burdened (>30% income)",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_11_land_trust_qr",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Community land trust via QR deed commons (de-commodify housing)",
+      "body": "Remove land from market: QR-coded commons deed, community votes on use. Legal hacks + case studies (e.g., Oakland CLT). Inverts ownership.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1600000000,
+      "people_affected_source": "UN Habitat inadequate housing + speculative vacancy 10-15% in major cities",
+      "initial_scores": {
+        "impact_per_person": 9,
+        "feasibility": 5,
+        "knowledge_share": 8
+      }
+    },
+    {
+      "id": "idea_12_ai_village_elder",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] AI village elder - offline LLM on $20 device trained on elders' knowledge",
+      "body": "Record oral knowledge, fine-tune tiny LLM, runs on solar phone without internet. Preserves + shares local agriculture/medicine.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "education",
+      "people_affected_est": 750000000,
+      "people_affected_source": "UNESCO 750M illiterate adults rely on oral knowledge",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 7,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_13_nighttime_commons",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Nighttime commons - reclaim streets 22:00-06:00 for sleeping/shelter",
+      "body": "Invert city use: parking lots/streets become housing at night, legal + safety protocol. Like Bogotá Ciclovía but for housing.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": false,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "UN 1B+ in slums, plus 100M homeless",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 4,
+        "knowledge_share": 6
+      }
+    },
+    {
+      "id": "idea_14_demurrage_currency",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Gift economy app where money expires after 30 days (demurrage)",
+      "body": "Money loses 1% per day, incentivizes circulation not hoarding. Based on Wörgl experiment. Open app + paper ledger fallback.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "World Bank: 2B under financial exclusion, wealth concentration",
+      "initial_scores": {
+        "impact_per_person": 6,
+        "feasibility": 5,
+        "knowledge_share": 8
+      }
+    },
+    {
+      "id": "idea_15_mycelial_sneakernet",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Mycelial sneaker-net: USB stick + human mesh, no ISP needed",
+      "body": "Delay-tolerant network via humans carrying USBs/sd cards + Bluetooth mesh. Share knowledge where internet censored/expensive.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "education",
+      "people_affected_est": 2600000000,
+      "people_affected_source": "ITU 2.6B offline + censorship in 50+ countries",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 7,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_16_unjobs_15hr",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Un-jobs: 15hr work week via shared automation guides",
+      "body": "Open guides to automate local jobs (e.g., auto irrigation, auto accounting) and share remaining work. Based on Keynes 15hr prediction.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "ILO 3B workers, avg 40+ hr, burnout crisis",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 8
+      }
+    },
+    {
+      "id": "idea_17_squat_loophole_library",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Legal loophole library: how to legally reuse vacant buildings in 50 countries",
+      "body": "Adverse possession, usufruct, vacancy taxes, squatters rights. Tactical urbanism guide + safety.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": false,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "EU: 11M vacant homes vs 700k homeless; global vacancy 10-20%",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 4,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_18_children_designed",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[OUTSIDE BOX] Children-designed neighborhoods (design briefs by 10-year-olds)",
+      "body": "Invite children to design streets/play/housing, translate into buildable plans. Shifts power, reveals blind spots. Low-cost participatory design kit.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "2B children, urban design excludes them, affects families",
+      "initial_scores": {
+        "impact_per_person": 6,
+        "feasibility": 7,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_19_menstrual_health",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Open-source menstrual health + reusable product guides (affects school/work)",
+      "body": "Sewing patterns, hygiene, pain management, no shame. Up to 30% school absenteeism linked.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1900000000,
+      "people_affected_source": "UNICEF: 1.9B menstruators, 500M lack access",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 9,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_20_peer_mental_health",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Peer mental health support protocol (non-clinical, community circles)",
+      "body": "Training + scripts for listening circles, no therapist needed. Based on WHO mhGAP community.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "WHO: 1B with mental disorder, 75% no care",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_21_food_forest_maps",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Urban foraging & food forest maps + planting guides for cities",
+      "body": "Map edible plants, plant guilds for 1m², maintain collectively. Reduce food cost.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "FAO: 1B urban poor face food insecurity",
+      "initial_scores": {
+        "impact_per_person": 6,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "idea_22_childcare_coops",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Decentralized childcare co-ops coordination kit",
+      "body": "Rota, safety, learning activities, no money needed. Frees parents for work/education.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 500000000,
+      "people_affected_source": "ILO: 500M parents lack childcare",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 8,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_23_hearing_vision_hardware",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Open hardware hearing aids / glasses ($5, repairable)",
+      "body": "e.g., open hearing aid from Georgia Tech, glasses via self-adjustable lenses. Assembly guide.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "WHO: 1.5B hearing loss, 2.2B vision impairment",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 6,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_24_debt_jubilee",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Debt jubilee toolkit + collective bargaining templates",
+      "body": "How to organize debtors union, negotiate, use legal defenses. For student/medical/microfinance debt.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "World Bank: 1B+ in debt distress",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 5,
+        "knowledge_share": 9
+      }
+    },
+    {
+      "id": "idea_25_oral_history_voice",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "Voice-to-text oral history archiving for low-literacy communities",
+      "body": "Record via phone call, transcribe offline with tiny STT, share via audio mesh. Preserve + share farming/medicine knowledge without literacy.",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 750000000,
+      "people_affected_source": "UNESCO: 750M illiterate adults",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 8,
+        "knowledge_share": 10
+      }
+    },
+    {
+      "id": "research_idea_01_passive_cooling",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "RESEARCH",
+      "title": "Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "body": "Deep dive on Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true
+      },
+      "created_by": "agent_py",
+      "created_at": "2026-09-20T00:30:32.209395Z"
+    }
+  ]
+}

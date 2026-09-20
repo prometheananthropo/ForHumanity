@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Humanity Board Task",
+  "type": "object",
+  "required": ["id", "parent_id", "type", "title", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "parent_id": { "type": ["string", "null"] },
+    "type": { "enum": ["ROOT", "IDEA", "RESEARCH", "FEASIBILITY", "VERIFY", "SUMMARY", "IMPLEMENT", "FINE_TUNE"] },
+    "title": { "type": "string" },
+    "body": { "type": "string" },
+    "status": { "enum": ["open", "claimed", "done", "verified", "rejected"] },
+    "category": { "type": "string" },
+    "people_affected_est": { "type": "integer", "minimum": 1000 },
+    "people_affected_source": { "type": "string" },
+    "flags": {
+      "type": "object",
+      "properties": {
+        "allow_ai_implement": { "type": "boolean" },
+        "needs_verification": { "type": "boolean" },
+        "outside_the_box": { "type": "boolean" }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "impact_per_person": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "feasibility": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "knowledge_share": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "total_impact": { "type": "number" },
+        "final_score": { "type": "number" }
+      }
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "cid": { "type": "string", "description": "IPFS/0x0.st/Gist URL for full report if >10k chars" },
+        "markdown": { "type": "string" },
+        "citations": { "type": "array", "items": { "type": "string", "format": "uri" } }
+      }
+    },
+    "created_by": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" }
+  },
+  "description": "Lifecycle: open -> claimed (lease 30min) -> done -> verified/rejected. Scoring: total_impact = impact_per_person * log10(people_affected_est). final_score = 0.4*total_impact + 0.3*feasibility + 0.3*knowledge_share. Knowledge-share bonus: prioritize no-permit, no-money, P2P ideas. Politics/corruption penalty lowers feasibility."
+}
