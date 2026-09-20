@@ -59,25 +59,26 @@ def main():
         save_board(board)
         return
 
-    print(f"[CLAIM][ID:{task['id']}] type:{task['type']} title:{task['title']}")
+    print(f"[WORKING][ID:{task['id']}] type:{task['type']} title:{task['title']}")
     print(f"[MODEL] {MODEL['name']} provider:{MODEL['provider']}")
-    # mock claim
-    task["status"] = "claimed"
-    task["model"] = MODEL
-    save_board(board)
-    time.sleep(0.5)
+    # parallel: IDEA stays open, no exclusive claim. Just advisory signal.
+    if task["type"] != "IDEA":
+        task["status"] = "claimed"
+        task["model"] = MODEL
+        save_board(board)
+        time.sleep(0.2)
+    else:
+        # IDEA remains open for parallel workers - don't mark claimed/done
+        print(f"IDEA stays open for parallel - creating parallel RESEARCH")
+        time.sleep(0.2)
 
     result_md = mock_research(task)
-    # create derived task
-    derived_type = {"RESEARCH":"FEASIBILITY","FEASIBILITY":"VERIFY","IDEA":"RESEARCH"}.get(task["type"])
-    # For IDEA tasks, we simulate RESEARCH completion: create RESEARCH task then FEASIBILITY later
-    # Here we just mark IDEA as done and create next step
-    task["status"] = "done"
-    task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
-
+    # create derived task - IDEA stays open, RESEARCH result stored on IDEA's result list or as child
     if task["type"] == "IDEA":
+        # keep parent IDEA open, create unique RESEARCH child for parallel work
+        suffix = f"{MODEL['name'].replace(':','-')}_{int(time.time())%10000}_{random.randint(10,99)}"
         new_task = {
-            "id": f"research_{task['id']}",
+            "id": f"research_{task['id']}_{suffix}",
             "parent_id": task["id"],
             "type": "RESEARCH",
             "title": f"Research: {task['title']}",
@@ -88,10 +89,18 @@ def main():
             "created_at": datetime.datetime.utcnow().isoformat()+"Z",
             "model": MODEL
         }
+        # attach parallel result to IDEA for traceability but keep IDEA open
+        if "parallel_results" not in task:
+            task["parallel_results"] = []
+        task["parallel_results"].append({"model": MODEL, "markdown": result_md, "at": datetime.datetime.utcnow().isoformat()+"Z"})
+        task["model"] = MODEL
         board["tasks"].append(new_task)
         print(f"Created derived RESEARCH {new_task['id']}")
     elif task["type"] == "RESEARCH":
         total, final = score(7, task.get("people_affected_est", 1000000000), 8, 9)
+        # keep RESEARCH open? For parallel feasibility each RESEARCH gets its own FEASIBILITY
+        task["status"] = "done"
+        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
         new_task = {
             "id": f"feas_{task['id']}",
             "parent_id": task["parent_id"],
@@ -107,6 +116,8 @@ def main():
         board["tasks"].append(new_task)
         print(f"Created derived FEASIBILITY {new_task['id']} final={final}")
     elif task["type"] == "FEASIBILITY":
+        task["status"] = "done"
+        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
         new_task = {
             "id": f"verify_{task['id']}",
             "parent_id": task["parent_id"],
@@ -119,9 +130,12 @@ def main():
         }
         board["tasks"].append(new_task)
         print(f"Created derived VERIFY {new_task['id']}")
+    else:
+        task["status"] = "done"
+        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
 
     save_board(board)
-    print(f"[RESULT][ID:{task['id']}] done. Board now has {len(board['tasks'])} tasks.")
+    print(f"[RESULT][ID:{task['id']}] done. Board now has {len(board['tasks'])} tasks. IDEA parallel keeps parent open.")
 
 if __name__ == "__main__":
     main()

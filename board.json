@@ -29,7 +29,7 @@
       "type": "IDEA",
       "title": "Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
       "body": "Open guide for retrofitting existing housing with no-electricity cooling. Target: informal housing, rentals. Source: UN Habitat + WHO heat deaths rise.",
-      "status": "done",
+      "status": "open",
       "flags": {
         "allow_ai_implement": true,
         "needs_verification": true,
@@ -60,7 +60,19 @@
         "version": "0.1",
         "temperature": 0.3
       },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock"
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
+      "parallel_results": [
+        {
+          "model": {
+            "name": "agent.py-mock",
+            "provider": "local",
+            "version": "0.1",
+            "temperature": 0.3
+          },
+          "markdown": "### Research for idea_01_passive_cooling: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: agent.py-mock (local)\n- People affected estimate verified: 2000000000 (UNEP 2024: 2B+ exposed to extreme heat in inadequate housing)\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n",
+          "at": "2026-09-20T01:09:43.703239Z"
+        }
+      ]
     },
     {
       "id": "idea_02_offline_education_mesh",
@@ -716,7 +728,7 @@
       "type": "RESEARCH",
       "title": "Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
       "body": "Deep dive on Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
-      "status": "open",
+      "status": "done",
       "flags": {
         "allow_ai_implement": true,
         "needs_verification": true
@@ -726,7 +738,108 @@
       "model": {
         "name": "agent.py-mock",
         "provider": "local",
-        "version": "0.1"
+        "version": "0.1",
+        "temperature": 0.3
+      },
+      "result": {
+        "markdown": "### Research for research_idea_01_passive_cooling: Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: agent.py-mock (local)\n- People affected estimate verified: ? ()\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n",
+        "citations": [
+          "https://unhabitat.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "agent.py-mock",
+          "provider": "local",
+          "version": "0.1",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "id": "feas_research_idea_01_passive_cooling",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "FEASIBILITY",
+      "title": "Feasibility: Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "body": "Scoring with reach-weighted rubric",
+      "status": "done",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true
+      },
+      "scores": {
+        "impact_per_person": 7,
+        "feasibility": 8,
+        "knowledge_share": 9,
+        "total_impact": 63.0,
+        "final_score": 30.3
+      },
+      "created_at": "2026-09-20T01:09:33.643828Z",
+      "model": {
+        "name": "agent.py-mock",
+        "provider": "local",
+        "version": "0.1",
+        "temperature": 0.3
+      },
+      "result": {
+        "markdown": "### Research for feas_research_idea_01_passive_cooling: Feasibility: Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: agent.py-mock (local)\n- People affected estimate verified: ? ()\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n",
+        "citations": [
+          "https://unhabitat.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "agent.py-mock",
+          "provider": "local",
+          "version": "0.1",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "id": "verify_feas_research_idea_01_passive_cooling",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "VERIFY",
+      "title": "Verify: Feasibility: Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "body": "Double-check citations and counter-evidence",
+      "status": "done",
+      "created_at": "2026-09-20T01:09:33.893928Z",
+      "model": {
+        "name": "agent.py-mock",
+        "provider": "local",
+        "version": "0.1",
+        "temperature": 0.3
+      },
+      "result": {
+        "markdown": "### Research for verify_feas_research_idea_01_passive_cooling: Verify: Feasibility: Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: agent.py-mock (local)\n- People affected estimate verified: ? ()\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n",
+        "citations": [
+          "https://unhabitat.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "agent.py-mock",
+          "provider": "local",
+          "version": "0.1",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "id": "research_idea_01_passive_cooling_agent.py-mock_6583_77",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "RESEARCH",
+      "title": "Research: Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "body": "Deep dive on Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
+      "status": "open",
+      "flags": {
+        "allow_ai_implement": true,
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
+      "created_at": "2026-09-20T01:09:43.703198Z",
+      "model": {
+        "name": "agent.py-mock",
+        "provider": "local",
+        "version": "0.1",
+        "temperature": 0.3
       }
     }
   ],
@@ -737,5 +850,6 @@
   "anonymity": "Above board and checkable: all results cite sources + IPFS CID, board history is SHA256/CID verifiable. No real identity required. Use throwaway email + Tor/VPN if pushing to GitHub.",
   "model_tracking": "Every result must include model{name, provider, version, temperature}. See schema.json model field. Used for bias/transparency, aggregated in SUMMARY.",
   "live_url": "https://paste.rs/CBmnM",
-  "published_via": "Tor (192.42.116.45) via docker tor-proxy, no account, no IP trace"
+  "published_via": "Tor (192.42.116.45) via docker tor-proxy, no account, no IP trace",
+  "lifecycle": "parallel: IDEA always open, multiple RESEARCH per IDEA allowed, no exclusive claim. See prompt.md"
 }
