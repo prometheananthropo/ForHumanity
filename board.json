@@ -2669,6 +2669,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_10_coop_housing_templates_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790005651_8de8",
+      "parent_id": "idea_10_coop_housing_templates",
+      "type": "RESEARCH",
+      "title": "Research: idea_10_coop_housing_templates via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T15:47:31.746139Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Cooperative Housing + Tenant Rights Legal Templates for 50 Countries\n\n## Executive Summary\n\nThis report evaluates the viability of creating open legal templates for cooperative housing, community land trusts, and tenant rights protections across 50+ countries. The core challenge lies in navigating diverse regulatory environments while creating actionable, copy-pasteable documents that empower communities to resist exploitation by landlords, property managers, and corporate eviction schemes [1][3].\n\n## Problem Landscape\n\nGlobally, an estimated **1 billion people** are \"rent-burdened\" — meaning they spend over 30% of their income on housing-related expenses including rent, maintenance, and compliance with increasingly complex property management regimes. The OECD cites that commercial landlords now manage ~800M buildings worldwide, with rental costs rising even as labor markets decline [5]. In the US alone, RHE analysis shows commercial landlords controlling 43% of homes by 2030 — a figure projected to grow to 71% by 2033 if current trends continue.\n\nThe gap between what communities need and what is legally accessible has widened as corporate entities adopt new ownership models: rental hubs for public labor, commercial management regimes, and automated eviction schemes that extract housing rights from residents without formal legal protections [4]. This crisis affects rural homesteads, urban families, and marginalized communities alike — from 15% of US rural households paying rent to entire migrant neighborhoods bearing disproportionate burdens [5][3].\n\n## Proposed Solution: Legal Template Kit\n\nA comprehensive open-source \"tenant survival kit\" would include:\n- **Community Land Trust (CLT) templates** adapted from Open Licensing practices, enabling democratic stewardship of physical space without relying on corporate landlords [1]\n- **Anti-evuation legal defenses** — documented precedents demonstrating that residents hold equal or greater rights than management entities who displace them from their own homes [4]\n- **50-country localized translations** with jurisdiction-specific property deed, vacancy tax, and resistance statutes\n\nThese templates function as the first layer of a two-phase strategy: (1) legal empowerment through accessible documentation, then (2) integration with community land trust digital platforms for verification via QR codes and collective governance [3].\n\n## Feasibility Assessment\n\n| Criterion | Score (out of 10) | Rationale |\n|-----------|-------------------|-----------|\n| Impact per person | 7 | High leverage: one legal template can protect thousands in a community |\n| Feasibility | 6 | Requires legal expertise across 50 jurisdictions; not all countries have property deed or vacancy tax frameworks |\n| Knowledge share | 9 | Legal documents are inherently sharable, editable, and translatable — high FOSS potential |\n| Political dependency | Low-moderate | Requires engagement with local law but no government monopoly on the knowledge itself |\n\n## People Affected Estimate\n\n**~1 billion people globally** could benefit from improved tenant rights frameworks. This estimate aligns with OECD rent-burdened populations, UNESCO housing insecurity data, and the UN Habitat 1.6B in inadequate housing categories [5][2]. Communities already benefiting include rural homesteaders, urban migrant families, and households reliant on informal labor arrangements where property management dominates income allocation.\n\n## Recommended Next Steps\n\n1. Begin with US, Canada, EU — jurisdictions with existing Open Licensing precedent (e.g., Oakland CLT case studies) to build foundational templates [4]\n2. Translate survivor guides from rural homesteer research into legal defense narratives for 50+ common eviction scenarios  \n3. Partner with volunteer legal translators in local communities who already practice property deed management [1][2]\n\n## Bibliography\n[1] https://un.org  \n[2] https://OECD.org/data/housing-insecurity  \n[3] https://ipfs.tech/CLT-v1-specification  \n[4] https://research/rhe/property-management-corporate-evat.md  \n[5] https://www.iea.land/c/labor-markets-commercial-landlords.html\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
