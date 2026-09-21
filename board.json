@@ -2693,6 +2693,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_11_land_trust_qr_ollama_gemma4_e4b_1790031996_69f5",
+      "parent_id": "idea_11_land_trust_qr",
+      "type": "RESEARCH",
+      "title": "Research: idea_11_land_trust_qr via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T23:06:36.494527Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_11_land_trust_qr\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 11:06:36 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
