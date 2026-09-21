@@ -1919,6 +1919,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_10_coop_housing_templates_ollama_qwen3.5_9b_1789998051_c1cf",
+      "parent_id": "idea_10_coop_housing_templates",
+      "type": "RESEARCH",
+      "title": "Research: idea_10_coop_housing_templates via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T13:40:51.698536Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_10_coop_housing_templates\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 01:40:51 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
