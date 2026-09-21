@@ -2,61 +2,158 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Humanity Board Task",
   "type": "object",
-  "required": ["id", "parent_id", "type", "title", "status"],
+  "required": [
+    "id",
+    "parent_id",
+    "type",
+    "title",
+    "status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
-    "parent_id": { "type": ["string", "null"] },
-    "type": { "enum": ["ROOT", "IDEA", "RESEARCH", "FEASIBILITY", "VERIFY", "SUMMARY", "IMPLEMENT", "FINE_TUNE"] },
-    "title": { "type": "string" },
-    "body": { "type": "string" },
-    "status": { "enum": ["open", "claimed", "done", "verified", "rejected"] },
-    "category": { "type": "string" },
-    "people_affected_est": { "type": "integer", "minimum": 1000 },
-    "people_affected_source": { "type": "string" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "type": {
+      "enum": [
+        "ROOT",
+        "IDEA",
+        "RESEARCH",
+        "FEASIBILITY",
+        "VERIFY",
+        "SUMMARY",
+        "IMPLEMENT",
+        "FINE_TUNE"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "claimed",
+        "done",
+        "verified",
+        "rejected"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "people_affected_est": {
+      "type": "integer",
+      "minimum": 1000
+    },
+    "people_affected_source": {
+      "type": "string"
+    },
     "flags": {
       "type": "object",
       "properties": {
-        "allow_ai_implement": { "type": "boolean" },
-        "needs_verification": { "type": "boolean" },
-        "outside_the_box": { "type": "boolean" }
+        "needs_verification": {
+          "type": "boolean"
+        },
+        "outside_the_box": {
+          "type": "boolean"
+        }
       }
     },
     "scores": {
       "type": "object",
       "properties": {
-        "impact_per_person": { "type": "integer", "minimum": 0, "maximum": 10 },
-        "feasibility": { "type": "integer", "minimum": 0, "maximum": 10 },
-        "knowledge_share": { "type": "integer", "minimum": 0, "maximum": 10 },
-        "total_impact": { "type": "number" },
-        "final_score": { "type": "number" }
+        "impact_per_person": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "feasibility": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "knowledge_share": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "total_impact": {
+          "type": "number"
+        },
+        "final_score": {
+          "type": "number"
+        }
       }
     },
     "result": {
       "type": "object",
       "properties": {
-        "cid": { "type": "string", "description": "IPFS/0x0.st/Gist URL for full report if >10k chars" },
-        "markdown": { "type": "string" },
-        "citations": { "type": "array", "items": { "type": "string", "format": "uri" } }
+        "cid": {
+          "type": "string",
+          "description": "IPFS/0x0.st/Gist URL for full report if >10k chars"
+        },
+        "markdown": {
+          "type": "string"
+        },
+        "citations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
       }
     },
-    "created_by": { "type": "string", "description": "npub or pseudonym, no real identity" },
-    "created_at": { "type": "string", "format": "date-time" },
+    "created_by": {
+      "type": "string",
+      "description": "npub or pseudonym, no real identity"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
     "model": {
       "type": "object",
       "description": "Which model produced this task/result - for transparency and bias tracking",
       "properties": {
-        "name": { "type": "string", "description": "e.g. gpt-4o, claude-3.5-sonnet, llama3.1:70b, gemini-1.5-pro, mistral-large" },
-        "provider": { "type": "string", "description": "openai, anthropic, ollama, google, local" },
-        "version": { "type": "string" },
-        "temperature": { "type": "number" },
-        "run_id": { "type": "string", "description": "optional local run identifier" }
+        "name": {
+          "type": "string",
+          "description": "e.g. gpt-4o, claude-3.5-sonnet, llama3.1:70b, gemini-1.5-pro, mistral-large"
+        },
+        "provider": {
+          "type": "string",
+          "description": "openai, anthropic, ollama, google, local"
+        },
+        "version": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "run_id": {
+          "type": "string",
+          "description": "optional local run identifier"
+        }
       },
-      "required": ["name"]
+      "required": [
+        "name"
+      ]
     },
     "model_history": {
       "type": "array",
       "description": "Aggregated model usage for verified tasks",
-      "items": { "$ref": "#/properties/model" }
+      "items": {
+        "$ref": "#/properties/model"
+      }
     }
   },
   "description": "Lifecycle parallel: IDEA always open (multiple RESEARCH per IDEA allowed, no exclusive claim). RESEARCH/FEASIBILITY: open -> done -> verified/rejected. Scoring: total_impact = impact_per_person * log10(people_affected_est). final_score = 0.4*total_impact + 0.3*feasibility + 0.3*knowledge_share. Knowledge-share bonus: prioritize no-permit, no-money, P2P ideas. Politics/corruption penalty lowers feasibility. Parallel results merged in SUMMARY by parent_id."

@@ -12,7 +12,6 @@
       "body": "Root research question. All IDEA tasks are children of this. Goal: generate, research, verify and implement knowledge-shareable improvements. See prompt.md for rubric.",
       "status": "done",
       "flags": {
-        "allow_ai_implement": false,
         "needs_verification": false
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -31,7 +30,6 @@
       "body": "Open guide for retrofitting existing housing with no-electricity cooling. Target: informal housing, rentals. Source: UN Habitat + WHO heat deaths rise.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -82,7 +80,6 @@
       "body": "Sneakernet + mesh to share textbooks/Khan Academy offline. For areas with no internet/school.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -109,7 +106,6 @@
       "body": "Kit to start local lending library for tools/appliances, reduce cost of living, repair instead of buy.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -136,7 +132,6 @@
       "body": "Grow bricks from mycelium/straw/earth, no cement, low cost. Open hardware molds.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -163,7 +158,6 @@
       "body": "Traditional preservation adapted to modern contexts, no fridge needed.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -190,7 +184,6 @@
       "body": "Offline-first wiki for 80% of primary care that doesn't need doctor. Based on WHO guidelines.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -217,7 +210,6 @@
       "body": "Build from local sand/gravel/barrels. Guide + maintenance schedule.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -244,7 +236,6 @@
       "body": "Open protocol + printable ledger + simple app that works via SMS/mesh. For informal economies.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -271,7 +262,6 @@
       "body": "Schematics + sourcing + safety guide for 1-10kW microgrids from used panels.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -298,7 +288,6 @@
       "body": "Copy-paste legal docs for co-ops, community land trusts, anti-eviction. Translate + localize.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -325,7 +314,6 @@
       "body": "Remove land from market: QR-coded commons deed, community votes on use. Legal hacks + case studies (e.g., Oakland CLT). Inverts ownership.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -352,7 +340,6 @@
       "body": "Record oral knowledge, fine-tune tiny LLM, runs on solar phone without internet. Preserves + shares local agriculture/medicine.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -379,7 +366,6 @@
       "body": "Invert city use: parking lots/streets become housing at night, legal + safety protocol. Like Bogotá Ciclovía but for housing.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": false,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -406,7 +392,6 @@
       "body": "Money loses 1% per day, incentivizes circulation not hoarding. Based on Wörgl experiment. Open app + paper ledger fallback.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -433,7 +418,6 @@
       "body": "Delay-tolerant network via humans carrying USBs/sd cards + Bluetooth mesh. Share knowledge where internet censored/expensive.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -460,7 +444,6 @@
       "body": "Open guides to automate local jobs (e.g., auto irrigation, auto accounting) and share remaining work. Based on Keynes 15hr prediction.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -487,7 +470,6 @@
       "body": "Adverse possession, usufruct, vacancy taxes, squatters rights. Tactical urbanism guide + safety.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": false,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -514,7 +496,6 @@
       "body": "Invite children to design streets/play/housing, translate into buildable plans. Shifts power, reveals blind spots. Low-cost participatory design kit.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": true
       },
@@ -541,7 +522,6 @@
       "body": "Sewing patterns, hygiene, pain management, no shame. Up to 30% school absenteeism linked.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -568,7 +548,6 @@
       "body": "Training + scripts for listening circles, no therapist needed. Based on WHO mhGAP community.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -595,7 +574,6 @@
       "body": "Map edible plants, plant guilds for 1m², maintain collectively. Reduce food cost.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -622,7 +600,6 @@
       "body": "Rota, safety, learning activities, no money needed. Frees parents for work/education.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -649,7 +626,6 @@
       "body": "e.g., open hearing aid from Georgia Tech, glasses via self-adjustable lenses. Assembly guide.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -676,7 +652,6 @@
       "body": "How to organize debtors union, negotiate, use legal defenses. For student/medical/microfinance debt.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -703,7 +678,6 @@
       "body": "Record via phone call, transcribe offline with tiny STT, share via audio mesh. Preserve + share farming/medicine knowledge without literacy.",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true,
         "outside_the_box": false
       },
@@ -730,7 +704,6 @@
       "body": "Deep dive on Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
@@ -763,7 +736,6 @@
       "body": "Scoring with reach-weighted rubric",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "scores": {
@@ -830,7 +802,6 @@
       "body": "Deep dive on Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading)",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
@@ -863,7 +834,6 @@
       "body": "Deep dive on Offline-first P2P education mesh via local LLM qwen3.5:9b",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -896,7 +866,6 @@
       "body": "Scoring with reach-weighted rubric",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "scores": {
@@ -963,7 +932,6 @@
       "body": "Scoring with reach-weighted rubric",
       "status": "done",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "scores": {
@@ -1030,7 +998,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1061,7 +1028,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1092,7 +1058,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1123,7 +1088,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1154,7 +1118,6 @@
       "body": "Deep dive via real LLM ollama/gemma4:e4b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1185,7 +1148,6 @@
       "body": "Deep dive via real LLM ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1216,7 +1178,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1247,7 +1208,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1278,7 +1238,6 @@
       "body": "Deep dive via real LLM ollama/gemma4:e4b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1309,7 +1268,6 @@
       "body": "Deep dive via real LLM ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1340,7 +1298,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1371,7 +1328,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1402,7 +1358,6 @@
       "body": "Deep dive via real LLM ollama/gemma4:e4b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1433,7 +1388,6 @@
       "body": "Deep dive via real LLM ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1464,7 +1418,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1495,7 +1448,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1526,7 +1478,6 @@
       "body": "Deep dive via real LLM ollama/gemma4:e4b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1557,7 +1508,6 @@
       "body": "Deep dive via real LLM ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1588,7 +1538,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1619,7 +1568,6 @@
       "body": "Deep dive via real LLM ollama/qwen3.5:9b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1650,7 +1598,6 @@
       "body": "Deep dive via real LLM ollama/gemma4:e4b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1681,7 +1628,6 @@
       "body": "Deep dive via real LLM ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
@@ -1712,7 +1658,6 @@
       "body": "Deep dive via real LLM ollama/qwen3:8b",
       "status": "open",
       "flags": {
-        "allow_ai_implement": true,
         "needs_verification": true
       },
       "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",

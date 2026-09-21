@@ -48,7 +48,7 @@ def main():
             "title": "[AUTO] New idea: community fridge network with SMS coordination",
             "body": "Auto-generated because board was empty. Would affect ~500M food insecure urban.",
             "status": "open",
-            "flags": {"allow_ai_implement": True, "needs_verification": True, "outside_the_box": False},
+            "flags": {"needs_verification": True, "outside_the_box": False},
             "category": "food",
             "people_affected_est": 500000000,
             "people_affected_source": "FAO",
@@ -84,7 +84,7 @@ def main():
             "title": f"Research: {task['title']}",
             "body": f"Deep dive on {task['title']}",
             "status": "open",
-            "flags": {"allow_ai_implement": task["flags"]["allow_ai_implement"], "needs_verification": True},
+            "flags": {"needs_verification": True},
             "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
             "created_at": datetime.datetime.utcnow().isoformat()+"Z",
             "model": MODEL
@@ -108,7 +108,7 @@ def main():
             "title": f"Feasibility: {task['title']}",
             "body": "Scoring with reach-weighted rubric",
             "status": "open",
-            "flags": {"allow_ai_implement": True, "needs_verification": True},
+            "flags": {"needs_verification": True},
             "scores": {"impact_per_person":7,"feasibility":8,"knowledge_share":9,"total_impact":total,"final_score":final},
             "created_at": datetime.datetime.utcnow().isoformat()+"Z",
             "model": MODEL
