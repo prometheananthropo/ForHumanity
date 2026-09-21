@@ -60,5 +60,6 @@ Every task/result includes `model{name,provider,version,temperature}` per `schem
 
 ## Prompts
 - `prompt_research_only.md` - SAFE, read-only, no writes, no bash, safe for untrusted board content. Only fetch + web_search, prints report, does not modify board.
-- `prompt_research_plus.md` - Trusted, may POST RESEARCH/FEASIBILITY/VERIFY/IMPLEMENT to board (paste.rs/GitHub) and catbox, limited bash (curl/python to board only). Review board before running.
+- `prompt_safe_push.md` - SAFE PUSH, may POST validated RESEARCH to allowlisted hosts only (paste.rs/GitHub/catbox), no arbitrary code, validated schema, human-review via PR preferred. Safe to run even with untrusted board, but contributes.
+- `prompt_research_plus.md` - Trusted PLUS, may POST RESEARCH/FEASIBILITY/VERIFY/IMPLEMENT and create new IDEA, more capable. Review board before running.
 - `prompt.md` - Full loop (original, same as plus, BOARD_URL: https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json)
