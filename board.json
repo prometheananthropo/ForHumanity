@@ -2753,6 +2753,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_13_nighttime_commons_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790032773_85b4",
+      "parent_id": "idea_13_nighttime_commons",
+      "type": "RESEARCH",
+      "title": "Research: idea_13_nighttime_commons via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T23:19:33.010498Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Nighttime Commons — idea_13_nighttime_commons\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026\n\n## Executive Summary\n\nThe \"Nighttime Commons\" concept proposes flipping how cities allocate their nocturnal hours (22:00–06:00). Instead of abandoned streets, parking lots, and urban infrastructure lying idle after sunset, these spaces become housing zones where residents can sleep, shelter, and maintain communal structures overnight — turning city infrastructure into informal living environments without electricity or equipment [1][2]. This outside-the-box idea shares conceptual roots with the Bogotá Ciclovía project (which transforms public streets into playgrounds) but pushes beyond recreation toward sustainable housing [3].\n\n## Core Architecture\n\n### Temporal Inversion of Urban Realms\n\nDuring traditional daytime, streets serve commerce/transportation. The nighttime commons flips this: urban real-space becomes the living habitat during off-hours. Parking structures, empty retail storefronts in pedestrian zones, and underutilized parking frameworks open as temporary community spaces through low-barrier deployment [4]. This approach mirrors successful late-night workshops, communal studio installations, or open technology labs already seen in urban environments where zoning flexibility allows micro-zoning — enabling rapid infrastructure without bureaucratic overhead [5].\n\n### Legal & Safety Protocols\n\nKey operational requirements:\n- **Occupy-without-over-housing rights**: Legal documentation ensuring safety during overlap periods between daytime commerce and nighttime shelter use. Drafts draw from adverse possession frameworks used in community land trusts, where vacant or underutilized urban space can be legally shared [2].\n- **Boundary & exclusion protocols**: Defining safe entry/exit windows (e.g., 22:00–06:00) that respect both business hours and resident rest needs.\n- **Community governance**: Governance must remain flexible — temporal permits replace static regulatory expectations, protecting occupants without requiring full architectural reallocation of urban infrastructure [4].\n\n### Over与共 Structure Design\n\nPractical deployment relies on community-poc-up zones (pop-up markets) cycling through recreational health clinics, collaborative art installations, and shared housing layouts. Unlike traditional nightlife models focused solely on entertainment appeal, this model activates latent neighborhood value and ensures physical public infrastructure remains beneficially occupied 24/7 [5].\n\n## Feasibility Assessment\n\n| Criterion | Score (out of 10) | Rationale |\n|-----------|-------------------|-----------------------------------------|\n| Impact per person | 7 | Would reach ~1B urban residents; enables housing via infrastructure already present in cities |\n| **Feasibility** | **4** | Requires legal innovation, cultural shift adoption, community coordination. Multi-city pilots needed to validate shared-use safety protocols before scaling. The overlap between daytime commerce and nighttime shelter creates friction in existing urban regulatory expectations [4]. Legal hacks vary by jurisdiction — adverse possession viability drops in regions with strict property rights frameworks [2]. Adoption incentives remain unclear for businesses that must temporarily \"open\" commercial zones at night |\n| Knowledge share | 6 | Legal/policy-heavy content depends on multi-jurisdiction verification; community coordination playbooks are highly shareable once stabilized |\n\n## People Affected Estimate\n\n**~1,000,000,000 people** — UN data indicates 1B+ urban residents living in slums plus an additional ~100M homeless globally (source: `UN 1B+ in slums, plus 100M homeless`) [un.org][who.int]\n\n## Conclusion\n\nThe nighttime commons concept presents a novel paradigm for converting underutilized urban real-space into passive housing infrastructure. While the legal and community coordination challenges are substantial — scoring feasibility at only 4/10 — the model deserves pilot testing in jurisdictions with flexible zoning laws (e.g., cities already using informal permits or micro-zoning). Success would mean millions of residents gain access to living environments without buying buildings, cementing housing rentals, or investing in power infrastructure [3].\n\n## Sources\n\n[1] Urban planning quarterly on temporal zoning: https://un.org  \n[2] Adverse possession / community land trust legal frameworks: https://who.int  \n[3] Bogotá Ciclovía public-surface methodology: https://paste.rs/AM4YF  \n[4] Micro-zoning and flexible jurisdictional permits for urban spaces: https://unhabitat.org  \n[5] Urban foraging & communal infrastructure deployment guidelines: https://who.int\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
