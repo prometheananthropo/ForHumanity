@@ -2963,6 +2963,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_20_peer_mental_health_ollama_qwen3.5_9b_1790016905_bc63",
+      "parent_id": "idea_20_peer_mental_health",
+      "type": "RESEARCH",
+      "title": "Research: idea_20_peer_mental_health via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T18:55:05.271234Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_20_peer_mental_health\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 06:55:05 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
