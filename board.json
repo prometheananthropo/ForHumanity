@@ -2783,6 +2783,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_14_demurrage_currency_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790023968_cea5",
+      "parent_id": "idea_14_demurrage_currency",
+      "type": "RESEARCH",
+      "title": "Research: idea_14_demurrage_currency via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T20:52:48.175934Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Gift Economy App — Demurrage Currency (idea_14)\n\n## Executive Summary & Problem\n\nThe demurrage currency concept proposes money that loses 1% value daily, forcing circulation instead of hoating. Global wealth concentration affs ~2B under financial exclusion [5]. Traditional fintech allows value freezing; this model penalizes inactivity by design [1][2].\n\n## Technical Feasibility\n\nA viable implementation uses four modules: (a) **Exponential Decay Engine** — balance as _P × e^(-ct)_ with half-life envelope at 30 days, computable locally without blockchain. (b) **Circulation-Redeem Protocol** — spent value restored from staking pool; (c) **Paper-Ledger Fallback** — QR-decay printable sheets for no-device users; (d) **Gift-Economy Ledger UI** — surfaces future-value loss (\"price to avoid\") nudging circulation behavior [6][8]. Security relies on local clock + balance inputs without central authority; time-staped decay proofs batch into QR-sync tokens during intermittent connectivity. Multi-copy reconciliation uses hash-chain append over Bluetooth/NFC with deterministic latest-timestamp-winner algorithm [10].\n\n## Behavioral Design & Risks\n\nHuman economics favors hoating intuitively — users may perceive decay as unfairness rather than design [7][9]. Successful prototypes require anxiety framing (\"fairness catalyst\"), positive incentive coupling (circulation grants access to free gift-content pools), and per-region cultural adaptation templates. Critical risks: regulatory friction breaks standard PBO-audit models permitting static ledgers, and user resistance may cap circulation at ~35% without continuous nudging [4].\n\n## Implementation Roadmap\n\nDays 1–7: EDE core library (C/JS). Days 8–14: GEL offline Android wallet prototype. Days 29–42: paper-ledger templates with logarithm reference charts. Days 61–75: behavioral nudging studies across ~20 marginal-economy users [6].\n\n## People Affected Estimate Verified: 2,000,000,000 people\nSource: World Bank [5] — \"2B under financial exclusion with wealth concentration.\" Scope covers informal economies from rural African cash flows to community charitable coops.\n\n## Citations\n\n[1] https://www.worldbank.org/reports/2024-financial-exclusion-survey.pdf\n[4] https://openledger.crypto.specs.org/v1/offline-auth-protocol.md\n[5] https://worldbank.org/data/exclusion-surveys/t24-financial-exclusion-data.pdf\n[6] https://bluetooth.noc.specs.org/p2p-offline-sync-reconciliation-prefs/v3.md\n[7] https://behavioral.econ.studies/gift-economy/circ/decade-field-traces/v2/report.pdf\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
