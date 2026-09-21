@@ -2543,6 +2543,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_06_community_health_wiki_ollama_qwen3.5_9b_1790030568_d8fd",
+      "parent_id": "idea_06_community_health_wiki",
+      "type": "RESEARCH",
+      "title": "Research: idea_06_community_health_wiki via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T22:42:48.876579Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_06_community_health_wiki\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 10:42:48 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
