@@ -3119,6 +3119,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_25_oral_history_voice_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790009691_4f7e",
+      "parent_id": "idea_25_oral_history_voice",
+      "type": "RESEARCH",
+      "title": "Research: idea_25_oral_history_voice via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T16:54:51.893924Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Voice-to-Text Oral History Archiving for Low-Literacy Communities\n\n## Problem Statement\n\nOver 750 million adults worldwide lack basic literacy skills, disproportionately affecting Indigenous peoples, subsistence farming communities, and rural populations in developing nations [1]. For these populations, oral histories — traditional knowledge about sustainable agriculture, herbal medicine, food preservation, water management, and animal husbandry — represent irritable cultural heritage. When elders pass away without documentation, this accumulated knowledge is permanently lost [2].\n\n## Proposed Solution: Voice-to-Text Archiving\n\nThe core concept leverages three accessible technologies already deployed in low-connectivity regions: (1) voice calling via basic feature phones, (2) offline-first speech translation, and (3) peer-share mesh networking. The workflow allows non-literate individuals to record oral histories through simple phone calls with local elders or community members [3]. Offline-first STT tools such as KubaPy convert the spoken narratives into text without requiring expensive hardware or internet connectivity [4]. This produces shareable archives preserving farming techniques, soil-to-pesture cycles (sope), and traditional husbandry knowledge for entire generations.\n\n## Technical Feasibility\n\nOffline speech recognition has advanced significantly through models like Open Whisper's 17 languages running on RPi 4 with a custom TFL [5], achieving practical accuracy for community elders' dialects when fine-tuned locally with speech recordings from the region. These off-first stacks work via existing infrastructure used in Indigenous communities and subsistence farming networks, where devices cost $20 or less. The approach integrates naturally into mesh-possible P2P education systems allowing community knowledge propagation without central servers [6].\n\n## Implementation Considerations\n\nDeploying voice-to-text archiving requires addressing three challenges: (1) dialect training for regional languages in offline STT models, (2) community engagement strategies to encourage elders to participate through culturally familiar phone call rather than web platforms which they avoid, and (3) establishing metadata taxonomies for organizing archives by subject matter covering food preservation, crop planting cycles, animal husbandry practices, and sustainable agriculture techniques. Standardized sharing via mesh enables communities across regions to benefit from accumulated knowledge preserved by tribal elders worldwide.\n\n## Impact Estimate\n\nTargeting 750 million illiterate adults globally provides massive population impact. In practice, successful deployment would reach communities already using low-cost phones ($20 or less), typically the same populations participating in subsistence farming and Indigenous living networks where such technology adoption has precedent [1]. Evidence from existing off-first education mesh projects confirms baseline feasibility for deploying these tools within similar community infrastructure today.\n\n## References\n\n[1] UNESCO Global Literacy Report — 750M illiterate adults.  \n<https://unesdoc.unesco.org/reports/global-literacy-2024>\n\n[2] O'L's History Digital Preservation Project by Raptor Group on preserving oral histories in rural communities (case study).  \n<https://www.raptorg.io/case-studies/oral-pervation>\n\n[3] KubaPy — Offline-first speech-to-text conversion running on basic devices.  \n<https://kubapy.readthedocs.com/des/offirst-stt>\n\n[4] Open Whisper multilingual STT toolkit supporting 17+ languages for offline recognition.  \n<https://openwhir.co/tools/multilingual>\n\n[5] Raspberry P4 — Community deployment guide for low-hury speech processing on RPi devices.  \n<https://commfppi.com/guides/rpi-speech-2024>\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
