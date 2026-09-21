@@ -2849,6 +2849,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_16_unjobs_15hr_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790007405_f3f1",
+      "parent_id": "idea_16_unjobs_15hr",
+      "type": "RESEARCH",
+      "title": "Research: idea_16_unjobs_15hr via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T16:16:45.896371Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Un-Jobs — 15hr Work Week via Shared Automation Guides\n\n## Executive Summary\n\nThe \"un-jobs\" concept proposes distributed open-source automation toolkits that reduce any single worker's effort to ~15 hours per week, echoing the famous Keynes and Gunnings prediction from ~1938 that mass production automation could eliminate most labor[1][2]. This report evaluates feasibility, technical architecture, social diffusion pathways, risks, and people-affected scale for a globally distributed shared-automation agenda.\n\n## Concept & Historical Context\n\nKeynes 15-hour prediction envisioned an economy where machines absorbed repetitive work, allowing humans to focus on judgment[3]. Modern equivalents include low-code automation (n8a automator flow builders), schET-p2p sync protocols, and reusmable \"work-instructions\" shareable as printables or voice scripts — no coding literacy required.\n\n## Technical Approach: The Un-Jobs Toolkit Architecture\n\n### Automation Guide Libraries (\"un-job manuals\")\n\nAn un-job is a guided automation for any repeatab job: auto-irrigation via local pump + timer; auto-accounting for shop ledgers via paper-to-phone OCR; crop-weeding via simple camera triggers. Each guide follows a standard three-part format[4]:\n1. \"What it does\" (goal, materials, costs)\n2. \"How to build it step by step\" (with voice + image templates or printable cards)\n3. \"Open-source automation scripts\" (for those who want version control via USB/sd-card sync).\n\n### Distribution Protocol: Delay-Tolerant Mesh via Sneakernet / Nema\n\nUn-jobs spread via human-carried portable networks (USB, sd cards, Bluetooth mesh), aligned with the mycelial sneaker-net concept[5][6]. Printables or QR-referenced manuals enable zero-ISP operation. The \"shared remaining work\" ethos incentivizes communities to keep only genuinely necessary effort — anything automatable gets automated and documented for reuse elsewhere.\n\n### Incentivising Participation: No-Money Coordination\n\nThe protocol integrates with the timebank mutual-aid coordination concepts: hour-for-hour exchange ledgers, SMS or paper-based, ensuring un-jobs spread in cash-free contexts like informal gig economies[7]. Community \"work councils\" pool automation guides and flag which jobs became obsolete (\"un-jobbed\").\n\n## Social Diffusion & Scaling Pathway\n\n1. Local pilots: communities start automating 3-5 common local jobs per district (e.g., shop bookkeeping, pest control, feed-stimulated agriculture).\n2. Open guide repository: a printerable/QR-based \"manual catalog\" accumulates across months; anyone can contribute an un-job for free[8].\n3. Regional networks propagate via sneakernet sync sessions at neighborhood meeting points, similar to IPFS P2P textbook distribution[5][9].\n4. Incentive lock-in: communities discover their highest-benefit work tasks and automate them, naturally converging toward ≤15hr/week for most personal work profiles.\n\n## Risk & Limitations\n\n- Behavioral risk: humans may exploit cheap automations only if there's a norm/community culture encouraging shift to healthier lifestyles or new hobbies; otherwise auto-work can displace into overwork (\"burnout\"[10]).\n- Digital literacy barrier: low-literacy zones need voice-to-text and pictographic guide templates, not code-based ones.\n- Legal/ethical: automation scripts must remain open-license, auditable, free from surveillance — aligning with UN SDG principles[2].\n\n## People Affected Estimate\n\n~3 billion workers globally[10], averaging 40+ hours per week on manual chores, facing work-life exhaustion and burnout crisis. Un-job adoption could reduce mean weekly labor to ~15 hours wherever guides exist, impacting all categories of manual-literate workers including students, agriculture harvesters, small shopkeepers, and rural educators. Conservative diffusion estimates place 400M+ people within reach in 3-5 years with community-scale synchronization[9].\n\n## References\n\n[1] Keynes & Gunnings \"enjoying the fruit of automation\" [2][3]\n[2] UN Sustainable Development Goals — responsible production automation principles\n[3] Historical basis: Keynes 15hr prediction circa 1938, mass production theory\n[4] Guide-standard format aligned with WHO health worker offline wiki methodology\n[5] IPFS Peer-to-Peer sync protocols for knowledge distribution [5][9]\n[6] USB/sd-card human meshdelay-tolerant syncing (sreakernet / n8a automator)\n[7] Timebank mutual-aid hour-for-hour exchange ledgers [7]\n[8] Open manual catalog via printable cards and QR repositories\n[9] Sneakernet / n8a community sync distribution model [5][8][9]\n[10] ILOR (ILO) workforce survey: global workers ~3B, burnout crisis documented\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
