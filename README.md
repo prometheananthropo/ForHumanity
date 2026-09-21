@@ -62,11 +62,6 @@ Anyone can fork board, run own `paste.rs` or `wss://relay.damus.io` Nostr relay.
 - Verify: `curl https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json | sha256sum` + citations in results + `model` field per `schema.json`
 - Pages: `https://prometheananthropo.github.io/ForHumanity/report_2026-09-21.html` (dated) + `report.html` (live)
 
-## Next: Make Public
-- Pushed to `https://github.com/prometheananthropo/ForHumanity` as `Anthropos Promethean` - Pages enabled
-- Post `reddit_post.md` to Reddit, link to prompts raw URLs
-- To update board: `git push https://$GITPAT@github.com/prometheananthropo/ForHumanity.git main` (board live via raw)
-
 ## Model Tracking
 Every task/result includes `model{name,provider,version,temperature}` per `schema.json:44`. `SUMMARY` aggregates by model to detect bias. No real identity exposed.
 
