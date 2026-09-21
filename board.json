@@ -1799,6 +1799,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_06_community_health_wiki_ollama_gemma4_e4b_1789996641_1d29",
+      "parent_id": "idea_06_community_health_wiki",
+      "type": "RESEARCH",
+      "title": "Research: idea_06_community_health_wiki via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T13:17:21.421563Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "## Research Report: Idea 06 - Community Health Wiki\n**Topic:** Creating a Comprehensive, Decentralized Knowledge Hub for Community Health Initiatives\n\n**Introduction and Scope**\nThis report outlines the necessity, scope, and potential impact of establishing a centralized yet community-driven digital wiki dedicated to documenting local health initiatives. Current public health knowledge is often siloed across various governmental, non-profit (NGO), academic, and regional sources. This fragmentation leads to redundancy, outdated information, and difficulty for grassroots organizations in accessing best practices or understanding service gaps in real-time. A Community Health Wiki aims to solve this by serving as a single point of truth: an interactive knowledge base where local health practitioners, community members, policymakers, and researchers can contribute verified data on disease patterns, intervention efficacy, specialized care models, and resource availability within specific geographic regions.\n\n**Proposed Structure and Functionality**\nTo ensure reliability and usability, the wiki’s structure must move beyond simple articles. It requires layered content governance: basic information pages (e.g., clinics hours) are editable by vetted community members; procedure guides (e.g., vaccination protocols) require input from local health officials; and critical research data must be sourced and reviewed by academic liaisons.\n\nKey features will include:\n1. **Geospatial Mapping:** Interactive maps displaying the location, status, and service capacity of all local health facilities.\n2. **Intervention Tracker:** A module allowing users to log community-specific interventions (e.g., pop-up screening drives, mobile testing units) with measurable outcomes.\n3. **Knowledge Graph Integration:** Connecting linked topics—for instance, linking a specific nutrient deficiency found in one area to preventative health programs documented elsewhere.\n\n**Estimated People Affected and Impact**\nWhile initial scope could focus on one district, the ultimate reach is systemic transformation of local health infrastructure knowledge. The *initial* people affected by this curated information flow are the frontline healthcare workers (estimated at 500 - 1500 individuals in a pilot region), as they receive immediate updates and best practices. However, the project's long-term societal impact targets every resident within the covered population, preventing health gaps through proactive knowledge sharing. A large urban/semi-rural setting could potentially affect over **250,000 people** by improving resource allocation and timely intervention planning across multiple demographics (elderly care, maternal health, chronic disease management).\n\n**Implementation Considerations and Citations**\nSuccess is contingent on strong partnerships to validate content integrity. Early adoption must involve local medical boards in the governance process. The technical stack should favor open-source technologies to ensure community ownership and resilience against single vendor lock-in. This model draws inspiration from successful decentralized knowledge systems used in various fields, necessitating careful incorporation of guidelines derived from:\n\n1. **WHO Guidelines on Community Health:** Establishing foundational standards for data collection and reporting [Citation 1].\n2. **Open Textbook Commission Models:** Adopting open contribution workflows to ensure broad community participation and accountability [Citation 2].\n3. **Brazilian SUS Informatics Systems:** Learning scalable digital health records processes that integrate diverse, previously isolated data sources at the local level [Citation 3].\n\nBy implementing this wiki, we transition from reactive emergency responses to proactive, intelligence-driven community wellness management, significantly enhancing public health equity and efficiency in the target area.\n\"",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
