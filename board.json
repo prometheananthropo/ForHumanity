@@ -3179,6 +3179,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_02_offline_education_mesh_ollama_qwen3.5_9b_1790010241_f86c",
+      "parent_id": "idea_02_offline_education_mesh",
+      "type": "RESEARCH",
+      "title": "Research: idea_02_offline_education_mesh via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T17:04:01.091352Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_02_offline_education_mesh\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 05:04:01 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
