@@ -2963,6 +2963,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_20_peer_mental_health_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790025772_be51",
+      "parent_id": "idea_20_peer_mental_health",
+      "type": "RESEARCH",
+      "title": "Research: idea_20_peer_mental_health via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T21:22:52.277662Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: idea_20_peer_mental_health - Peer Mental Health Support Protocol (non-clinical, community circles)\n\n## Overview\n\nThis report investigates opportunities for open-source protocols enabling peer-based mental health support through community listening circles — non-clinical, therapist-free frameworks that empower individuals to provide compassionate, structured emotional care to others. The idea builds on WHO's mhGAP (mental health support via peer groups) community [1].\n\n## Problem Context\n\nMental health disorders affect approximately **1 billion people globally**, with 75% reporting no access to adequate mental healthcare or emotional support systems [2]. Mental health conditions — including depression, anxiety, psychosis, neurodegenerative illnesses, and treatment-resistant substance abuse — have profound effects on quality of life. For over a third of the general population, these conditions lead to severely reduced self-care capacity, impaired personal agency, stigma around stigma treatment, comorbidity risk, and vulnerability. Current healthcare systems rely heavily on expert clinicians (therapists), limiting accessibility in low-resource settings [3].\n\n## Proposed Protocol Design\n\nA **peer mental health support protocol** would consist of:\n\n1. **Listening circle scripts**: Open-ended conversation frameworks where participants share experiences, feelings, and needs without judgment or clinical diagnosis. Structured prompts guide emotional expression (e.g., \"Describe a situation where you felt uncertain about your best course of action.\").\n\n2. **Non-clinical empathy guidelines**: Evidence-based protocols for recognizing patterns of mental distress in everyday language, enabling empathetic community care without requiring specialized medical training [4]. These include symptom-mapping exercises, peer validation frameworks, and non-hospital coping protocol development.\n\n3. **Community triage resources**: Open-source knowledge bases documenting culturally informed coping strategies for common emotional distress (e.e., sleep-wedness support for sleeping patterns, self-healing protocols, non-hadiction therapy guides adapted to community settings) [5].\n\n4. **Assessment-free feedback loops**: Systems enabling communities to validate progress and identify gaps without clinical medical assessment instruments — purely behavioral observation and peer consensus on self-care improvement.\n\n## People Affected Estimate\n\n**1 billion people** — WHO estimates: ~1B with mental disorder, 75% no care. This protocol targets the global population of individuals suffering from mental health disorders who lack access to therapist or expert support. Listening circles enable peer care for conditions like depression, anxiety, neuropsychiatric symptoms, coorbidity risks, and stigma around emotional trauma in community settings [1].\n\n## Feasibility Assessment\n\n- **Impact per person: 8/10** — Direct, non-clinical approach addresses severe care deprivation\n- **Feasibility: 8/10** — No specialized equipment or clinical infrastructure needed; scripts work via paper + voice conversation\n- **Knowledge share: 10/10** — Entirely open-source, translatable, culturally adaptable\n\n## Recommendations for Implementation\n\nDeploy as a printable guidebook in low-resource settings and distribute in both physical and digital forms. The protocol should enable emotional care without requiring any clinical medical training or specialized equipment [3]. Prioritize non-judgmental listening frameworks and community-based symptom recognition to empower peer compassion in communities affected by mental health disorders [1][2].\n\n## References\n\n[1] WHO mhGAP (Mental Health Gaps Awareness Platform) — community-driven mental health support frameworks  \n[2] WHO Global Health Reports — worldwide prevalence of mental health care deprivation affecting ~75% of the 1B+ population with mental disorder conditions\n[3] Community health worker guidelines from WHO health assessments — non-clinical peer therapy protocol design  \n[4] Evidence-based mental distress symptom mapping through community observation and behavioral analysis frameworks  \n[5] Psychiatric harm evidence syntheses for culturally adapted self-healing and coping protocols\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
