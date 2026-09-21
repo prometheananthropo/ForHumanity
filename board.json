@@ -2999,6 +2999,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_21_food_forest_maps_ollama_qwen3.5_9b_1790008582_ca62",
+      "parent_id": "idea_21_food_forest_maps",
+      "type": "RESEARCH",
+      "title": "Research: idea_21_food_forest_maps via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T16:36:22.988416Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_21_food_forest_maps\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 04:36:22 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
