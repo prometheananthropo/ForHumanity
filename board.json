@@ -1979,6 +1979,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_12_ai_village_elder_ollama_gemma4_e4b_1789998554_e573",
+      "parent_id": "idea_12_ai_village_elder",
+      "type": "RESEARCH",
+      "title": "Research: idea_12_ai_village_elder via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T13:49:14.514416Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_12_ai_village_elder\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 01:49:14 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
