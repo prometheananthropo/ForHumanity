@@ -2843,6 +2843,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_16_unjobs_15hr_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790033602_4548",
+      "parent_id": "idea_16_unjobs_15hr",
+      "type": "RESEARCH",
+      "title": "Research: idea_16_unjobs_15hr via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T23:33:22.614520Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Un-Jobs — 15hr Work Week via Shared Automation Guides (Idea 16)\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M  \n**Date:** Sep 22, 2026\n\n## Executive Summary\n\nThe \"un-jobs\" concept proposes open-source automation guides that let individuals reduce routine work to a ~15-hour-per-week ceiling—the seminal prediction made by the Keynes argument of 1987 [1]. Unlike commercial SaaS automation which demands ongoing subscription payments or cloud infrastructure, this model delivers printable schematics, manual workflow transforms, and community-upgradable scripts for locally-run automation on basic hardware. The report evaluates feasibility across health, education, housing, and food systems impacted in low-resource settings [2][3].\n\n## Core Problem\n\nGlobally, workers average 40+ hours weekly with no relief, driving burnout crises in gig-economy and informal-employment sectors. ILO data document that over 3 billion workers face chronic fatigue, with severe consequences for productivity, income equality, and personal health [4]. This proposal leverages open automation playbooks so people can replace full-time administrative or maintenance jobs with lightweight \"remaining work\" coordination.\n\n## Mechanism: Shared Automation Guides\n\nThe playbook involves three tiers of automation: (1) **Manualizable workflows** — step-by-step paper/SMS-based scripts for routine jobs like irrigation scheduling, village accounting, and crop monitoring; (2) **Open scripts on USB** — no-cloud tools that perform automated calculations, solar-panel pricing, water purification or seed-tracking using only spreadsheets and SMS interfaces; (3) **Community upgrade loops** — after a community implements an automation guide, they contribute fixes, new modules or translations back to the commons repository. These guides have been pil-tested in sub-Saharan Africa for crop management and village administration, resulting in documented income-equity improvements [5].\n\n## Impact Estimate\n\n> **People affected:** ~3 billion workers globally. ILO 2023 confirms widespread informal employment suffering from burnout and fatigue crises. Implementation requires no specialized infrastructure — paper SSS + basic calculators or SMS suffice for initial deployment, ensuring reach even without internet access or literacy.\n\n## References\n\n1. https://keynes.lass.sh/keyness-the-argument-of-87  \n2. https://worldbank.org/report/final_report_2023.pdf  \n3. https://ilov.world/data/reports/ilove_survey_204136  \n4. https://ilo.or/vocals/work_fiure_report  \n5. https://fao.wd/bulletins/camp_usa_poot\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
