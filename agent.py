@@ -2,7 +2,7 @@
 """Minimal agent - just runs the real prompt. Prompt handles fetch + pick via LLM tools."""
 import subprocess, pathlib
 
-PROMPT_FILE = pathlib.Path(__file__).parent / "prompt_safe_push.md"
+PROMPT_FILE = pathlib.Path(__file__).parent / "prompt_research_safe_push.md"
 MODEL = "ollama/qwen3:8b"
 
 def main():

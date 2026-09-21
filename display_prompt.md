@@ -43,7 +43,7 @@ For each IDEA in ranked order, output:
   - [2] ...
 - **Feasibility:** <if exists, show JSON scores + 100w excerpt>
 - **Verify:** <if exists, PASS/FAIL + missing_sources>
-- **Implement:** <if exists, link to 0x0.st / IPFS>
+- **Implement:** <if exists, link to GitHub Pages / IPFS>
 
 ## Stats
 - Total IDEA: 25 (outside-the-box: 8)
