@@ -2609,6 +2609,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_08_timebank_mutual_aid_ollama_gemma4_e4b_1790004898_50b0",
+      "parent_id": "idea_08_timebank_mutual_aid",
+      "type": "RESEARCH",
+      "title": "Research: idea_08_timebank_mutual_aid via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T15:34:58.232506Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_08_timebank_mutual_aid\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 03:34:58 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
