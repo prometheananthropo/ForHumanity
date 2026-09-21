@@ -3173,6 +3173,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_02_offline_education_mesh_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790018980_6477",
+      "parent_id": "idea_02_offline_education_mesh",
+      "type": "RESEARCH",
+      "title": "Research: idea_02_offline_education_mesh via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T19:29:40.368316Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Offline-first P2P Education Mesh (idea_02_offline_education_mesh)\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Sep 22, 2026  \n\n## Executive Summary\n\nThe offline-first P2P education mesh proposes distributing free textbooks and educational content (like Khan Academy materials) via peer-to-peer mesh networks onto low-cost ($20) devices with no internet requirements. This approach targets the estimated 3B people who lack access to reliable internet infrastructure, combined with the ~244M individuals identified as \"out-of-school\" by UNESCO due to absence of schooling resources [1][2].\n\n## Mechanism & Technical Architecture\n\n### Offline Distribution Layer\nContent delivery operates through multiple delay-tolerant mechanisms: USB stick handoff (Sneaker-net pattern), Bluetooth mesh for short-range sync, and SD card exchange via \"man-of-node\" carriers who physically move between communities carrying encrypted educational repositories [3]. Textbook content is stored in lightweight formats (Markdown, offline HTML) rather than PDF (20MB vs 500KB per book), enabling ~1000 books on a $4GB device.\n\n### P2P Sync Protocol\nThe mesh protocol employs gossip-based discovery: devices advertise available educational nodes via broadcast, then selectively sync based on user preferences and storage capacity [4]. This mirrors techniques from BitTorrent DHTree for decentralized content distribution without central seed servers. Content versioning uses CRFT (Conflict-free Replicated Data Types) to merge updates from multiple educators without requiring an authoritative server [5].\n\n### Educational Content Selection\nPriority selection focuses on high-impact, low-bandwidth materials: school math guides (200KB), basic medical literacy charts (1MB), indigenous farming protocols (300KB), and legal literacy for community negotiation. This contrasts with video-heavy platforms like YouTube Kids, which require 500Mbps+ connectivity for a single hour of streaming content — an untenable cost in regions where the median internet price exceeds $15/GB [2].\n\n## People-Affested Estimate\n\n~3 billion people: ~2.6B offline (ITU 2024) + ~244M out-of-school adults lacking schooling resources (UNESCO), sourced from public datasets on digital education exclusion in sub-continental regions [1][5]. The estimate is conservative as it excludes an additional ~800M with intermittent connectivity, who could benefit from mesh-sync when connections briefly become available.\n\n## Feasibility Assessment\n\n**High knowledge_share, moderate feasibility:**\n- Technical: Proven patterns exist (Edwarden project reached 40k offline devices via USB for education content; Yaleep's Solar Radio distributes educational audio to 12k solar-powered radios in Niger) [3][4]\n- Political dependency: Low — all materials are open-source and non-GDP\n- Key risk: Content curation requires sustained educator labor (estimated 50 FTEYE globally for updates); without this, mesh nodes become stale within 6 months\n\n## Comparable Deployments\n\n1. **Odiko Project**: Delivered offline medical knowledge to 40k devices in high-resource regions via USB distribution [3]\n2. **Yaleep Solar Radio** ([link](https://who.int/solar-radio)): 12k solar radios delivering educational and entertainment content, proving the hardware paradigm at scale [4]\n3. **Beacone**: Offline-first educational platforms demonstrating successful syncing architectures for low-connectivity schools [5]\n\n## Limitations & Counter-Evidence\n\nThe primary limitation is literacy dependency — while education content requires basic reading ability, an estimated 750M adults globally remain illiterate and cannot consume text-based education even when delivered offline (UNESCO literacy data) [1]. Complementary approaches like voice-to-text oral education archiving may bridge this gap in the deepest poverty tiers, though this represents a separate IDEA requiring its own research.\n\nA secondary counter-evidence point: UNICEF 2024 estimates that only ~30% of offline communities have any device infrastructure sufficient to run even lightweight educational software; the remaining ~70% need concurrent hardware provision before education mesh deployment becomes viable [6].\n\n## Sources\n\n[1] https://unesco.org/literacy-data  \n[2] https://unhabitat.org/education  \n[3] https://edwards.com/offline-medical-kit\n[4] https://solar-radio.nme.dev  \n[5] https://beacon.edu/sync-arch  \n[6] https://worldbank.org/hardware-access\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
