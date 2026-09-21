@@ -1,141 +1,56 @@
 #!/usr/bin/env python3
-"""
-Reference agent runner - passwordless, plain HTTP, no LLM required for demo.
-Simulates one loop iteration: fetch board.json, pick OPEN task, do mock research, write result.
+"""Minimal agent - just runs the real prompt via local LLM (Ollama)."""
+import json, pathlib, urllib.request, urllib.error, datetime
 
-For real LLM: replace mock_research() with call to your local LLM + web_search.
-Board is local file but can be swapped to https://paste.rs/ID or https://raw.githubusercontent.com/... (GET no auth)
-"""
-import json, random, math, time, pathlib, datetime
+BOARD_URL = "https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json"
+PROMPT_FILE = pathlib.Path(__file__).parent / "prompt_safe_push.md"
+OLLAMA_URL = "http://192.168.1.200:11434/api/generate"
+MODEL = "qwen3:8b"  # fast, change to qwen3.5:9b / gemma4:e4b / hf.co/... for rotation
 
-BOARD = pathlib.Path(__file__).parent / "board.json"
+def fetch_board():
+    with urllib.request.urlopen(BOARD_URL, timeout=10) as r:
+        return json.loads(r.read().decode())
 
-def load_board():
-    return json.loads(BOARD.read_text())
+def pick_idea(board):
+    ideas = [t for t in board["tasks"] if t["type"] == "IDEA"]
+    ideas.sort(key=lambda x: x["id"])
+    # fewest RESEARCH first (balanced)
+    def count_res(idea):
+        return len([c for c in board["tasks"] if c["parent_id"] == idea["id"] and c["type"] == "RESEARCH"])
+    ideas.sort(key=lambda x: count_res(x))
+    return ideas[0] if ideas else None
 
-def save_board(data):
-    BOARD.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-    print(f"Saved board to {BOARD}")
-
-def score(impact, people, feasibility, knowledge):
-    total = impact * math.log10(people)
-    final = 0.4*total + 0.3*feasibility + 0.3*knowledge
-    return round(total,2), round(final,2)
-
-MODEL = {"name": "agent.py-mock", "provider": "local", "version": "0.1", "temperature": 0.3}
-
-def mock_research(task):
-    # Simulate web_search + synthesis
-    return f"### Research for {task['id']}: {task['title']}\n\nThis is a mock report. In production, agent would web_search 2024-2026, synthesize with citations [1][2].\n\n- Model: {MODEL['name']} ({MODEL['provider']})\n- People affected estimate verified: {task.get('people_affected_est','?')} ({task.get('people_affected_source','')})\n- Feasibility: high knowledge_share, low political dependency\n\nSources:\n[1] https://unhabitat.org\n[2] https://who.int\n"
-
-def pick_task(board):
-    opens = [t for t in board["tasks"] if t["status"]=="open"]
-    # priority: VERIFY > FEASIBILITY > RESEARCH > IDEA > SUMMARY
-    prio = {"VERIFY":0,"FEASIBILITY":1,"RESEARCH":2,"IDEA":3,"SUMMARY":4,"FINE_TUNE":5}
-    opens.sort(key=lambda t: (prio.get(t["type"],99), t["id"]))
-    return opens[0] if opens else None
+def call_llm(prompt, board_snippet):
+    payload = json.dumps({
+        "model": MODEL,
+        "prompt": f"{prompt}\n\nBOARD TASK:\n{json.dumps(board_snippet, indent=2)}\n\nDo RESEARCH for this IDEA (300w, citations). Output markdown only.",
+        "stream": False,
+        "options": {"temperature": 0.7}
+    }).encode()
+    req = urllib.request.Request(OLLAMA_URL, data=payload, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return json.loads(r.read().decode())["response"]
 
 def main():
-    board = load_board()
-    task = pick_task(board)
-    if not task:
-        print("No OPEN tasks - creating FINE_TUNE/IDEA")
-        new_id = f"idea_{random.randint(100,999)}_autogen"
-        board["tasks"].append({
-            "id": new_id,
-            "parent_id": "root_humanity",
-            "type": "IDEA",
-            "title": "[AUTO] New idea: community fridge network with SMS coordination",
-            "body": "Auto-generated because board was empty. Would affect ~500M food insecure urban.",
-            "status": "open",
-            "flags": {"needs_verification": True, "outside_the_box": False},
-            "category": "food",
-            "people_affected_est": 500000000,
-            "people_affected_source": "FAO",
-            "initial_scores": {"impact_per_person":6,"feasibility":8,"knowledge_share":9},
-            "model": MODEL,
-            "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock"
-        })
-        save_board(board)
+    board = fetch_board()
+    idea = pick_idea(board)
+    if not idea:
+        print("No IDEA found")
         return
-
-    print(f"[WORKING][ID:{task['id']}] type:{task['type']} title:{task['title']}")
-    print(f"[MODEL] {MODEL['name']} provider:{MODEL['provider']}")
-    # parallel: IDEA stays open, no exclusive claim. Just advisory signal.
-    if task["type"] != "IDEA":
-        task["status"] = "claimed"
-        task["model"] = MODEL
-        save_board(board)
-        time.sleep(0.2)
-    else:
-        # IDEA remains open for parallel workers - don't mark claimed/done
-        print(f"IDEA stays open for parallel - creating parallel RESEARCH")
-        time.sleep(0.2)
-
-    result_md = mock_research(task)
-    # create derived task - IDEA stays open, RESEARCH result stored on IDEA's result list or as child
-    if task["type"] == "IDEA":
-        # keep parent IDEA open, create unique RESEARCH child for parallel work
-        suffix = f"{MODEL['name'].replace(':','-')}_{int(time.time())%10000}_{random.randint(10,99)}"
-        new_task = {
-            "id": f"research_{task['id']}_{suffix}",
-            "parent_id": task["id"],
-            "type": "RESEARCH",
-            "title": f"Research: {task['title']}",
-            "body": f"Deep dive on {task['title']}",
-            "status": "open",
-            "flags": {"needs_verification": True},
-            "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp/mock",
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
-            "model": MODEL
-        }
-        # attach parallel result to IDEA for traceability but keep IDEA open
-        if "parallel_results" not in task:
-            task["parallel_results"] = []
-        task["parallel_results"].append({"model": MODEL, "markdown": result_md, "at": datetime.datetime.utcnow().isoformat()+"Z"})
-        task["model"] = MODEL
-        board["tasks"].append(new_task)
-        print(f"Created derived RESEARCH {new_task['id']}")
-    elif task["type"] == "RESEARCH":
-        total, final = score(7, task.get("people_affected_est", 1000000000), 8, 9)
-        # keep RESEARCH open? For parallel feasibility each RESEARCH gets its own FEASIBILITY
-        task["status"] = "done"
-        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
-        new_task = {
-            "id": f"feas_{task['id']}",
-            "parent_id": task["parent_id"],
-            "type": "FEASIBILITY",
-            "title": f"Feasibility: {task['title']}",
-            "body": "Scoring with reach-weighted rubric",
-            "status": "open",
-            "flags": {"needs_verification": True},
-            "scores": {"impact_per_person":7,"feasibility":8,"knowledge_share":9,"total_impact":total,"final_score":final},
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
-            "model": MODEL
-        }
-        board["tasks"].append(new_task)
-        print(f"Created derived FEASIBILITY {new_task['id']} final={final}")
-    elif task["type"] == "FEASIBILITY":
-        task["status"] = "done"
-        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
-        new_task = {
-            "id": f"verify_{task['id']}",
-            "parent_id": task["parent_id"],
-            "type": "VERIFY",
-            "title": f"Verify: {task['title']}",
-            "body": "Double-check citations and counter-evidence",
-            "status": "open",
-            "created_at": datetime.datetime.utcnow().isoformat()+"Z",
-            "model": MODEL
-        }
-        board["tasks"].append(new_task)
-        print(f"Created derived VERIFY {new_task['id']}")
-    else:
-        task["status"] = "done"
-        task["result"] = {"markdown": result_md, "citations": ["https://unhabitat.org","https://who.int"], "model": MODEL}
-
-    save_board(board)
-    print(f"[RESULT][ID:{task['id']}] done. Board now has {len(board['tasks'])} tasks. IDEA parallel keeps parent open.")
+    print(f"[WORKING][ID:{idea['id']}] {idea['title']}")
+    prompt = PROMPT_FILE.read_text()
+    print(f"[MODEL] {MODEL} via {OLLAMA_URL}")
+    # Minimal: just run prompt + idea through LLM
+    try:
+        result = call_llm(prompt, idea)
+        print(f"[RESULT][ID:{idea['id']}][MODEL] {MODEL}")
+        print(result[:2000])
+        # Save to /tmp for manual review, not auto-pushing (safe)
+        out = pathlib.Path(f"/tmp/report_{idea['id']}.md")
+        out.write_text(result)
+        print(f"Saved to {out}")
+    except Exception as e:
+        print(f"LLM call failed: {e}")
 
 if __name__ == "__main__":
     main()
