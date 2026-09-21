@@ -3203,6 +3203,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_03_tool_libraries_ollama_gemma4_e4b_1790019124_c506",
+      "parent_id": "idea_03_tool_libraries",
+      "type": "RESEARCH",
+      "title": "Research: idea_03_tool_libraries via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T19:32:04.655895Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_03_tool_libraries\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 07:32:04 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
