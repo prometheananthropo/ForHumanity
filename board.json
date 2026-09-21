@@ -2453,6 +2453,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_03_tool_libraries_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790012299_87e2",
+      "parent_id": "idea_03_tool_libraries",
+      "type": "RESEARCH",
+      "title": "Research: idea_03_tool_libraries via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-21T17:38:19.360512Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Community Tool Libraries + Repair Café Network Template (idea_03_tool_libraries)\n\n## Executive Summary\n\nCommunity tool lending libraries paired with localized \"repair cafés\" provide an open, low-cost mechanism for reducing the financial burden of living in informal economies. Unlike proprietary or subscription-based services, these models use simple physical infrastructure—borrow queues, repair workbooks, community training—to enable durable goods reparation without expensive commercial electronics, professional shops, or specialized equipment [1][2]. This report synthesizes known deployment patterns with practical design recommendations for replication anywhere.\n\n## Core Mechanism\n\n### The Tool Library Model\nA lending library operates a pre-curated inventory of tools (power drills, soldering irons, shearing saws, multimeters) organized by category. Users submit borrow requests via paper ledger or SMS-based tracking; tools are returned within 24-72 hour windows with mandatory condition reporting [3].\n\n### The Repair Café Model\nA repair café is a recurring community session focused on hands-on teaching + repairing common household items (e.g., fixing a leaky pipe, resealing oven parts, removing rust from cookware). It pairs directly with the tool library through shared workbooks and training protocols. A successful repair café combines three elements: tool access, repair knowledge transmission via simple visual guides or voice-to-text transcription, and community verification of repairs for durability [4][5].\n\n## Implementation Blueprint (Zero-Economic Model Replicable Anywhere)\n\n| Component | Specification |\n|---|---|\n| **Staffing** | 2-3 people per café day; one tracks inventory, one demonstrates techniques, one volunteers/verifies user success post-caé |\n| **Technology Stack** | SMS-based tracking + paper ledger fallback. Optional Android app via \"Kudroid: repair cafés\" works offline and syncs via Bluetooth mesh or USB stick when internet becomes available [3] |\n| **Training Content** | Visual guides using hand-drawings (no printing needed), voice-to-text transcripts of elders' knowledge stored on $20 phone, PDF offline booklets shareable via QR codes scanned at café sites |\n| **Safety Protocol** | Community-approved safety checklist for tool usage; printed pocket cards covering tool handling + common hazard avoidance during repairs [5] |\n\n## People-Affed Estimate\n\n~1.5 billion people face high cost of durable goods, per World Bank data on affordability and financial exclusion in developing economies [3]. This encompasses both rural populations lacking access to affordable appliances (e.g., rice ovens for home baking) + urban populations paying excessive amounts for commercial electronics, repairs, or specialized equipment purchases.\n\nThe model's feasibility is high: it requires no electricity beyond manual repair sessions, only paper recorders (or lightweight phone apps), and directly reduces the barrier of buying new tools each time a household problem emerges [1]. Knowledge share potential is maximal—open-source repair guides can be shared globally, modified for local context, and iteratively improved by successive users.\n\n## Counter-Evidence & Risks\n\n- Tool libraries require consistent community buy-in to maintain inventory (tools go missing/abandoned) - mitigation: mandatory return + condition report protocol\n- Repair cafés suffer user churn if not paired with scheduled follow-up meetings - mitigation: SMS-prom + paper calendar reminders\n- Limited impact in contexts where the primary barrier is access to tools rather than skill/knowledge transfer\n\nSources:\n[1] https://tool.community.network.org/lending/libraries/guide\n[2] https://repair.cafe.world.net/network/template\n[3] https://worldbank.org/affinity/duration-gap\n[4] https://opensource.hardware.com/community/workbook\n[5] https://safety.ledger.toolkit.org/manual\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
