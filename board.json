@@ -2753,6 +2753,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_13_nighttime_commons_ollama_qwen3.5_9b_1790050660_d260",
+      "parent_id": "idea_13_nighttime_commons",
+      "type": "RESEARCH",
+      "title": "Research: idea_13_nighttime_commons via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T04:17:40.215743Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_13_nighttime_commons\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 16:17:40 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
