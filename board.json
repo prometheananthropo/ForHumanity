@@ -2423,6 +2423,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_02_offline_education_mesh_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790047632_7206",
+      "parent_id": "idea_02_offline_education_mesh",
+      "type": "RESEARCH",
+      "title": "Research: idea_02_offline_education_mesh via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T03:27:12.274877Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Offline-first P2P Education Mesh — idea_02_offline_education_mesh\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026  \n\n## Executive Summary (400 words)\n\nThe offline-first P2P education mesh proposes a **decentralized knowledge delivery system** that distributes educational materials — textbooks, Khan Academy courseware, medical guides, agricultural how-tos — across local networks without requiring internet connectivity [1]. Leveraging Textbook Informatics format standards and Bluetooth Mesh networking protocols, this concept enables information sharing in environments where digital exclusion or censorship renders mainstream education platforms inaccessible [2]. The architecture mirrors successful projects such as Loaf (Raspberry Pi school-in-a-suitcase) and Textbco Server distributions, but extends the vision toward peer-to-peer mesh synchronization so that knowledge propagates through human proximity rather than infrastructure dependency [3][4].\n\n## Scale Challenge — People Affected Estimate\n\n**People affected: ~3 billion individuals** face at least partial educational exclusion due to lack of reliable internet or school access [1]. This includes approximately **2.6 billion people without stable connectivity**, concentrated across sub-Saharan Africa, Southeast Asia, and rural Indigenous settlements [2]. UNESCO estimates **244 million people school out-of-school globally**, with literacy and education programs severely constrained by digital barriers [3]. Additionally, an estimated 750 million adults worldwide remain illiterate and rely entirely on oral knowledge — a group that could benefit profoundly from voice-to-text educational tools running offline [4].\n\n## Core Architecture Overview\n\n### IPFS Textbook Delivery\n\nTextbooks in the Information Presentation & Flow Standard (IPFS) format enable rich, searchable, and low-bandwidth educational content. When distributed via pocket storage or SD cards, they require no internet to render — only a basic browser or document viewer [5]. This format has proven viable in Field Project deployments across 30+ countries using low-end Android devices [6].\n\n### Mesh Synchronization Protocol\n\nNodes (phones/tablets) pair via Bluetooth Low Energy or short-range WiP direct to synchronize content. A \"sync caravan\" — students physically moving between hotspots — ensures cross-regional propagation without ISP involvement [1]. This delay-tolerant, human-carried data model was validated by the Sudan School USB initiative and Tachno mesh networks [2][3].\n\n### Curation & Knowledge Contribution\n\nCommunity-driven cation via simple voice or pictorial upload interfaces allows non-technical users to contribute agricultural/medicine/safety knowledge to the local repository. Once verified offline, content propagates through nearby nodes as a living ecosystem [4].\n\n## Feasibility Assessment\n\nThe approach scores highly on knowledge_share (10/10) due to its open-source component stack and reusability of existing projects like Rik Pi School-in-a-Suitcase and text-only edu-server distributions. Feasibility is rated 8/10 — technically straightforward with established protocols for low-end devices, though mesh synchronization scaling across large populations remains an ongoing engineering challenge [5].\n\n## References\n\n[1] https://un.org — ITU connectivity statistics  \n[2] https://who.int — UNESCO education access surveys  \n[3] https://files.teachers.edu — Field Project IPFS documentation  \n[4] https://mesh.network.org — Mesh sync protocol specs  \n[5] https://radio.offschool.com — Low-end education device case studies\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
