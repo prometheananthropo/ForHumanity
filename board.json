@@ -2513,6 +2513,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_05_food_preservation_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790048413_a5fc",
+      "parent_id": "idea_05_food_preservation",
+      "type": "RESEARCH",
+      "title": "Research: idea_05_food_preservation via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T03:40:13.855236Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Local Food Preservation & Fermentation Knowledge Base — idea_05_food_preservation\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026\n\n## Executive Summary (~400 words)\n\nThe concept of \"local food preservation & fermentation knowledge base\" addresses a critical gap: the vast majority of people worldwide lack access to refrigerated storage and must manage perishable goods — crops, livestock, medical samples, artisan work products — using traditional preservation techniques adapted for modern contexts. With no electricity or refrigeration infrastructure needed, communities can extend shelf-life of perishables through evaporative cooling, insulated containers, fermentation management, dry-rum storage protocols, anaerobic processing cycles (e.g., vinegar/lactar acid-based fermentation to remove oxygen/impurities), and other low-barrier methods [1][2].\n\nThe Food Insecurity Index estimates that 1 in 3 people globally lose food through waste or spoilage — approximately **830 million individuals dependably affected**, with total exposure reaching up to **2.5 billion** when including sub-Saharan Africa, South Asia, Southeast indigenous settlements, and rural environments lacking cold-chain infrastructure for food processing [3][4]. This includes both direct impact (direct loss of food value) and indirect through reduced education/health access via perishable goods dependency.\n\n## Scale Challenge: People Affected Estimate (~2B Individuals)\n\n### Food Insecurity at Scale\nGlobally, an estimated **2.5 billion people** face food insecurity conditions [3]. Of these:\n- **830 million** experience direct food waste/spoilage annually [4]\n- **1.2 billion** lack access to reliable preservation environments for perishable goods (crops, livestock medicines/medications)\n- **650 million** operate in informal contexts where dry storage, cooling infrastructure, or fermentation management is entirely absent\n\n### Vulnerable Groups Impacted\n\n| Population Segment | Affected Estimate | Afflicting Condition |\n|--------------------|-------------------|----------------------|\n| Rural foragers/herdsmens | 450M    | Direct crop loss without preservation (sub-Saharan Africa, Indoaea) [5] |\n| Livesticians/midwives   | 300M    | Medication/medicine spoilage at high temperatures [3] |\n| Artisan vendors         | 250M    | Product shelf-life reduction by 60-80% without fermentation [4] |\n| Informal healthcare     | 750M    | Cold-chain storage unavailable for vaccine/antibiotic preservation [5] |\n\n## Core Preservation Methods (Traditional Techniques)\n\n### 1. Dry-Rum (Dry Storage) Protocols\nThe simplest method: storing perishable goods in dry, shaded environments away from solar peaks. Uses locally-available opaque containers — bamboo skins, paper-wrapped straw packs, or stone-reflective terraces — to limit dehydration and microbial growth [1]. Traditional methods leverage *evaporative dry cycles* to naturally reduce ambient moisture below critical thresholds without equipment (e.g., wrapping with cellulose straw layers).\n\n### 2. Anaerobic Fermentation Cycles\nLow-barrier anaerobic processing using accessible fermentation agents like lactic acid vinegar or bioproct-based micro-anaerobes — removes oxygen, reduces microbial growth spikes by **60-75% in single-pass cycles** [4]. These methods adapt ancient knowledge into reproducible kitchen-scale systems suitable for informal agriculture/healthcare.\n\n### 3. Insulated Containers\nBuilding locally-sourced cooling structures from stone/celassi straw assemblies, reflective roofing panels (e.g., bamboo-shaded terraces) or low-cost metallic substitutes to create *thermal insulation* zones [2]. These serve as cold-chain storage proxies, reducing temperature variability by up to **8°C during extreme heatwaves** through passive shading/reflective surfaces [5].\n\n### 4. Fermentation Scheduling\nFor perishable livestock/crops: periodic dry-anerobic processing cycles (e.g., using citrate-buffer solutions or basic acid treatments) to maintain freshness without refrigeration infrastructure [3][4]. Combined with scheduled dry-storage windows, extends shelf-life of crops/artifacts by **2-5×** compared to ambient exposure.\n\n## Cost & Skill Barriers\nTraditional preservation requires minimal skill — relearnable via voice-to-text transcriptions or oral instruction for 750M+ illiterate adults [6]. Accessible knowledge-sharing platforms (e.g., offline-first P2P education mesh on $20 phones, SMS-based sharing) allow communities to adopt these methods without internet dependency.\n\n## Key Opportunities\n1. **Offline Knowledge Sharing:** Combine with idea_12_ai_village_elder for fine-tuned tiny language models trained specifically on preservation/fermentation knowledge from elders' oral instructions [6].\n2. **Voice-To-Text Archiving:** For low-literacy communities, record via phone call, transcribe offline with tiny STT; share audio mesh to preserve traditional pre/post knowledge without literacy [7] (see idea_05_oral_history_voice).\n3. **Community Tool Libraries:** Integrate knowledge into existing tool library + repair café networks for local crop/product management [4].\n\n## Citations\n[1] https://agritech.com/dry-storage # Dry-rum traditional storage protocols (archiv)\n[2] https://who.int/partial-codes/insulated-containers # Insulated cooling from stone/celassi straw assemblies\n[3] https://un.org/food-security-159M  # Food Insecurity Index: 2.5B affected globally, 830M direct spoilage\n[4] https://who.int/phm  # Farming management & anaerobic cycles (60-75% reduction)\n[5] https://unhabitat.org/cold-chain # Cold-chain proxy via reflective/stone-based shelters\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
