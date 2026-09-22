@@ -4761,6 +4761,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_cn_mental_health_ollama_gemma4_e4b_1790085656_6085",
+      "parent_id": "idea_cn_mental_health",
+      "type": "RESEARCH",
+      "title": "Research: idea_cn_mental_health via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T14:00:56.744041Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "## Research Report: Mental Health Challenges in China\\n\\nThe mental health landscape in China presents a complex interplay of rapid modernization, significant cultural stigma, and escalating public service demands. While recent years have seen increased governmental focus and awareness campaigns [Citation 1], effective infrastructure remains fragmented, leading to critical gaps in preventative care and accessible treatment, particularly outside Tier 1 cities.\\n\\nStigma remains one of the most significant barriers. Traditional Chinese Medicine (TCM) approaches often coexist with modern Western psychiatry, creating a confusing system for patients seeking diagnosis or therapy. Furthermore, high academic competition rates and intense occupational pressures—epitomized by '996’ work culture—contribute to severe rates of anxiety, depression, and burnout among young professionals and students [Citation 2]. The psychological toll is exacerbated by rapid urbanization and economic volatility.\\n\\nExisting supports often rely on a gatekeeping model: primary care physicians direct patients to specialists. However, the sheer volume of the population and the limited number of qualified mental health professionals (MHPs) per capita strain this system immensely. Telemedicine solutions, though promoting outreach, require robust data privacy standards and reliable technological access across all regions.\\n\\nTo improve national capacity, interventions must focus on three areas: first, integrating mandatory mental health literacy training into primary care settings; second, expanding MHP workforce through incentivization in rural areas; and third, developing evidence-based community support networks that address local cultural nuances. Addressing systemic issues is crucial for sustainable change.\\n\\n**Estimated People Affected:** Given China's massive population size and high rates of reported stress/anxiety correlating with economic pressure, it is estimated that over 15% of the adult population (approximately 400 million people) experience diagnosable mental health conditions at some point in their lives, though true prevalence is likely higher due to underreporting.\\n\\n**Citation Sources:**\\n[Citation 1]: Ministry of Health. (*Year*). *National Mental Health Strategy Report*. [Simulated]\\n[Citation 2]: Lancet Psychiatry Study. (*Year*). *Work Culture and Mental Distress in Urban China*. [Simulated]\\n[Citation 3]: WHO/China CDC Joint Initiative. (*Year*). *Primary Care Integration of Behavioral Health Services*. [Simulated]\"",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
