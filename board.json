@@ -102,8 +102,8 @@
       "id": "idea_03_tool_libraries",
       "parent_id": "root_humanity",
       "type": "IDEA",
-      "title": "Community tool libraries + repair cafés network template",
-      "body": "Kit to start local lending library for tools/appliances, reduce cost of living, repair instead of buy.",
+      "title": "Community tool libraries + repair cafés network template (physical tools: hammers, drills, saws - not LLM software tools)",
+      "body": "Kit to start local lending library for physical tools/appliances (hammers, drills, saws, etc., not LLM software tools), reduce cost of living, repair instead of buy. For physical community sharing.",
       "status": "open",
       "flags": {
         "needs_verification": true,
@@ -925,36 +925,6 @@
       }
     },
     {
-      "id": "research_idea_08_timebank_mutual_aid_ollama_gemma4_e4b_1790057924_76d6",
-      "parent_id": "idea_08_timebank_mutual_aid",
-      "type": "RESEARCH",
-      "title": "Research: idea_08_timebank_mutual_aid via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T06:18:44.758290Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_08_timebank_mutual_aid\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 18:18:44 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_09_solar_microgrid_diy_ollama_qwen3.5_9b_1790058386_652e",
       "parent_id": "idea_09_solar_microgrid_diy",
       "type": "RESEARCH",
@@ -1135,36 +1105,6 @@
       }
     },
     {
-      "id": "research_idea_15_mycelial_sneakernet_ollama_qwen3.5_9b_1790060162_5f7f",
-      "parent_id": "idea_15_mycelial_sneakernet",
-      "type": "RESEARCH",
-      "title": "Research: idea_15_mycelial_sneakernet via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T06:56:02.976521Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_15_mycelial_sneakernet\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 18:56:02 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_16_unjobs_15hr_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790060470_6a12",
       "parent_id": "idea_16_unjobs_15hr",
       "type": "RESEARCH",
@@ -1195,66 +1135,6 @@
       }
     },
     {
-      "id": "research_idea_17_squat_loophole_library_ollama_gemma4_e4b_1790060610_d409",
-      "parent_id": "idea_17_squat_loophole_library",
-      "type": "RESEARCH",
-      "title": "Research: idea_17_squat_loophole_library via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T07:03:30.517284Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_17_squat_loophole_library\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 19:03:30 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_18_children_designed_ollama_qwen3.5_9b_1790061051_831c",
-      "parent_id": "idea_18_children_designed",
-      "type": "RESEARCH",
-      "title": "Research: idea_18_children_designed via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T07:10:51.139807Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_18_children_designed\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 19:10:51 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_19_menstrual_health_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790061415_0064",
       "parent_id": "idea_19_menstrual_health",
       "type": "RESEARCH",
@@ -1280,36 +1160,6 @@
         ],
         "model": {
           "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_20_peer_mental_health_ollama_gemma4_e4b_1790061548_9720",
-      "parent_id": "idea_20_peer_mental_health",
-      "type": "RESEARCH",
-      "title": "Research: idea_20_peer_mental_health via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T07:19:08.201776Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_20_peer_mental_health\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 19:19:08 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
           "provider": "ollama"
         }
       }
@@ -1375,66 +1225,6 @@
       }
     },
     {
-      "id": "research_idea_23_hearing_vision_hardware_ollama_gemma4_e4b_1790062429_2f04",
-      "parent_id": "idea_23_hearing_vision_hardware",
-      "type": "RESEARCH",
-      "title": "Research: idea_23_hearing_vision_hardware via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T07:33:49.029959Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_23_hearing_vision_hardware\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 19:33:48 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_24_debt_jubilee_ollama_qwen3.5_9b_1790062844_59dc",
-      "parent_id": "idea_24_debt_jubilee",
-      "type": "RESEARCH",
-      "title": "Research: idea_24_debt_jubilee via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T07:40:44.321331Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_24_debt_jubilee\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 19:40:44 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_25_oral_history_voice_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790063155_e2d4",
       "parent_id": "idea_25_oral_history_voice",
       "type": "RESEARCH",
@@ -1465,66 +1255,6 @@
       }
     },
     {
-      "id": "research_idea_01_passive_cooling_ollama_gemma4_e4b_1790065227_14b0",
-      "parent_id": "idea_01_passive_cooling",
-      "type": "RESEARCH",
-      "title": "Research: idea_01_passive_cooling via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T08:20:27.482841Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_01_passive_cooling\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 20:20:27 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_02_offline_education_mesh_ollama_qwen3.5_9b_1790065689_b2c4",
-      "parent_id": "idea_02_offline_education_mesh",
-      "type": "RESEARCH",
-      "title": "Research: idea_02_offline_education_mesh via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T08:28:09.515455Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_02_offline_education_mesh\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 20:28:09 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_03_tool_libraries_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790065950_35c7",
       "parent_id": "idea_03_tool_libraries",
       "type": "RESEARCH",
@@ -1550,36 +1280,6 @@
         ],
         "model": {
           "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_04_mycelium_earth_brick_ollama_gemma4_e4b_1790066090_5911",
-      "parent_id": "idea_04_mycelium_earth_brick",
-      "type": "RESEARCH",
-      "title": "Research: idea_04_mycelium_earth_brick via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T08:34:50.674930Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_04_mycelium_earth_brick\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 20:34:50 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
           "provider": "ollama"
         }
       }
@@ -1645,66 +1345,6 @@
       }
     },
     {
-      "id": "research_idea_07_rainwater_biosand_ollama_gemma4_e4b_1790066993_302a",
-      "parent_id": "idea_07_rainwater_biosand",
-      "type": "RESEARCH",
-      "title": "Research: idea_07_rainwater_biosand via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T08:49:53.157690Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_07_rainwater_biosand\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 20:49:53 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_08_timebank_mutual_aid_ollama_qwen3.5_9b_1790067455_1c66",
-      "parent_id": "idea_08_timebank_mutual_aid",
-      "type": "RESEARCH",
-      "title": "Research: idea_08_timebank_mutual_aid via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T08:57:35.396958Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_08_timebank_mutual_aid\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 20:57:35 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_09_solar_microgrid_diy_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790067735_6232",
       "parent_id": "idea_09_solar_microgrid_diy",
       "type": "RESEARCH",
@@ -1730,66 +1370,6 @@
         ],
         "model": {
           "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_10_coop_housing_templates_ollama_gemma4_e4b_1790067879_1aa8",
-      "parent_id": "idea_10_coop_housing_templates",
-      "type": "RESEARCH",
-      "title": "Research: idea_10_coop_housing_templates via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:04:39.764643Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_10_coop_housing_templates\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 21:04:39 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_11_land_trust_qr_ollama_qwen3.5_9b_1790068343_7c0b",
-      "parent_id": "idea_11_land_trust_qr",
-      "type": "RESEARCH",
-      "title": "Research: idea_11_land_trust_qr via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:12:23.096033Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_11_land_trust_qr\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 21:12:23 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
           "provider": "ollama"
         }
       }
@@ -1825,66 +1405,6 @@
       }
     },
     {
-      "id": "research_idea_13_nighttime_commons_ollama_gemma4_e4b_1790068811_2694",
-      "parent_id": "idea_13_nighttime_commons",
-      "type": "RESEARCH",
-      "title": "Research: idea_13_nighttime_commons via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:20:11.793679Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_13_nighttime_commons\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 21:20:11 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_14_demurrage_currency_ollama_qwen3.5_9b_1790069274_4907",
-      "parent_id": "idea_14_demurrage_currency",
-      "type": "RESEARCH",
-      "title": "Research: idea_14_demurrage_currency via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:27:54.052491Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research Report: Gift Economy with Demurrage Currency - Expiring Money Protocol\n\n**IDEA ID:** idea_14_demurrage_currency  \n**Category:** Work / Economic Innovation  \\n**Outside Box Flag:** Yes  \n\n--- \n\n## Executive Summary\n\nThe demurrage currency concept proposes a radical departure from conventional monetary philosophy by embedding temporal value decay into the money supply itself. Originating from the Austrian experiment in Wörgl (1932-1934), this system intentionally makes money expire after 30 days through automatic fee deductions or physical token destruction [1]. People affected estimate: **~2 billion** individuals facing financial exclusion and wealth concentration issues globally, with implications for informal economy workers lacking access to traditional banking systems where demurrage could incentivize circulation rather than hoarding assets in failed economic conditions[2][3]\n\n## Core Innovation Mechanism\n\n### Demurrage Design Specifications\n\nThe proposal implements a \"gift money\" system wherein financial credits automatically lose 0.5%-1% daily value (approximately ~6 months before becoming zero-value), contrasting sharply with conventional systems encouraging wealth accumulation at the expense of community circulation [4]. Each transaction would either:\n- **Digital Implementation:** Automated deduction via smart contracts, app-based wallets requiring re-validation every 8 days to retain credit worth \n- **Analog Fallback:** Physical \"expiry-stamped\" coins/paper notes redeemable only if collected before demurrage threshold reaches critical point\n\nThis creates what economists term an \"**anti-savings incentive**\"—deliberately misaligning personal wealth accumulation against broader community circulation needs. The theoretical maximum velocity of money increases dramatically: conventional systems operate at v~6x annually; with daily 1% decay, V rises to ~250-300 cycles per year assuming monthly collection discipline\n\n## People Affected Rationale\n\nThe **~2 billion estimate** derives from multiple convergence factors: (a) approximately 1.7B unbanked population lacking meaningful financial access despite basic transactional needs [3], plus b) roughly 30% of employed workers experiencing wage stagnation due to systemic \"save-not-spend\" monetary engineering c) an estimated 2B people globally facing cost-of-living pressures where gift-economy circulation would redistribute purchasing power from wealth hoarders (retention via speculative assets vs. essential services expenditure). Combined, approximately **1.95–2 billion** individuals could benefit through enhanced liquidity velocity and reduced inter-generational inequality\n\nDemurrage specifically targets populations suffering under what Marxist economists call \"fictitious capital\" accumulation—where value concentrates in non-productive financial instruments rather than real economic throughput [4] The Wörgl case documented similar effects during hyperinflation periods when citizens spontaneously used 1% demurrage coins with dramatic local commerce revival[2][5]\n\n## Implementation Architecture\n\n### Protocol Layers\n\n| Layer | Description | Technical Requirements |\\n|-------|--------------|-------------------------||\\nDigital Wallet App | Mobile-first implementation leveraging offline-stored key derivation, SMS fallback for feature-phone markets (e.g., common devices at $30-100 range prevalent across 2B+ developing market contexts )|\\nPhysical Token System | Coin/barter-style \"gift vouchers\" with printed expiry calendar grids; can integrate QR codes encoding current demurrage clock timestamp |\\nHybrid Protocol | Combination enabling token-to-wallet redemption, supporting analog-digital convergence for maximum accessibility ||\n\nTechnical stack considerations:\n- **Cryptographic Foundation:** Ed25519 key pairs stored in hardware-backed element (e.g., TEE enclave on modern Android 7+/iOS equivalents) with offline-recoverable seed phrases [4]\n- **Consensus-lite Design:** Each transaction validates against local peer count rather than blockchain, minimizing computational overhead relative to full proof-of-work chains that consume disproportionate electricity resources[2][3]\n\n### Safety & Accessibility Features\n  \n| Feature | Description ||\\n---------------||-------------------------|\\nOffline Mode Capability | No-internet-required operations via encrypted local ledger + periodic beacon synchronization (e.g., SMS/MQTT over mesh when available) |\\nBlind-Person Navigation Support\\n | Built-in voice-guided expiry calendar alerts, compatible with screen-readers and talking-clock hardware for elderly/unbanked populations|\\rPhysical Ledger Templates| Printable calendars enabling those without smartphones to track their demurrage tokens; can convert expired gifts into fresh ones through community redistribution circles |\\nDisaster-Resilient Recovery | Backup protocols preserving transaction history across failed infrastructure periods by storing minimal metadata (token IDs, timestamps) rather than full ledger states for quick recovery ||\n\n## Empirical Context & Counter-Evidence Consideration\\n\\n### Wörgl Historical Data Analysis\n\nThe Wörgl experiment under mayor Franz Höpfl implemented 2% monthly stamp fees equivalent to ~1.5-2% daily decay (consistent with the proposal's magnitude), demonstrating that when citizens voluntarily accepted demurrage tokens, local commerce activity rose substantially despite national-scale inflation elsewhere[4]. However:\n - **Criticism Point One:** Nazi regime termination in May 1934 based on political motives rather than documented market failures; historical accounts remain contested regarding exact velocity metrics achieved under normal governance vs. wartime conditions [2][5]\n\n### Modern Economic Research Rebuttal\n\nContemporary economists including Milton Friedman have criticized time-based monetary systems as theoretically inconsistent with free-market principles, suggesting instead quantity-theory solutions that maintain stability through supply management rather than expiration engineering[3]. However the proposal specifically targets informal economy contexts where conventional banking monopolies prevent fair liquidity access; demurrage operates differently in this domain compared to institutionalized financial markets dominated by wealth-holding incentives\n\n### Counter-Factor Consideration: Wealth Redistribution Concerns\n\nA potential objection centers on whether demurrage truly redistributes purchasing power or merely transfers it between different recipient classes. Critics note that if wealthy actors can continuously convert fiat currency into stable-value stores while small-wealth participants lose daily decay, the net redistribution effect becomes negligible [5]. The proposal counters this by:\n 1) mandating community-mandated \"redemption points\" allowing any citizen to spend expired tokens at fixed exchange rates (preventing wealth accumulation advantage for early adopters), plus\\n2) requiring periodic refresh cycles where demurrage collectors redistribute unused credits across randomly selected recipients, preventing permanent hoarding\n\n## Technical Feasibility Assessment\n  \n### Developer-Accessible Implementation Stack\\n\\n| Component | Description |\\n---|\\-------------------------||\\nCore Library | TypeScript/Node.js module handling expiry-clock arithmetic (ISO timestamp tracking with configurable decay rates per transaction type, supporting both 0.5% and 1% daily configurations) ||\\rMobile App Framework Kiosk-mode Android/iOS application leveraging existing payment SDK wrappers while overlaying demurrage timing logic; can function in offline-kiosk mode via periodic beacon sync |\\nLedger Store SQLite database with encrypted metadata storing only transaction IDs, not full values beyond minimal required proof-of-payment timestamps for rapid recovery ||\n\nEstimated development time ranges: 6-8 weeks initial MVP assuming single developer allocation against standard ope",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_15_mycelial_sneakernet_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790069632_eed5",
       "parent_id": "idea_15_mycelial_sneakernet",
       "type": "RESEARCH",
@@ -1910,36 +1430,6 @@
         ],
         "model": {
           "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_16_unjobs_15hr_ollama_gemma4_e4b_1790069777_b298",
-      "parent_id": "idea_16_unjobs_15hr",
-      "type": "RESEARCH",
-      "title": "Research: idea_16_unjobs_15hr via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:36:17.318498Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_16_unjobs_15hr\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 21:36:17 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
           "provider": "ollama"
         }
       }
@@ -2035,36 +1525,6 @@
       }
     },
     {
-      "id": "research_idea_20_peer_mental_health_ollama_qwen3.5_9b_1790071015_e7ed",
-      "parent_id": "idea_20_peer_mental_health",
-      "type": "RESEARCH",
-      "title": "Research: idea_20_peer_mental_health via ollama/qwen3.5:9b",
-      "body": "Deep dive via ollama/qwen3.5:9b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T09:56:55.041941Z",
-      "model": {
-        "name": "qwen3.5:9b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_20_peer_mental_health\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 21:56:54 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_21_food_forest_maps_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790071301_7187",
       "parent_id": "idea_21_food_forest_maps",
       "type": "RESEARCH",
@@ -2095,36 +1555,6 @@
       }
     },
     {
-      "id": "research_idea_22_childcare_coops_ollama_gemma4_e4b_1790071442_ae51",
-      "parent_id": "idea_22_childcare_coops",
-      "type": "RESEARCH",
-      "title": "Research: idea_22_childcare_coops via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T10:04:02.496915Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_22_childcare_coops\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 22:04:02 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_23_hearing_vision_hardware_ollama_qwen3.5_9b_1790071788_f6e2",
       "parent_id": "idea_23_hearing_vision_hardware",
       "type": "RESEARCH",
@@ -2150,66 +1580,6 @@
         ],
         "model": {
           "name": "qwen3.5:9b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_24_debt_jubilee_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790072040_e488",
-      "parent_id": "idea_24_debt_jubilee",
-      "type": "RESEARCH",
-      "title": "Research: idea_24_debt_jubilee via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T10:14:00.551895Z",
-      "model": {
-        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_24_debt_jubilee\nFallback via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M Tue 22 Sep 2026 22:14:00 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
-      "id": "research_idea_25_oral_history_voice_ollama_gemma4_e4b_1790072183_75c5",
-      "parent_id": "idea_25_oral_history_voice",
-      "type": "RESEARCH",
-      "title": "Research: idea_25_oral_history_voice via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T10:16:23.852834Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_25_oral_history_voice\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 22:16:23 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
           "provider": "ollama"
         }
       }
@@ -2275,36 +1645,6 @@
       }
     },
     {
-      "id": "research_idea_03_tool_libraries_ollama_gemma4_e4b_1790072991_524b",
-      "parent_id": "idea_03_tool_libraries",
-      "type": "RESEARCH",
-      "title": "Research: idea_03_tool_libraries via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T10:29:51.479231Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "## Research Report: Tool Libraries for LLM Augmentation \\n\\n**Project Focus:** Structuring and implementing robust tool call libraries for Large Language Models (LLMs) within local orchestration frameworks like Ollama.\\n\\n**Introduction:**\\nThe integration of external tools—such as databases, API endpoints, and specialized calculators—is critical for moving LLMs beyond mere text generation into active agents capable of solving real-world problems. A \"tool library\" serves as a standardized interface, allowing complex models (like Gemma 4) to interact reliably with the external world. This concept is pivotal in developing multi-modal, reliable AI systems.\\n\\n**Technical Deep Dive: The Role of Libraries:**\\nTool libraries solve two primary challenges: **Discovery** and **Execution**. First, LLMs need clear, descriptive schemas (e.g., OpenAPI specifications or Pydantic models) that define available functions. The model must be able to dynamically read these schemas and decide *which* tool is appropriate for a given user query—a process known as function calling. Second, the output from the chosen tool must be reliably executed by an external orchestration layer (like a Python runtime running alongside Ollama instances). In a local setup using frameworks inspired by LangChain or LlamaIndex, these libraries provide the necessary wrapper code and serialization formats.\\n\\n**Architecture Implications:**\\nThe proposed design emphasizes modularity. Each tool should be implemented as a self-contained module that validates its inputs before execution. This prevents hallucinated function calls from causing runtime crashes. Successful implementation requires defining clean input/output contracts (e.g., `function_name(required: str, optional: list[str]) -> dict`). The orchestration pipeline would process user query $\\rightarrow$ LLM selects tool $\\rightarrow$ Orchestrator executes tool using library $\\rightarrow$ Tool returns result $\\rightarrow$ LLM synthesizes final answer.\\n\\n**Impact and Adoption:**\\nThis development effort is foundational for maturing localized AI agents. By standardizing the interfacing layer, we significantly accelerate the ability to port LLMs from controlled demonstrations into enterprise-level consumer products.\\n\\n*People Affected Estimate:* The initial successful implementation and open-sourcing of these libraries will directly impact **hundreds of researchers, ML engineers, and small-to-medium enterprises (SMEs)** building custom AI applications who struggle with the boilerplate code required for robust tool orchestration. A larger systemic adoption could affect millions of users via services built on top of this standardized tooling.\\n\\n**Key Considerations & Citations:**\\n\\n1. **Schema Definition:** Effective tools require rigorously formatted input schemas, mimicking professional API descriptions [Smith et al., 2023].\\n2. **State Management:** Complex tool workflows necessitate maintaining session state across multiple function calls to ensure context continuity.\\n3. **Security:** All external tool execution paths must be sandboxed and validated against injection attacks [Zhang & Chen, 2024].\\n\\n*Further Research:* Developing standardized compatibility layers for various tool library paradigms (e.g., comparing Python `pydantic` vs. JSON schemas) will enhance portability [OpenAI Docs, n.d.].\"",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_04_mycelium_earth_brick_ollama_qwen3.5_9b_1790073453_9f01",
       "parent_id": "idea_04_mycelium_earth_brick",
       "type": "RESEARCH",
@@ -2365,36 +1705,6 @@
       }
     },
     {
-      "id": "research_idea_06_community_health_wiki_ollama_gemma4_e4b_1790073889_2f45",
-      "parent_id": "idea_06_community_health_wiki",
-      "type": "RESEARCH",
-      "title": "Research: idea_06_community_health_wiki via ollama/gemma4:e4b",
-      "body": "Deep dive via ollama/gemma4:e4b",
-      "status": "open",
-      "flags": {
-        "needs_verification": true
-      },
-      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
-      "created_at": "2026-09-22T10:44:49.837671Z",
-      "model": {
-        "name": "gemma4:e4b",
-        "provider": "ollama",
-        "version": "Q4_K_M",
-        "temperature": 0.7
-      },
-      "result": {
-        "markdown": "# Research idea_06_community_health_wiki\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 22:44:49 NZST\nMock - will retry next cycle.\n",
-        "citations": [
-          "https://un.org",
-          "https://who.int"
-        ],
-        "model": {
-          "name": "gemma4:e4b",
-          "provider": "ollama"
-        }
-      }
-    },
-    {
       "id": "research_idea_01_passive_cooling_ollama_qwen3.5_9b_1790074352_4759",
       "parent_id": "idea_01_passive_cooling",
       "type": "RESEARCH",
@@ -2435,7 +1745,7 @@
   "published_via": "Tor (192.42.116.45) via docker tor-proxy, no account, no IP trace",
   "lifecycle": "parallel: IDEA always open, multiple RESEARCH per IDEA allowed, no exclusive claim. See prompt.md",
   "previous_url": "https://paste.rs/ViBUI",
-  "pruned_at": "2026-09-21T07:10Z",
-  "pruned_note": "Pruned 376 duplicate RESEARCH for idea_01 to keep 2 (1 per IDEA +1 parallel demo), was 402 -> 27 RESEARCH, total 59 tasks",
+  "pruned_at": "2026-09-22T01:20Z",
+  "pruned_note": "Fixed idea_03 to physical tools, removed 23 off-topic/fallback, kept 58-> 60 tasks",
   "note": "Pruned to 58 tasks (26 RESEARCH), was 434. Paste.rs 500 due to size, use GitHub raw + catbox for HTML/PDF. Publish via GitHub."
 }
