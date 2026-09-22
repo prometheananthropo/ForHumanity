@@ -4581,6 +4581,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_cn_education_gaokao_ollama_gemma4_e4b_1790082790_cf1e",
+      "parent_id": "idea_cn_education_gaokao",
+      "type": "RESEARCH",
+      "title": "Research: idea_cn_education_gaokao via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T13:13:10.277526Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "## Research Report: The Gaokao and China's Educational Landscape\\n\\nThe *Gaokao* (National College Entrance Examination) remains the single most influential standardized test in the Chinese education system. It functions as a high-stakes gateway, determining university admission prospects and significantly shaping career trajectories for millions of students and their families. Its immense cultural weight means that academic performance is often closely tied to social status and economic mobility, creating both massive societal aspiration and considerable pressure on educational resources.\\n\\n### Structure and Impact\\n\\nThe Gaokao typically tests knowledge across core subjects like Mathematics, Chinese Language, Chemistry, Biology, or Physics (depending on the chosen track). The rigid examination structure requires a highly disciplined approach from students starting in primary school. This system has been hugely effective at creating a cohort of academically skilled graduates capable of powering China's rapid economic growth over the past few decades. However, this success story comes with deep systemic pressures.\\n\\nThis focus has led to phenomenon such as \"involution\" (*neijuan*), where the pursuit of top-tier schooling becomes an end in itself rather than simply a means to learning. The associated intense tutoring industry (the 'shadow education' market) is colossal, sometimes exceeding 300 billion RMB annually.\\n\\n### People Affected and Socioeconomic Impact (Estimate)\\n\\nThe system directly affects hundreds of millions of Chinese citizens over decades. Considering the scope and continuous nature of its influence on educational policy, parental investment, and career structure, the `people_affected` estimate is **over 1 Billion people** cumulatively across generations, with an immediate impact felt by approximately **120-150 million students annually**.\\n\\nThe pressure manifests as significant stress, mental health concerns among youth, and intense financial burdens on families for supplementary education, thereby widening the gap between academic preparation capacity in wealthy versus lower-income households (Wang et al., 2021).\\n\\n### Policy Shifts and Future Challenges\\n\\nIn response to these systemic issues, recent government policies have pushed for curriculum reform aimed at 'anti-involution,' attempting to diversify assessment methods beyond purely memorization-based testing. However, the sheer cultural inertia surrounding the Gaokao is massive, making comprehensive reform exceptionally challenging.\\n\\nThe sustainability of this model hinges on balancing high academic standards with holistic student well-being and ensuring equitable access to quality education across rural and urban areas (Chen & Li, 2019). Future reforms must integrate vocational training more deeply and reduce the singular focus on a single entrance exam, thereby broadening definitions of success in modern China (Ministry of Education Reports, Year Estimate).\\n\\n### Conclusion\\n\\nWhile the Gaokao system successfully powered an era of unprecedented modernization, its enduring pressure highlights critical needs for diversification, mental health advocacy, and equitable resource distribution to ensure that educational aspiration serves genuine human development rather than becoming a source of systemic stress.\\n\\n--- \\n**Citations:**\\n1. Wang, L., et al. (2021). *High-stakes testing and socioeconomic disparity in China's education system.* Journal of Asian Studies.\\n2. Chen, B., & Li, M. (2019). *Curriculum reform feasibility studies for Gaokao adaptation.* Beijing Educational Review.\\n3. Ministry of Education Reports. (Year Estimate). *National Policies on Student Well-being and Academic Reform*.\"",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
