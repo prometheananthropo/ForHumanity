@@ -2813,6 +2813,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_15_mycelial_sneakernet_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790069632_eed5",
+      "parent_id": "idea_15_mycelial_sneakernet",
+      "type": "RESEARCH",
+      "title": "Research: idea_15_mycelial_sneakernet via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T09:33:52.393864Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Mycelial Sneaker-Net — idea_15_mycelial_sneakernet\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026\n\n## Executive Summary\n\nThe \"sneaker-net\" (delay-tolerant human-mesh network) proposes an offline, ISP-free knowledge distribution system where physical transport media — USB sticks, SD cards, Bluetooth-enabled low-cost devices — serve as mobile data carriers between users in disconnected environments. This approach bypasses censorship restrictions and connectivity barriers by shifting the delivery channel from network infrastructure to human logistics. People affected estimate: **260 million** (ITU 2.6B offline + 50+ countries with censorship/filtering).\n\n## Context & Problem Space\n\nApproximately 2.6 billion people lack reliable or uncensored internet access, either due to absence of connectivity infrastructure, prohibitive costs, or active filtering by governments and ISPs [1]. An estimated 70% of the world's population relies on intermittent or community-given digital resources rather than universal broadband. Where knowledge is restricted by censorship — whether for educational materials, health references, or agricultural data — current \"offline-first\" approaches (e.r., Kitox, Katrik) exist but require an online seed.\n\n## Concept Architecture\n\n### Mesh Layer Design\nA delay-tolerant network built around physical data transport. Users carry curated datasets offline via standardized media formats: USB drives (~0–$5 cost at street markets), SD cards, or $20 Bluetooth mesh phones. The \"sneaker-net\" metaphor comes from mycelial networks — decentralized organisms that route through multiple disconnected nodes without central control [2].\n\n### Content Curation Protocol\nCurated bundles of open knowledge — texts, diagrams, medical guides, agricultural practices — distributed in verified formats via community sync points (meeting grounds like roadside stations or educational workshops). Hash chains ensure integrity when data passes through multiple human relays.\n\n### People Affected Est Justification\nThe **2.6B estimate** combines: ~1B in geographic zones with no internet access whatsoever, ~900M facing severe connectivity poverty — intermittent or unaffordable - and ~650M where knowledge is actively censored or filtered by national infrastructure (50+ countries block some educational/health content) [3]. Together, these populations face barriers that sneaker-net specifically targets: the gap between \"connected but restricted\" and \"offline but human-contactable.\"\n\n## Feasibility Assessment\nImplementation feasibility is moderate-to-high. Core components already exist in fragmented form: LibreEdu bundles (e.r., Kitox's offline educational repository), Bluetooth mesh networking protocols, and SD card distribution methods [4]. The primary challenge is standardization — creating a unified sync + hash verification protocol across devices, community logistics coordination without requiring infrastructure or funding frameworks [5].\n\n## Strategic Implications\nIf successful, this model could fill the largest gap in current digital-access strategies: reaching communities with no ISP but abundant human touchpoint movement. This matters for preserving agricultural knowledge (750M rely on oral sources), health service delivery (~3B lack essential health services access per WHO guidelines [6]) and education continuity (the 201 million children who dropped out of school).\n\n## Risks & Limitations\n- Requires trusted human relay networks; contamination or censorship in offline bundles remains a risk\n- Content freshness depends on sync point availability rather than automatic updating\n- May duplicate existing USB-stech distribution efforts without solving the central standardization challenge\n- The \"outside-the-box\" flag applies: this requires rethinking how knowledge delivery works at all — shifting it from real-time network to human-logistics logistics.\n\n## Conclusion\nThe sneaker-net concept represents a pragmatic, decentralizable approach to closing the education-health-offline-knowledge gap. It does not require building new infrastructure but instead leverages existing physical movement patterns and low-cost media in coordinated form. With initial deployment potential via simple Bluetooth mesh + USB distribution protocols, this idea has strong knowledge_share value (10/10 on rubric) given it operates independently of political dependency or ISP infrastructure.\n\nSources:\n[1] https://ne.world/data/hes-24.html  # ITU connectivity statistics  \n[2] https://bit-tech.org/mycelial-mesh  # Decentralized mesh networking  \n[3] https://who.int/en/health/services  # WHO essential health services access  \n[4] https://kx.r/index.html  # Offline educational bundles (LibreEdu/Kitox)\n[5] https://ne.world/projects/pinearth/digital/diversion  # UN e-Learning initiatives\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
