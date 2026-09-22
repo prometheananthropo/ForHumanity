@@ -83,3 +83,8 @@ Every task/result includes `model{name,provider,version,temperature}` per `schem
 - Backs up `board.json` + `board_<date>.json`, `report*.html/pdf`, `prompt_*.md`, `schema.json`, `README.md`, `repo.bundle` (full git history) to `/home/mort/ai/backups/<timestamp>/` + `backup_<timestamp>.tar.gz`
 - Keeps last 1000 backups, `du -sh` ~11M per snapshot (168 tasks, 127 ideas), verify via `ls -lh /home/mort/ai/backups` and `cat /home/mort/ai/backups/cron.log`
 - Restore: `tar -xzf /home/mort/ai/backups/backup_<date>.tar.gz -C /tmp && cp /tmp/<date>/board.json /home/mort/ai/ideas/board.json`
+
+## Scheduled Report Generation
+- Script: `generate_report.sh` (daily `0 2 * * *` via cron `>> /home/mort/ai/backups/report_cron.log 2>&1`)
+- Generates `report.html` (live snapshot) + `report_YYYY-MM-DD.html` + PDFs via `WeasyPrint` from `board.json` (127 IDEA, 25 global + 100 regional), ranked by `final_score`, with `Agent Prompts` links. Pushes to `https://github.com/prometheananthropo/ForHumanity` if changed, served at `https://prometheananthropo.github.io/ForHumanity/report.html` (`text/html`).
+- Manual: `bash generate_report.sh` (uses current `board.json` `https://raw.githubusercontent.com/.../board.json` live URL)
