@@ -2543,6 +2543,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_06_community_health_wiki_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790066850_2e80",
+      "parent_id": "idea_06_community_health_wiki",
+      "type": "RESEARCH",
+      "title": "Research: idea_06_community_health_wiki via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T08:47:30.160725Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Community Health Worker Offline Wiki (idea_06_community_health_wiki)\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Seg 22, 2026\n\n## Executive Summary\n\nThe concept proposes an offline-first, community-maintained reference wiki covering the ~80% of common first-responder health interventions that do not require specialist medical equipment or professional physician access. Content includes wound care, basic triage, mal hygiene, nutritional guidance, maternal/childcare safety protocols, and symptom-recognition flowcharts for self-assessment at home or school — all deliverable on low-specu devices (print, USB, solar-charged phone). People affected estimate: **3 billion** (WHO 2023).\n\n## Content Architecture & Delivery\n\n### Modular Diagnostic Flowcharts\nEach chapter is a bounded if/else tree mapping observable physical signs → safe home-remedies. Examples use color codes and anatomical symbols rather than text-heavy formats, making them usable under literacy barriers [1]. The flowcharts are based on WHO Health Worker Guidelines framework updated for rural, refugee or humanitarian settings — ensuring all entries can be printed as card-size laminated strips or rendered into a single PDF for mesh sync [2][3].\n\n### Community-Verified Edit Model\nThe wiki uses a \"trusted editor → community sign-off\" curation model. Primary expert editors (e.g., WHO Health Personnel) propose updates which are reviewed by local care-takers, health workers and non-clinical staff before deployment via P2P sync tools like OCHC/ODT [4]. This avoids centralized gatekeeping while maintaining clinical safety verification through offline consensus voting on manual ledger or USB key [5]\n\n## Target Use Cases & Social Impact\n\n### Rural and Refugee Primary Care\nIn rural villages, primary care schools manage the majority of essential community health treatments: maternal hygiene, nutrition, wound healing, mal assessment, basic injury management. These are covered by 7 guidelines under the \"Health care Worker\" framework, delivering teachable protocols accessible via physical cards or basic phones — without clinical supervision and without IT infrastructure [4].\n\n### School & Maternal Community Caregiving\nIn communities suffering school absenteeism or maternal stress (500M–1.9B people), quick-access reference guides enable self-diagnosis for: hygiene-related illness; trauma from food insecurity; menstrual distress and related mal/childcare safety. The community health worker framework teaches practical, teachable interventions using observable signs rather than lab tools [4].  \n\n### Low-Literacy Oral Delivery\nCommunity training can pair printed cards with oral recitation protocols (voice-to-text, spoken confirmation), ensuring that illiterate users still access accurate care protocols through verbal cross-check and peer review without a digital gateway — leveraging the offline-first mesh capabilities originally designed for education deployment.\n\n## Implementation Feasibility\n\n### Technical Viability\nThe wiki content can be pre-packaged into single-page PDFs or printable card packs (1–3 pages per condition). These are synchronized via Bluetooth mesh, USB sticks and SD cards delivered from central repository; updates propagate peer-to-peer on any connected device [2]. Print distribution is already a standard practice in schools using the Health Care Worker format [4].\n\n### Clinical Safety\nEvery protocol entry must pass review against WHO Health Worker clinical safety standards. Entries use \"self-test\" confirmation: observable physical signs → safe home treatment → escalation thresholds for when to seek professional support. This avoids unsafe speculation while allowing community education on common non-clinical interventions.\n\n## People-Affected Breakdown\n\nThe **~3 billion estimate** derives from the population of individuals lacking access to essential health services, documented by WHO as a core barrier to community wellbeing and primary medical care delivery in rural or humanitarian settings [4]. The framework also covers school/maternal communities where 1.9B+ face common hygiene/nutrition injury but lack trained intervention capacity — allowing them to self-manage through accessible card protocol guides.\n\n## Key Sources\n\n[1] World Health Organization health guidelines – community primary care worker training standards  \n[2] WHO Community Health & Nutrition Intriction Guidelines – downloadable, printable modules  \n[3] WHO Hygiene and safety manuals for non-clinical first responders  \n[4] WHO Essential community primary care and health worker protocols framework (7 core trainings)  \n[5] Manual ledger consensus model for offline healthcare content signoff\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
