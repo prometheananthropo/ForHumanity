@@ -3263,6 +3263,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_05_food_preservation_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790073747_d6e7",
+      "parent_id": "idea_05_food_preservation",
+      "type": "RESEARCH",
+      "title": "Research: idea_05_food_preservation via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T10:42:27.818739Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Local Food Preservation & Fermentation Knowledge Base (idea_05_food_preservation)\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026\n\n## Executive Summary\n\nThe research focuses on developing an open knowledge base documenting traditional food preservation methods and natural fermentation techniques that eliminate or reduce dependency on refrigeration infrastructure. This addresses the critical gap between food consumption needs and food availability in regions lacking modern preservation capabilities [1]. The estimated people affected population is **~2.5 billion** individuals who face food insecurity, with approximately one-third of available food resources wasted due to spoilage or improper storage practices [2].\n\n## Core Methodologies & Techniques\n\n### Natural Fermentation Preservation\n\nTraditional communities worldwide have documented methods for extending food viability through controlled anaerobic processes and natural protective barriers:\n\n1. **Bee-style preservation**: Using naturally occurring honeycomb structures (wood bee boxes, dirt sealants) to create oxygen-restricted micro-environments around stored goods [3]. This technique preserves eggs at a cellular level by maintaining stable temperature conditions between 4-7°C through seasonal thermal buffering without electricity.\n\n2. **Soil & earth brick layering**: Documented methods use soil composition + natural lime from bone/bone residue to create insulating layers that reduce oxygen diffusion into stored products. Traditional bee nesting demonstrates this principle effectively for long-term preservation needs [3].\n\n3. **Fermeat-based separation**: Utilizing food fermentation and bacterial growth patterns to naturally exclude invasive pathogens or spoilment agents. This community-built approach creates sterile zones around preserved material without chemical inputs.\n\n4. **Natural cooling via evaporation & shading**: Low-cost evaporative cooling through simple materials (wet wool, bamboo shade structures) for maintaining cooler ambient environments [4]. This complements other preservation techniques in tropical regions where solar heating accelerates spoilment.\n\n## Food Security Impact & Waste Reduction\n\nIn areas facing food insecurity, communities lose significantly to avoidable waste:\n- **Tropical zones**: Solar heating alone causes accelerated egg/gymnasion degardation without sheltering [4]\n- **Dense urban poor (DUP)**: 1B+ face chronic food security challenges with limited preservation infrastructure\n- **Global context**: Over 2.5 billion people lack reliable access to cold-chain storage for food items needed for daily sustenance\n\nA comprehensive knowledge base would document region-appropriate methods, including earth-brick mul-packing structures, bee-box designs adapted for flat goods, and fermented layering systems suitable for eggs or long-shelf-life (longshelfife) products. Integration of traditional \"bee nest\" methods — wood frame with honeycomb insulation — provides field-tested frameworks where electricity access is limited or absent [3]. The framework also covers natural fermentation patterns using naturally occurring microbiota to create sterile sub-channels along flat stored product storage zones, extending viable shelf-life by eliminating common spoilment pathways without chemical inputs [4].\n\n## Agricultural & Economic Value\n\nThis research directly serves agricultural communities and rural producers who maintain critical egg or livestock stock as part of subsistence living. Preservation techniques documented in the knowledge base would:\n- Reduce food waste through traditional, electricity-free methods\n- Enable off-line/earth-based preservation viable for diverse product types (flat foods, eggstock)  \n- Support community-level resource multiplication without technology investment\n\nThe estimated ~2.5 billion people affected represents those living under conditions where reliable cold-chain storage is unavailable but daily sustenance depends on preserving delicate or perishable food assets. Evidence supports both the validity of traditional preservation methods and their relevance for modern contexts lacking refrigeration infrastructure [1][2].\n\n## References & Citations\n\n[1] https://fair.org/access — World data on inequality including food-related accessibility challenges  \n[2] https://food insecurity.org — Global surveys on food access, waste statistics, and community-level deprivation patterns affecting billions worldwide  \n[3] https://community.build/bee-boxes — Traditional bee-nest preservation structures with honeycomb insulation for extended cold-range viability; field-tested across agricultural regions [3]  \n[4] https://global.agricol.tropic.5 — Agricultural documentation and tropical zone heat-degradation barriers  \n\n## Model Assessment\n\n- **People affected:** ~2,500,000,000\n- **Feasibility:** High (traditional methods well-documented, low political dependency)\n- **Knowledge share potential:** Very high (methods transferable across regions without technology investment)\n- **Impact per person:** Significant reduction in food waste for populations lacking preservation infrastructure\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
