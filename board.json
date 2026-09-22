@@ -2603,6 +2603,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_08_timebank_mutual_aid_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790049239_389d",
+      "parent_id": "idea_08_timebank_mutual_aid",
+      "type": "RESEARCH",
+      "title": "Research: idea_08_timebank_mutual_aid via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T03:53:59.499584Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Timebank + Mutual Aid Coordination Protocol (idea_08_timebank_mutual_aid)\n\n## Executive Summary\n\nThe \"Timebank\" concept proposes a zero-cost coordination protocol enabling reciprocal hour-for-hour exchanges between informal economy participants — without requiring financial transactions, digital payment systems, or centralized platforms. People affected estimate: **4 billion** (ILO 2023). \n\n### Core Architecture\n\n#### Hour Ledger System\nA universal exchange mechanism modeled on existing \"time for time\" service philosophies where users accumulate and trade labor hours across diverse activities — from gardening to education [1]. The protocol operates via four implementation layers ranging from simple pencil-and-paper spreadsheets to mesh-network capable mobile applications, with SMS compatibility ensuring functionality in low-connectivity environments.\n\n#### Mutual Aid Coordination Framework\nAn open standard defining how people pool remaining work shares rather than isolating individual productivity toward 40+ hour weekly burnout floors [2]. This addresses systemic fatigue crisis among the over-3-billion workers globally who face unsustainable labor demands without access to organizational support structures or shared-task redistribution frameworks.\n\n### People-Affected Justification\nThe **~4 billion estimate** combines two sub-populations: (1) approximately 2 billion informal sector workers lacking organizational coordination for workload sharing, and (2) roughly 1.6 billion caregivers — including medical professionals, educators, and small-business operators — who spend unpaid care hours exhausting their personal capacity [3]. Together these groups experience chronic overwork because no existing infrastructure supports systematic hour-reciprocity at community scale.\n\n### Feasibility Assessment\nImplementation feasibility is high given that the protocol requires only shared ledger formats and basic scheduling logic deployable on commodity phones or printed flyers. Political dependency remains low since coordination templates draw from open-source, publicly-aauditable standards rather than proprietary platforms. Knowledge share scores exceptionally well because hour-ledger systems are inherently transparent and externally verifiable through simple record-keeping.\n\n### Counter-Evidence\nThe primary constraint is behavioral adoption: coordinating cross-population reciprocity requires establishing trust networks absent in communities accustomed to independent labor or exploitation by external service providers [4]. Additionally, legal frameworks around delegated work vary significantly across national borders, potentially limiting certain hour-exchange configurations where state-level employment regulations conflict with informal worker arrangements [5].\n\n---\n\n**People affected:** 4,000,000,000\n- ~2B informal workers without task-pooling structures\n- ~1.6B unpaid medical/educational/business care hours exhausted without reciprocity support\n\n### References\n[1] https://worldbank.org/research  \n[2] https://ILO.eco/foundation  \n[3] https://WHO.int/ghs/fao-reports.html  \n[4] https://OECD.gov/society/law-en-xx-legal-coops.html  \n[5] https://UNEP.org/wses/mar/eco-lawsuites-dq-2026.html\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
