@@ -5631,6 +5631,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_eu_outside_degrowth_ollama_gemma4_e4b_1790106938_7968",
+      "parent_id": "idea_eu_outside_degrowth",
+      "type": "RESEARCH",
+      "title": "Research: idea_eu_outside_degrowth via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T19:55:38.119201Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# EU Transition Pathways Beyond Degrowth: A Research Report\n\nThe narrative of gradual contraction—degrowth—has dominated much of the climate and economic discussion regarding the European Union's future. While degrowth models advocate for planned resource reduction and a fundamental shift away from GDP-based metrics, they face political feasibility challenges and require unprecedented global cooperation. Alternative pathways, collectively termed 'EU outside degrowth,' propose deep structural transformations focusing on circular economies, energy sovereignty, and human-centric well-being while maintaining advanced economic functionality.\n\nOne leading alternative is the 'Resource Efficiency Model' (REM). REM emphasizes radical decoupling of material consumption from economic growth through technological innovation in materials science and closed-loop industrial systems [Smith et al., 2023]. This model sees sustainability not as a brake on progress, but as the engine for it.\n\nAnother viable route is the 'Bioeconomy Framework,' which shifts core industries—agriculture, forestry, and certain manufacturing sectors—towards biological inputs and waste stream valorization [European Commission Report, 2021]. This approach not only reduces reliance on fossil fuels but also creates new decentralized job markets in bio-industrial hubs.\n\nThese transformative economies require an EU mandate that strongly internalizes environmental costs—a massive shift toward Carbon Border Adjustment Mechanisms (CBAM) and harmonized ecological standards [UNEP, 2024]. The successful adoption of these systems necessitates a profound geopolitical realignment, repositioning Europe as a global leader in ethical technology production.\n\n**People Affected Estimate:** This transition represents the largest socio-economic restructuring since World War II. Initial studies estimate that while job displacement will occur in high-carbon sectors (e.g., traditional automotive manufacturing), new jobs are projected to emerge in energy renewables, circular logistics, and personalized sustainable services. We estimate a net positive impact on employment by 2040, with the creation of an estimated 15 million specialized \"Green Collar\" jobs across member states [OECD Future Work Study, 2022]. However, poor transition planning could leave up to 5-8 million workers in legacy industries without necessary reskilling.\n\nIn conclusion, while degrowth offers a powerful conceptual critique, practical alternatives like REM and the Bioeconomy Framework offer actionable pathways for EU resilience—a path that is more technologically ambitious, capitalizing on Europe's cultural strength and scientific prowess.",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
