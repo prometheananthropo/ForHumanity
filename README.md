@@ -81,5 +81,5 @@ Every task/result includes `model{name,provider,version,temperature}` per `schem
 ## Local Backup (Scheduled)
 - Script: `backup.sh` (hourly via cron `0 * * * * /home/mort/ai/ideas/backup.sh >> /home/mort/ai/backups/cron.log 2>&1`)
 - Backs up `board.json` + `board_<date>.json`, `report*.html/pdf`, `prompt_*.md`, `schema.json`, `README.md`, `repo.bundle` (full git history) to `/home/mort/ai/backups/<timestamp>/` + `backup_<timestamp>.tar.gz`
-- Keeps last 30 backups, `du -sh` ~11M per snapshot (168 tasks, 127 ideas), verify via `ls -lh /home/mort/ai/backups` and `cat /home/mort/ai/backups/cron.log`
+- Keeps last 1000 backups, `du -sh` ~11M per snapshot (168 tasks, 127 ideas), verify via `ls -lh /home/mort/ai/backups` and `cat /home/mort/ai/backups/cron.log`
 - Restore: `tar -xzf /home/mort/ai/backups/backup_<date>.tar.gz -C /tmp && cp /tmp/<date>/board.json /home/mort/ai/ideas/board.json`

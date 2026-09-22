@@ -21,8 +21,8 @@ cp "$SRC/README.md" "$BACKUP_DIR/" 2>/dev/null || true
 git -C "$SRC" bundle create "$BACKUP_DIR/repo.bundle" --all 2>&1 | head -5
 # Tar
 tar -czf "$DEST/backup_${DATE}.tar.gz" -C "$DEST" "$DATE" 2>&1 | head -5
-# Keep only last 30 backups (both dir and tar)
-ls -dt "$DEST"/20* 2>/dev/null | tail -n +31 | xargs -r rm -rf
-ls -dt "$DEST"/backup_*.tar.gz 2>/dev/null | tail -n +31 | xargs -r rm -f
+# Keep only last 1000 backups (both dir and tar)
+ls -dt "$DEST"/20* 2>/dev/null | tail -n +1001 | xargs -r rm -rf
+ls -dt "$DEST"/backup_*.tar.gz 2>/dev/null | tail -n +1001 | xargs -r rm -f
 ls -lh "$DEST" | tail -10
 echo "[$(date -Iseconds)] Backup done $BACKUP_DIR, size $(du -sh $BACKUP_DIR | cut -f1), tasks $(cat $SRC/board.json | python3 -c 'import json; print(len(json.load(open("board.json"))["tasks"]))' 2>&1)"
