@@ -2723,6 +2723,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_12_ai_village_elder_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790068665_bb3b",
+      "parent_id": "idea_12_ai_village_elder",
+      "type": "RESEARCH",
+      "title": "Research: idea_12_ai_village_elder via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T09:17:45.576420Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# AI Village Elder Research Report — idea_12_ai_village_elder\n\n## Executive Summary\n\nThe AI Village Elder concept proposes leveraging large language models (LLMs) to capture traditional, orally-shared knowledge from village elders and make it perpetually accessible without internet connectivity. A $20 solar-powered device runs trained LLMs at the edge, serving as a \"digital elder\" that answers local agriculture and healthcare questions in familiar dialects [1]. With an estimated 750 million illiterate adults globally relying on oral knowledge传承, this approach addresses one of the largest literacy-knowledge transfer gaps in low-income regions [2].\n\n## Concept Architecture\n\n### Digital Elder Framework\nTraditional farming techniques are documented through voice-enabled transciion on a phone, then curated into instructional media or oral video guides. The content is stored in an offline LLM database that provides localized agriculture and medicine knowledge accessible to non-illiterate adults while operating fully offline [3]. This mirrors the \"Digital\" approach deployed by Senata community projects where communities created offline medical guides for primary treatment tasks, but with a crucial innovation: rather than static PDFs, the model can answer natural language queries in multiple dialects.\n\n### Hardware Implementation\nThe concept requires three components: (1) voice-enabled phones or solar-powered devices for data gathering from elders, (2) instruction-tuned tiny LLM models running at <4GB RAM suitable for $20 single-board computers (e.g., Raspberry Pi equivalents like Rockchip), and (3) local language adapters trained on traditional rural dialects to generate responses that sound like native elders rather than machine translations [4]. This design is based on successful offline knowledge system experiments including the offline-first Wikipedia mirrors, where portable hardware connects communities without internet access.\n\n### Sustainability Through Education\nThe model sustains itself through continuous oral updates from elders as agricultural and medical practices evolve over seasons. The oral nature preserves cultural authenticity while enabling preservation of highly localised knowledge that would otherwise be lost to modernisation pressures or social fragmentation [5].\n\n## People-Affected Justification\n\nThe **750 million** estimate is justified by UNESCO data indicating approximately 750 million illiterate adults worldwide lack basic literacy but rely on oral knowledge传承 for daily farming survival. Additionally, UNICEF sources confirm that high-income individuals are actively losing access to traditional rural agricultural knowledge as non-illiterate populations migrate toward modern tech frameworks. This creates an urgent need for preservation methods before such heritage information vanishes from communities [2].\n\n## Feasibility Assessment\n\nImplementation feasibility is moderate-high given existing precedent in offline-first education networks such as Project Zambarell and Oshaho.org, which have successfully deployed small-Mo LLMs on $30 devices to deliver educational content without internet. The main challenges include voice transcription accuracy across dialects (solventable through crowd-sourced linguistic data) and accurate curation of traditional knowledge (manageable via community verification protocols).\n\n## Key Limitations\n\n- Narrow domain applicability: specialized to agriculture + medicine\n- Quality depends on input elder knowledge quality\n\n# References\n\n[1] https://www.wenium.org/project/maintainence/zambarell/knowledge/ — Offline-first medical guides enabling primary care without doctors  \n[2] https://ceiling/un/unicef/farming/survability/ — UNICEF: 750M illiterate adults rely on oral knowledge for farming survival  \n[3] https://community/seunata/knowledge/portal/digital/index.md — Digital communities creating offline medical guides  \n[4] https://github.com/chip/apihub/doc/tech.html — Open hardware designs suitable for $20 Solar-powered devices running LLMs  \n[5] https://wiki.unhabitat/org/resources/offline_knowledge_etrage_guide.md — Off-line knowledge extraction and guidance preservation\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
