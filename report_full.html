@@ -1,17 +1,19 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Humanity Board - Full Research Report 2026-09-22</title>
+<title>Humanity Board - Full Report 2026-09-22</title>
 <style>
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:1000px;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#111;background:#fff}
 header{border-bottom:3px solid #222;padding-bottom:1rem;margin-bottom:1.5rem}
 h1{margin:0;font-size:2rem}
 h2{margin-top:2.5rem;border-bottom:2px solid #222;padding-bottom:0.3rem}
 h3{margin-top:1.5rem}
-table{width:100%;border-collapse:collapse;font-size:0.85rem}
-th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:0.78rem}
+th,td{border:1px solid #ddd;padding:4px 6px;text-align:left}
 th{background:#111;color:#fff}
 tr:nth-child(even){background:#fafafa}
-.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:0.72rem;background:#eee}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:0.68rem;background:#eee}
 .badge.outside{background:#ffe8a3;border:1px solid #e6c200}
+.badge.region{background:#d4edda;border:1px solid #a3d9b1}
+.badge.notresearched{background:#f8d7da;border:1px solid #f5c6cb}
 .card{border:1px solid #ddd;border-radius:10px;padding:1.2rem;margin:1.2rem 0;background:#fff;page-break-inside:avoid}
 .research{border:1px solid #eee;border-radius:8px;padding:1rem;margin:1rem 0;background:#fafafa;page-break-inside:avoid}
 .meta{color:#555;font-size:0.82rem}
@@ -19,39 +21,141 @@ a{color:#0b57d0}
 pre{white-space:pre-wrap;background:#f6f8fa;padding:0.7rem;border-radius:6px;font-size:0.85rem;overflow:auto}
 .snapshot{background:#fff3cd;border:1px solid #ffe69c;padding:0.8rem;border-radius:6px;margin:1rem 0}
 </style></head><body>
-<header><h1>Humanity Living Conditions — Full Research Report</h1><div class='snapshot'><strong>Dated:</strong> 2026-09-22 (generated 2026-09-22T11:29:26.674713Z) — Static, not live. Includes only researched topics (26 of 127 IDEA have ≥1 RESEARCH). Board Live: <a href='https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json'>https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json</a> • Tasks: 169 • RESEARCH: 34 • Pseudonym: <code>npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp</code></div><p>Decentralized, pseudonymous — Full research details for all researched topics (26 IDEA). Unresearched 100 region topics excluded until they have ≥1 RESEARCH (check live board).</p></header>
-<h2>Ranked Table — Researched Topics Only</h2>
+<header><h1>Humanity Living Conditions — Full Report</h1><div class='snapshot'><strong>Dated:</strong> 2026-09-22 (generated 2026-09-22T11:33:59.939794Z) — Static snapshot. Board Live: <a href='https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json'>https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json</a> • Tasks: 170 • IDEA: 127 (25 global + 100 regional + 2 meta) • RESEARCH: 35 • Pseudonym: <code>npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp</code></div><p>Decentralized, pseudonymous — Entire list of 127 ideas ranked, but <strong>full detailed cards only for 27 researched topics</strong> (with complete research). 100 not yet researched show minimal info until researched.</p></header>
+<h2>Ranked Table — All 127 Ideas (Full List)</h2>
 <table><tr><th>Rank</th><th>Idea</th><th>Cat</th><th>Region</th><th>People</th><th>Final</th><th>Res</th><th>Flags</th></tr>
-<tr><td>1</td><td>Community health worker offline wiki (diagnosis + treatment </td><td>health</td><td><span class="badge">Global</span></td><td>3.0B</td><td><strong>39.2</strong></td><td>1</td><td></td></tr>
-<tr><td>2</td><td>Rainwater harvesting + biosand filter open hardware (safe wa</td><td>water</td><td><span class="badge">Global</span></td><td>2.0B</td><td><strong>38.9</strong></td><td>1</td><td></td></tr>
-<tr><td>3</td><td>[OUTSIDE BOX] Community land trust via QR deed commons (de-c</td><td>housing</td><td><span class="badge">Global</span></td><td>1.6B</td><td><strong>37.0</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>4</td><td>Solar microgrid DIY kit (open source, village-scale, repaira</td><td>energy</td><td><span class="badge">Global</span></td><td>2.0B</td><td><strong>34.6</strong></td><td>2</td><td></td></tr>
-<tr><td>5</td><td>DIY mycelium + earth brick construction manual (grows housin</td><td>housing</td><td><span class="badge">Global</span></td><td>1.6B</td><td><strong>34.3</strong></td><td>1</td><td></td></tr>
-<tr><td>6</td><td>[OUTSIDE BOX] Un-jobs: 15hr work week via shared automation </td><td>work</td><td><span class="badge">Global</span></td><td>3.0B</td><td><strong>34.2</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>7</td><td>Peer mental health support protocol (non-clinical, community</td><td>health</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>34.2</strong></td><td>1</td><td></td></tr>
-<tr><td>8</td><td>Open hardware hearing aids / glasses ($5, repairable)</td><td>health</td><td><span class="badge">Global</span></td><td>1.5B</td><td><strong>33.9</strong></td><td>1</td><td></td></tr>
-<tr><td>9</td><td>[OUTSIDE BOX] AI village elder - offline LLM on $20 device t</td><td>education</td><td><span class="badge">Global</span></td><td>750M</td><td><strong>33.2</strong></td><td>2</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>10</td><td>Decentralized childcare co-ops coordination kit</td><td>community</td><td><span class="badge">Global</span></td><td>500M</td><td><strong>32.9</strong></td><td>1</td><td></td></tr>
-<tr><td>11</td><td>[OUTSIDE BOX] Legal loophole library: how to legally reuse v</td><td>housing</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>32.7</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>12</td><td>Timebank + mutual aid coordination protocol (no money, hour-</td><td>work</td><td><span class="badge">Global</span></td><td>4.0B</td><td><strong>32.3</strong></td><td>1</td><td></td></tr>
-<tr><td>13</td><td>Local food preservation &amp; fermentation knowledge base (reduc</td><td>food</td><td><span class="badge">Global</span></td><td>2.5B</td><td><strong>32.0</strong></td><td>2</td><td></td></tr>
-<tr><td>14</td><td>Open-source menstrual health + reusable product guides (affe</td><td>health</td><td><span class="badge">Global</span></td><td>1.9B</td><td><strong>31.7</strong></td><td>2</td><td></td></tr>
-<tr><td>15</td><td>[OUTSIDE BOX] Mycelial sneaker-net: USB stick + human mesh, </td><td>education</td><td><span class="badge">Global</span></td><td>2.6B</td><td><strong>31.5</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>16</td><td>Passive cooling retrofit guides for extreme heat (reflective</td><td>housing</td><td><span class="badge">Global</span></td><td>2.0B</td><td><strong>30.3</strong></td><td>2</td><td></td></tr>
-<tr><td>17</td><td>Offline-first P2P education mesh (IPFS textbooks on $20 phon</td><td>education</td><td><span class="badge">Global</span></td><td>3.0B</td><td><strong>30.3</strong></td><td>2</td><td></td></tr>
-<tr><td>18</td><td>Voice-to-text oral history archiving for low-literacy commun</td><td>education</td><td><span class="badge">Global</span></td><td>750M</td><td><strong>30.3</strong></td><td>1</td><td></td></tr>
-<tr><td>19</td><td>Cooperative housing + tenant rights legal templates (50 coun</td><td>housing</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>29.7</strong></td><td>1</td><td></td></tr>
-<tr><td>20</td><td>Debt jubilee toolkit + collective bargaining templates</td><td>cost_of_living</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>1</td><td></td></tr>
-<tr><td>21</td><td>[CN] Aging + 4-2-1 family (300M over 60, 100M only child) - </td><td>health</td><td><span class="badge">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>1</td><td></td></tr>
-<tr><td>22</td><td>[OUTSIDE BOX] Nighttime commons - reclaim streets 22:00-06:0</td><td>housing</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>28.2</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>23</td><td>Community tool libraries + repair cafés network template (ph</td><td>cost_of_living</td><td><span class="badge">Global</span></td><td>1.5B</td><td><strong>27.7</strong></td><td>2</td><td></td></tr>
-<tr><td>24</td><td>[OUTSIDE BOX] Children-designed neighborhoods (design briefs</td><td>community</td><td><span class="badge">Global</span></td><td>2.0B</td><td><strong>27.1</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
-<tr><td>25</td><td>Urban foraging &amp; food forest maps + planting guides for citi</td><td>food</td><td><span class="badge">Global</span></td><td>1.0B</td><td><strong>27.0</strong></td><td>2</td><td></td></tr>
-<tr><td>26</td><td>[OUTSIDE BOX] Gift economy app where money expires after 30 </td><td>work</td><td><span class="badge">Global</span></td><td>2.0B</td><td><strong>26.2</strong></td><td>1</td><td><span class="badge outside">outside</span></td></tr>
+<tr><td>1</td><td>Community health worker offline wiki (diagnosis + treatment </td><td>health</td><td><span class="badge region">Global/Meta</span></td><td>3.0B</td><td><strong>39.2</strong></td><td>1</td><td> </td></tr>
+<tr><td>2</td><td>Rainwater harvesting + biosand filter open hardware (safe wa</td><td>water</td><td><span class="badge region">Global/Meta</span></td><td>2.0B</td><td><strong>38.9</strong></td><td>1</td><td> </td></tr>
+<tr><td>3</td><td>[OUTSIDE BOX] Community land trust via QR deed commons (de-c</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>1.6B</td><td><strong>37.0</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>4</td><td>Solar microgrid DIY kit (open source, village-scale, repaira</td><td>energy</td><td><span class="badge region">Global/Meta</span></td><td>2.0B</td><td><strong>34.6</strong></td><td>2</td><td> </td></tr>
+<tr><td>5</td><td>DIY mycelium + earth brick construction manual (grows housin</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>1.6B</td><td><strong>34.3</strong></td><td>1</td><td> </td></tr>
+<tr><td>6</td><td>[OUTSIDE BOX] Un-jobs: 15hr work week via shared automation </td><td>work</td><td><span class="badge region">Global/Meta</span></td><td>3.0B</td><td><strong>34.2</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>7</td><td>Peer mental health support protocol (non-clinical, community</td><td>health</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>34.2</strong></td><td>1</td><td> </td></tr>
+<tr><td>8</td><td>[USA][OUTSIDE BOX] UBI via Alaska Fund expansion - dividend </td><td>work</td><td><span class="badge region">USA</span></td><td>2.0B</td><td><strong>34.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>9</td><td>[EU][OUTSIDE BOX] EU-wide UBI via carbon dividend - climate </td><td>work</td><td><span class="badge region">EU</span></td><td>2.0B</td><td><strong>34.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>10</td><td>[EU][OUTSIDE BOX] Permanent citizens&#x27; assemblies sortition -</td><td>community</td><td><span class="badge region">EU</span></td><td>2.0B</td><td><strong>34.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>11</td><td>[CN][OUTSIDE BOX] Great Wall mesh - delay-tolerant USB + hum</td><td>education</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>34.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>12</td><td>[CN][OUTSIDE BOX] Social credit flip - community trust timeb</td><td>community</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>34.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>13</td><td>Open hardware hearing aids / glasses ($5, repairable)</td><td>health</td><td><span class="badge region">Global/Meta</span></td><td>1.5B</td><td><strong>33.9</strong></td><td>1</td><td> </td></tr>
+<tr><td>14</td><td>[META] Generate 10 new research topics - think deeply, indir</td><td>meta</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>33.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>15</td><td>[USA][OUTSIDE BOX] Free fare transit + fare strike</td><td>housing</td><td><span class="badge region">USA</span></td><td>1.5B</td><td><strong>33.6</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>16</td><td>[EU][OUTSIDE BOX] Energy as commons - remunicipalize + free </td><td>energy</td><td><span class="badge region">EU</span></td><td>1.5B</td><td><strong>33.6</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>17</td><td>[OUTSIDE BOX] AI village elder - offline LLM on $20 device t</td><td>education</td><td><span class="badge region">Global/Meta</span></td><td>750M</td><td><strong>33.2</strong></td><td>2</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>18</td><td>[USA][OUTSIDE BOX] Platform co-op to replace Uber/Doordash -</td><td>work</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>19</td><td>[USA][OUTSIDE BOX] Student debt strike + rolling jubilee</td><td>cost_of_living</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>20</td><td>[EU][OUTSIDE BOX] EU rent cap + vacancy expropriation</td><td>housing</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>21</td><td>[EU][OUTSIDE BOX] Degrowth + 20h week via work-sharing</td><td>work</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>22</td><td>[EU][OUTSIDE BOX] No borders + freedom of movement kits</td><td>community</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>23</td><td>[RU][OUTSIDE BOX] Commons rewilding + free energy from gas f</td><td>energy</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>24</td><td>[RU][OUTSIDE BOX] Mir-style timebank - hour ruble</td><td>work</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>25</td><td>[RU][OUTSIDE BOX] Nuclear as commons - community small modul</td><td>energy</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>26</td><td>[RU][OUTSIDE BOX] Anti-war + draft resistance guides</td><td>community</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>27</td><td>[RU][OUTSIDE BOX] Soviet repair culture revival - fix, not b</td><td>cost_of_living</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>28</td><td>[RU][OUTSIDE BOX] Permafrost as commons - biochar to stabili</td><td>water</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>29</td><td>[CN][OUTSIDE BOX] Lying flat + 4-day week via shared automat</td><td>work</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>30</td><td>[CN][OUTSIDE BOX] Danwei as commons - work unit co-ops + fre</td><td>housing</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>31</td><td>[CN][OUTSIDE BOX] Shanzhai as open hardware - copy, not buy</td><td>cost_of_living</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>32</td><td>[CN][OUTSIDE BOX] Community canteens + free baseline rice</td><td>food</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>33</td><td>[CN][OUTSIDE BOX] Tofu-dreg retrofit - citizen mycelium + ea</td><td>housing</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>33.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>34</td><td>Decentralized childcare co-ops coordination kit</td><td>community</td><td><span class="badge region">Global/Meta</span></td><td>500M</td><td><strong>32.9</strong></td><td>1</td><td> </td></tr>
+<tr><td>35</td><td>[OUTSIDE BOX] Legal loophole library: how to legally reuse v</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>32.7</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>36</td><td>[RU][OUTSIDE BOX] Dacha as commons - expand 50M dachas to co</td><td>food</td><td><span class="badge region">RU</span></td><td>800M</td><td><strong>32.7</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>37</td><td>Timebank + mutual aid coordination protocol (no money, hour-</td><td>work</td><td><span class="badge region">Global/Meta</span></td><td>4.0B</td><td><strong>32.3</strong></td><td>1</td><td> </td></tr>
+<tr><td>38</td><td>[USA][OUTSIDE BOX] Land Back + Indigenous co-management</td><td>community</td><td><span class="badge region">USA</span></td><td>500M</td><td><strong>32.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>39</td><td>[RU][OUTSIDE BOX] Siberian mesh - delay-tolerant USB + reind</td><td>education</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>32.0</strong></td><td>0</td><td><span class="badge outside">outside</span> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>40</td><td>Local food preservation &amp; fermentation knowledge base (reduc</td><td>food</td><td><span class="badge region">Global/Meta</span></td><td>2.5B</td><td><strong>32.0</strong></td><td>2</td><td> </td></tr>
+<tr><td>41</td><td>Open-source menstrual health + reusable product guides (affe</td><td>health</td><td><span class="badge region">Global/Meta</span></td><td>1.9B</td><td><strong>31.7</strong></td><td>2</td><td> </td></tr>
+<tr><td>42</td><td>[OUTSIDE BOX] Mycelial sneaker-net: USB stick + human mesh, </td><td>education</td><td><span class="badge region">Global/Meta</span></td><td>2.6B</td><td><strong>31.5</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>43</td><td>[USA] Polarization + misinformation (240M voters) - depolari</td><td>community</td><td><span class="badge region">USA</span></td><td>3.0B</td><td><strong>30.7</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>44</td><td>[USA] Big Tech surveillance (300M users) - Fediverse</td><td>education</td><td><span class="badge region">USA</span></td><td>3.0B</td><td><strong>30.7</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>45</td><td>[EU] Digital divide + GDPR (20M offline) - mesh + data co-op</td><td>education</td><td><span class="badge region">EU</span></td><td>3.0B</td><td><strong>30.7</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>46</td><td>[CN] Coal + 60% energy (1B dependent) - community solar + re</td><td>energy</td><td><span class="badge region">CN</span></td><td>3.0B</td><td><strong>30.7</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>47</td><td>Passive cooling retrofit guides for extreme heat (reflective</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>2.0B</td><td><strong>30.3</strong></td><td>2</td><td> </td></tr>
+<tr><td>48</td><td>Offline-first P2P education mesh (IPFS textbooks on $20 phon</td><td>education</td><td><span class="badge region">Global/Meta</span></td><td>3.0B</td><td><strong>30.3</strong></td><td>2</td><td> </td></tr>
+<tr><td>49</td><td>[META] Refine indirect impact estimates - think deeply about</td><td>meta</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>30.3</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>50</td><td>Voice-to-text oral history archiving for low-literacy commun</td><td>education</td><td><span class="badge region">Global/Meta</span></td><td>750M</td><td><strong>30.3</strong></td><td>1</td><td> </td></tr>
+<tr><td>51</td><td>[USA] Medical debt $88B - transparent pricing + mutual aid</td><td>health</td><td><span class="badge region">USA</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>52</td><td>[USA] Supply chain fragility (100M workers) - local manufact</td><td>work</td><td><span class="badge region">USA</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>53</td><td>[USA] Aging grid - community solar + V2G for 130M households</td><td>energy</td><td><span class="badge region">USA</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>54</td><td>[USA] Wage stagnation + gig precarity (60M) - worker co-ops</td><td>work</td><td><span class="badge region">USA</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>55</td><td>[EU] Disinfo + far-right (100M targeted) - media literacy + </td><td>community</td><td><span class="badge region">EU</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>56</td><td>[CN] Housing bubble + ghost cities (100M overleveraged) - co</td><td>housing</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>57</td><td>[CN] Food security + pork cycle (800M smallholders) - food f</td><td>food</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>58</td><td>[CN] Air pollution + 1M deaths - citizen sensors + car-free</td><td>health</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>1</td><td> </td></tr>
+<tr><td>59</td><td>[CN] Surveillance + social credit (1B users) - mesh + data c</td><td>education</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>60</td><td>[CN] Local gov debt $9T + LGFV (100M affected) - debtors uni</td><td>cost_of_living</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>61</td><td>[CN] Transport + car surge (300M car owners) - bike co-ops +</td><td>housing</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>62</td><td>[CN] Censorship + Great Firewall (1B users) - mesh + sneaker</td><td>education</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>63</td><td>[CN] Factory conditions + 100M workers - worker co-ops + tim</td><td>work</td><td><span class="badge region">CN</span></td><td>2.0B</td><td><strong>30.2</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>64</td><td>[USA] Wildfire/hurricane (60M at risk) - firewise + microgri</td><td>housing</td><td><span class="badge region">USA</span></td><td>1.5B</td><td><strong>29.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>65</td><td>[USA] Car dependency (100M transit deserts) - bike co-ops</td><td>housing</td><td><span class="badge region">USA</span></td><td>1.5B</td><td><strong>29.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>66</td><td>[EU] Energy crisis + Nord Stream - community energy + retrof</td><td>energy</td><td><span class="badge region">EU</span></td><td>1.5B</td><td><strong>29.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>67</td><td>[EU] Transit + car-free cities (100M car-dependent) - bike c</td><td>housing</td><td><span class="badge region">EU</span></td><td>1.5B</td><td><strong>29.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>68</td><td>[RU] Energy + sanctions (100M dependent) - community microgr</td><td>energy</td><td><span class="badge region">RU</span></td><td>1.5B</td><td><strong>29.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>69</td><td>Cooperative housing + tenant rights legal templates (50 coun</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>29.7</strong></td><td>1</td><td> </td></tr>
+<tr><td>70</td><td>[USA] Coastal housing affordability (NYC/SF/LA) - CLT + miss</td><td>housing</td><td><span class="badge region">USA</span></td><td>1.2B</td><td><strong>29.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>71</td><td>Debt jubilee toolkit + collective bargaining templates</td><td>cost_of_living</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>1</td><td> </td></tr>
+<tr><td>72</td><td>[USA] Crumbling infrastructure (200M, ASCE D+) - citizen sen</td><td>water</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>73</td><td>[USA] Food deserts (40M) - urban food forests</td><td>food</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>74</td><td>[USA] Mental health + opioid (50M) - peer support + harm red</td><td>health</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>75</td><td>[USA] Rural broadband gap (30M) - mesh + TV white space</td><td>education</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>76</td><td>[USA] Climate migration Sun Belt (10M moved) - managed retre</td><td>housing</td><td><span class="badge region">USA</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>77</td><td>[EU] Aging + care crisis (100M over 65, 50M caregivers) - co</td><td>health</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>78</td><td>[EU] Migration + integration (30M migrants, 5M refugees) - c</td><td>community</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>79</td><td>[EU] CAP + food system (30M small farmers) - food forests + </td><td>food</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>80</td><td>[EU] Debt + austerity (100M at risk poverty) - debtors union</td><td>cost_of_living</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>81</td><td>[EU] Air pollution (300k deaths) - citizen sensors + car-fre</td><td>health</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>82</td><td>[EU] Mental health + loneliness (30M) - peer circles + timeb</td><td>health</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>83</td><td>[EU] Drought + water (100M water-stressed) - rainwater + gre</td><td>water</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>84</td><td>[EU] Biodiversity loss + rewilding (50M farmers affected) - </td><td>food</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>85</td><td>[EU] Pension crisis (100M retirees) - timebank + intergenera</td><td>community</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>86</td><td>[EU] Bureaucracy + admin burden (200M) - open guides + mutua</td><td>work</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>87</td><td>[EU] Heatwave + 2022 60k deaths - passive cooling + communit</td><td>housing</td><td><span class="badge region">EU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>88</td><td>[RU] Demographics collapse (1M excess deaths, 700k emigratio</td><td>health</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>89</td><td>[RU] Rural healthcare gap (40M villages) - offline wiki + me</td><td>health</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>90</td><td>[RU] Food security + import dependence (30M smallholders) - </td><td>food</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>91</td><td>[RU] Water + Arctic thaw (20M Arctic) - rainwater + biochar</td><td>water</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>92</td><td>[RU] Corruption + bureaucracy (100M) - open guides + mutual </td><td>work</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>93</td><td>[RU] Mental health + alcohol (30M) - peer circles + harm red</td><td>health</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>94</td><td>[RU] Transport + vast distances (50M remote) - mesh + timeba</td><td>housing</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>95</td><td>[RU] Censorship + Runet (100M users) - mesh + sneakernet</td><td>education</td><td><span class="badge region">RU</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>96</td><td>[CN] Aging + 4-2-1 family (300M over 60, 100M only child) - </td><td>health</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>1</td><td> </td></tr>
+<tr><td>97</td><td>[CN] Rural healthcare gap (500M rural) - barefoot doctor 2.0</td><td>health</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>98</td><td>[CN] Water crisis + South-North (400M water-stressed) - rain</td><td>water</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>99</td><td>[CN] Migrant workers 300M - mutual aid + mesh + timebank</td><td>community</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>100</td><td>[CN] Mental health + 996 (50M) - peer circles + 4-day week</td><td>health</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>101</td><td>[CN] Biodiversity + Yangtze (50M fishermen) - rewilding + fo</td><td>food</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>102</td><td>[CN] Pension gap + 300M retirees - timebank + co-housing</td><td>community</td><td><span class="badge region">CN</span></td><td>1.0B</td><td><strong>29.4</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>103</td><td>[USA] Student debt $1.7T (43M) - IDR + co-op peer learning</td><td>cost_of_living</td><td><span class="badge region">USA</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>104</td><td>[USA] Vacant homes 10M vs 600k homeless - vacancy tax + CLT</td><td>housing</td><td><span class="badge region">USA</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>105</td><td>[EU] Housing crisis (Paris/Berlin 40% rent) - Mietshäuser + </td><td>housing</td><td><span class="badge region">EU</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>106</td><td>[EU] University cost + Bologna (20M students) - P2P mesh + O</td><td>education</td><td><span class="badge region">EU</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>107</td><td>[EU] Overtourism + housing (50M locals displaced) - communit</td><td>housing</td><td><span class="badge region">EU</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>108</td><td>[RU] Housing decay (Khrushchyovka, 20M) - DIY retrofit + myc</td><td>housing</td><td><span class="badge region">RU</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>109</td><td>[CN] Gaokao pressure + 50M students - P2P mesh + peer learni</td><td>education</td><td><span class="badge region">CN</span></td><td>800M</td><td><strong>29.1</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>110</td><td>[USA] Childcare $10k/yr (20M families) - co-ops</td><td>community</td><td><span class="badge region">USA</span></td><td>600M</td><td><strong>28.8</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>111</td><td>[EU] Youth unemployment 15% (15M NEET) - timebank + peer lea</td><td>work</td><td><span class="badge region">EU</span></td><td>600M</td><td><strong>28.8</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>112</td><td>[CN] Youth unemployment 20% (15M) - timebank + peer mesh</td><td>work</td><td><span class="badge region">CN</span></td><td>600M</td><td><strong>28.8</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>113</td><td>[USA] Gun violence + school lockdowns (50M students) - Cure </td><td>health</td><td><span class="badge region">USA</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>114</td><td>[USA] Mass incarceration (2.3M +10M) - restorative justice</td><td>community</td><td><span class="badge region">USA</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>115</td><td>[RU] Brain drain (1M emigrated) - P2P mesh + open science</td><td>education</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>116</td><td>[RU] Pension + aging (30M retirees) - intergenerational co-h</td><td>community</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>117</td><td>[RU] Environment + Norilsk (20M polluted) - citizen sensors</td><td>health</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>118</td><td>[RU] Youth + conscription (15M youth) - peer support + alter</td><td>community</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>119</td><td>[RU] Energy efficiency -66C (50M in Siberia) - passive retro</td><td>housing</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>120</td><td>[RU] Debt + microfinance (20M) - debtors unions</td><td>cost_of_living</td><td><span class="badge region">RU</span></td><td>500M</td><td><strong>28.6</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>121</td><td>[OUTSIDE BOX] Nighttime commons - reclaim streets 22:00-06:0</td><td>housing</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>28.2</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>122</td><td>[USA] Veteran care gap (18M) - peer support</td><td>health</td><td><span class="badge region">USA</span></td><td>300M</td><td><strong>27.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>123</td><td>[RU] Indigenous + Siberia (2M) - oral history + offline LLM</td><td>education</td><td><span class="badge region">RU</span></td><td>300M</td><td><strong>27.9</strong></td><td>0</td><td> <span class="badge notresearched">not researched</span></td></tr>
+<tr><td>124</td><td>Community tool libraries + repair cafés network template (ph</td><td>cost_of_living</td><td><span class="badge region">Global/Meta</span></td><td>1.5B</td><td><strong>27.7</strong></td><td>2</td><td> </td></tr>
+<tr><td>125</td><td>[OUTSIDE BOX] Children-designed neighborhoods (design briefs</td><td>community</td><td><span class="badge region">Global/Meta</span></td><td>2.0B</td><td><strong>27.1</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
+<tr><td>126</td><td>Urban foraging &amp; food forest maps + planting guides for citi</td><td>food</td><td><span class="badge region">Global/Meta</span></td><td>1.0B</td><td><strong>27.0</strong></td><td>2</td><td> </td></tr>
+<tr><td>127</td><td>[OUTSIDE BOX] Gift economy app where money expires after 30 </td><td>work</td><td><span class="badge region">Global/Meta</span></td><td>2.0B</td><td><strong>26.2</strong></td><td>1</td><td><span class="badge outside">outside</span> </td></tr>
 </table>
-<h2>Detailed Cards — All 26 Researched Topics (Full Research)</h2>
-<div class='card'><h3>#1 Community health worker offline wiki (diagnosis + treatment guides for common issues) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_06_community_health_wiki</code> • Category: <b>health</b> • People: <b>3.0B</b> (WHO 2023: 3B lack access to essential health services) • Final <b>39.2</b> • Model: human-seed</div>
+<h2>Detailed Cards — Full Research Only for 27 Researched Topics</h2>
+<p class='meta'>Showing complete research details for 27 topics with ≥1 RESEARCH. 100 topics not yet researched are listed in ranked table above with minimal info - they will appear here with full research once researched via nightly loop.</p>
+<div class='card'><h3>#1 Community health worker offline wiki (diagnosis + treatment guides for common issues) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_06_community_health_wiki</code> • Category: <b>health</b> • People: <b>3.0B</b> (WHO 2023: 3B lack access to essential health services) • Final <b>39.2</b> • Res: 1</div>
 <p><strong>Body:</strong> Offline-first wiki for 80% of primary care that doesn&#x27;t need doctor. Based on WHO guidelines.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_06_community_health_wiki_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790066850_2e80</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T08:47:30.160725Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Community Health Worker Offline Wiki (idea_06_community_health_wiki)
@@ -104,8 +208,8 @@ The **~3 billion estimate** derives from the population of individuals lacking a
 </pre>
 </div>
 </div>
-<div class='card'><h3>#2 Rainwater harvesting + biosand filter open hardware (safe water without pipes) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_07_rainwater_biosand</code> • Category: <b>water</b> • People: <b>2.0B</b> (UNICEF 2023: 2B lack safely managed drinking water) • Final <b>38.9</b> • Model: human-seed</div>
+<div class='card'><h3>#2 Rainwater harvesting + biosand filter open hardware (safe water without pipes) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_07_rainwater_biosand</code> • Category: <b>water</b> • People: <b>2.0B</b> (UNICEF 2023: 2B lack safely managed drinking water) • Final <b>38.9</b> • Res: 1</div>
 <p><strong>Body:</strong> Build from local sand/gravel/barrels. Guide + maintenance schedule.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_07_rainwater_biosand_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790057779_7eb7</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T06:16:19.162139Z • Citations: https://un.org, https://who.int</div>
 <pre># Research: Rainwater Harvesting + Biosand Filter Open Hardware (idea_07_rainwater_biosand)
@@ -155,8 +259,8 @@ A printable maintenance guide and schematic enabling community-scale potable wat
 </pre>
 </div>
 </div>
-<div class='card'><h3>#3 [OUTSIDE BOX] Community land trust via QR deed commons (de-commodify housing) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_11_land_trust_qr</code> • Category: <b>housing</b> • People: <b>1.6B</b> (UN Habitat inadequate housing + speculative vacancy 10-15% in major cities) • Final <b>37.0</b> • Model: human-seed</div>
+<div class='card'><h3>#3 [OUTSIDE BOX] Community land trust via QR deed commons (de-commodify housing) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_11_land_trust_qr</code> • Category: <b>housing</b> • People: <b>1.6B</b> (UN Habitat inadequate housing + speculative vacancy 10-15% in major cities) • Final <b>37.0</b> • Res: 1</div>
 <p><strong>Body:</strong> Remove land from market: QR-coded commons deed, community votes on use. Legal hacks + case studies (e.g., Oakland CLT). Inverts ownership.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_11_land_trust_qr_ollama_gemma4_e4b_1790058925_241e</code> • Model: gemma4:e4b (ollama) • Status: open • Created: 2026-09-22T06:35:25.140091Z • Citations: https://un.org, https://who.int</div>
 <pre>## Research Report: Idea 11 - Land Trust QR Code Initiative
@@ -183,8 +287,8 @@ By adopting QR codes, land trusts can transform passive stewardship into active 
 3. Local Government Audit. (2021). *Urban Green Space Valuation Reports*. Municipal Planning Documents.</pre>
 </div>
 </div>
-<div class='card'><h3>#4 Solar microgrid DIY kit (open source, village-scale, repairable) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_09_solar_microgrid_diy</code> • Category: <b>energy</b> • People: <b>2.0B</b> (IEA 2023: 760M no electricity, 2B unreliable) • Final <b>34.6</b> • Model: human-seed</div>
+<div class='card'><h3>#4 Solar microgrid DIY kit (open source, village-scale, repairable) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_09_solar_microgrid_diy</code> • Category: <b>energy</b> • People: <b>2.0B</b> (IEA 2023: 760M no electricity, 2B unreliable) • Final <b>34.6</b> • Res: 2</div>
 <p><strong>Body:</strong> Schematics + sourcing + safety guide for 1-10kW microgrids from used panels.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_09_solar_microgrid_diy_ollama_qwen3.5_9b_1790058386_652e</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T06:26:26.780988Z • Citations: https://un.org, https://who.int</div>
 <pre># Solar Microgrid DIY Kit: Village-Scale Replicable Energy Access
@@ -270,8 +374,8 @@ The **~2 billion estimate** encompasses two sub-populations: (1) 760M people wit
 </pre>
 </div>
 </div>
-<div class='card'><h3>#5 DIY mycelium + earth brick construction manual (grows housing material) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_04_mycelium_earth_brick</code> • Category: <b>housing</b> • People: <b>1.6B</b> (UN Habitat 2023: 1.6B in inadequate housing) • Final <b>34.3</b> • Model: human-seed</div>
+<div class='card'><h3>#5 DIY mycelium + earth brick construction manual (grows housing material) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_04_mycelium_earth_brick</code> • Category: <b>housing</b> • People: <b>1.6B</b> (UN Habitat 2023: 1.6B in inadequate housing) • Final <b>34.3</b> • Res: 1</div>
 <p><strong>Body:</strong> Grow bricks from mycelium/straw/earth, no cement, low cost. Open hardware molds.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_04_mycelium_earth_brick_ollama_qwen3.5_9b_1790073453_9f01</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T10:37:33.557412Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: DIY Mycelium + Earth Brick Construction Manual (IDEA 04)
@@ -314,8 +418,8 @@ https://unhabitat.org/housing-statistics-and-data/
 </pre>
 </div>
 </div>
-<div class='card'><h3>#6 [OUTSIDE BOX] Un-jobs: 15hr work week via shared automation guides — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_16_unjobs_15hr</code> • Category: <b>work</b> • People: <b>3.0B</b> (ILO 3B workers, avg 40+ hr, burnout crisis) • Final <b>34.2</b> • Model: human-seed</div>
+<div class='card'><h3>#6 [OUTSIDE BOX] Un-jobs: 15hr work week via shared automation guides — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_16_unjobs_15hr</code> • Category: <b>work</b> • People: <b>3.0B</b> (ILO 3B workers, avg 40+ hr, burnout crisis) • Final <b>34.2</b> • Res: 1</div>
 <p><strong>Body:</strong> Open guides to automate local jobs (e.g., auto irrigation, auto accounting) and share remaining work. Based on Keynes 15hr prediction.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_16_unjobs_15hr_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790060470_6a12</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T07:01:10.327349Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Un-Jobs — 15hr Work Week via Shared Automation Guides (idea_16_unjobs_15hr)
@@ -366,8 +470,8 @@ If viable, un-jobs represent one of the highest-leverage interventions for reduc
 </pre>
 </div>
 </div>
-<div class='card'><h3>#7 Peer mental health support protocol (non-clinical, community circles) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_20_peer_mental_health</code> • Category: <b>health</b> • People: <b>1.0B</b> (WHO: 1B with mental disorder, 75% no care) • Final <b>34.2</b> • Model: human-seed</div>
+<div class='card'><h3>#7 Peer mental health support protocol (non-clinical, community circles) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_20_peer_mental_health</code> • Category: <b>health</b> • People: <b>1.0B</b> (WHO: 1B with mental disorder, 75% no care) • Final <b>34.2</b> • Res: 1</div>
 <p><strong>Body:</strong> Training + scripts for listening circles, no therapist needed. Based on WHO mhGAP community.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_20_peer_mental_health_ollama_qwen3.5_9b_1790075137_8387</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T11:05:37.010101Z • Citations: https://un.org, https://who.int</div>
 <pre># Research idea_20_peer_mental_health
@@ -376,8 +480,8 @@ Mock - will retry next cycle.
 </pre>
 </div>
 </div>
-<div class='card'><h3>#8 Open hardware hearing aids / glasses ($5, repairable) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_23_hearing_vision_hardware</code> • Category: <b>health</b> • People: <b>1.5B</b> (WHO: 1.5B hearing loss, 2.2B vision impairment) • Final <b>33.9</b> • Model: human-seed</div>
+<div class='card'><h3>#13 Open hardware hearing aids / glasses ($5, repairable) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_23_hearing_vision_hardware</code> • Category: <b>health</b> • People: <b>1.5B</b> (WHO: 1.5B hearing loss, 2.2B vision impairment) • Final <b>33.9</b> • Res: 1</div>
 <p><strong>Body:</strong> e.g., open hearing aid from Georgia Tech, glasses via self-adjustable lenses. Assembly guide.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_23_hearing_vision_hardware_ollama_qwen3.5_9b_1790071788_f6e2</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T10:09:48.709363Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Open Hardware Hearing Aids &amp; Glasses (IDEA 23)
@@ -422,8 +526,8 @@ Open hardware approaches promise transformative accessibility improvements with 
 [4] WHO International Year of Open Science 2025 frameworks supporting open hardware medical devices prioritizing accessibility affordability availability quality assurance ensuring user benefit without compromising regulatory compliance standards required globally across multiple jurisdictions harmonization efforts reducing duplicate testing costs while maintaining patient protection levels commensurate with clinical evidence demonstrating harm reduction benefits achievable via widespread device distribution reaching underserved populations experiencing disproportionate burden from current market limitations restricting access based primarily on ability pay prohibitive amounts beyond household budget capacity leaving millions unable obtain devices critical for daily functioning independent mobility communication participation educational employment opportunities otherwise unavailable without proper assistive technology support provided commercially at premium prices that exclude low income users regardless geographic location necessitating alternative solutions leveraging open source principles prioritizing humanity needs above corporate profits currently driving ma</pre>
 </div>
 </div>
-<div class='card'><h3>#9 [OUTSIDE BOX] AI village elder - offline LLM on $20 device trained on elders&#x27; knowledge — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_12_ai_village_elder</code> • Category: <b>education</b> • People: <b>750M</b> (UNESCO 750M illiterate adults rely on oral knowledge) • Final <b>33.2</b> • Model: human-seed</div>
+<div class='card'><h3>#17 [OUTSIDE BOX] AI village elder - offline LLM on $20 device trained on elders&#x27; knowledge — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_12_ai_village_elder</code> • Category: <b>education</b> • People: <b>750M</b> (UNESCO 750M illiterate adults rely on oral knowledge) • Final <b>33.2</b> • Res: 2</div>
 <p><strong>Body:</strong> Record oral knowledge, fine-tune tiny LLM, runs on solar phone without internet. Preserves + shares local agriculture/medicine.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_12_ai_village_elder_ollama_qwen3.5_9b_1790059377_0e7e</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T06:42:57.491299Z • Citations: https://un.org, https://who.int</div>
 <pre># AI Village Elder — Comprehensive Research Report on Offline LLMs for Local Knowledge Preservation
@@ -523,8 +627,8 @@ Implementation feasibility is moderate-high given existing precedent in offline-
 </pre>
 </div>
 </div>
-<div class='card'><h3>#10 Decentralized childcare co-ops coordination kit <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_22_childcare_coops</code> • Category: <b>community</b> • People: <b>500M</b> (ILO: 500M parents lack childcare) • Final <b>32.9</b> • Model: human-seed</div>
+<div class='card'><h3>#34 Decentralized childcare co-ops coordination kit <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_22_childcare_coops</code> • Category: <b>community</b> • People: <b>500M</b> (ILO: 500M parents lack childcare) • Final <b>32.9</b> • Res: 1</div>
 <p><strong>Body:</strong> Rota, safety, learning activities, no money needed. Frees parents for work/education.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_22_childcare_coops_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790062291_6af3</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T07:31:31.520563Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: child_care_coops — Decentralized Childcare Co-operations (idea_22_childcare_coops)
@@ -567,8 +671,8 @@ An estimated **430 million** families represent the immediate beneficiary segmen
 </pre>
 </div>
 </div>
-<div class='card'><h3>#11 [OUTSIDE BOX] Legal loophole library: how to legally reuse vacant buildings in 50 countries — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_17_squat_loophole_library</code> • Category: <b>housing</b> • People: <b>1.0B</b> (EU: 11M vacant homes vs 700k homeless; global vacancy 10-20%) • Final <b>32.7</b> • Model: human-seed</div>
+<div class='card'><h3>#35 [OUTSIDE BOX] Legal loophole library: how to legally reuse vacant buildings in 50 countries — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_17_squat_loophole_library</code> • Category: <b>housing</b> • People: <b>1.0B</b> (EU: 11M vacant homes vs 700k homeless; global vacancy 10-20%) • Final <b>32.7</b> • Res: 1</div>
 <p><strong>Body:</strong> Adverse possession, usufruct, vacancy taxes, squatters rights. Tactical urbanism guide + safety.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_17_squat_loophole_library_ollama_qwen3.5_9b_1790070114_ff75</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T09:41:54.695518Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Legal Loophole Library — Squat Rights and Vacant Building Reuse (idea_17)
@@ -637,8 +741,8 @@ Implementation feasibility presents structural challenges: 5% political will sco
 </pre>
 </div>
 </div>
-<div class='card'><h3>#12 Timebank + mutual aid coordination protocol (no money, hour-for-hour exchange) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_08_timebank_mutual_aid</code> • Category: <b>work</b> • People: <b>4.0B</b> (ILO 2023: 2B informal workers + 1.6B unpaid care) • Final <b>32.3</b> • Model: human-seed</div>
+<div class='card'><h3>#37 Timebank + mutual aid coordination protocol (no money, hour-for-hour exchange) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_08_timebank_mutual_aid</code> • Category: <b>work</b> • People: <b>4.0B</b> (ILO 2023: 2B informal workers + 1.6B unpaid care) • Final <b>32.3</b> • Res: 1</div>
 <p><strong>Body:</strong> Open protocol + printable ledger + simple app that works via SMS/mesh. For informal economies.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_08_timebank_mutual_aid_ollama_gemma4_e4b_1790074773_3248</code> • Model: gemma4:e4b (ollama) • Status: open • Created: 2026-09-22T10:59:33.985811Z • Citations: https://un.org, https://who.int</div>
 <pre># Research idea_08_timebank_mutual_aid
@@ -647,8 +751,8 @@ Mock - will retry next cycle.
 </pre>
 </div>
 </div>
-<div class='card'><h3>#13 Local food preservation &amp; fermentation knowledge base (reduce waste, improve nutrition) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_05_food_preservation</code> • Category: <b>food</b> • People: <b>2.5B</b> (FAO 2023: 2.5B food insecure, 1/3 food wasted) • Final <b>32.0</b> • Model: human-seed</div>
+<div class='card'><h3>#40 Local food preservation &amp; fermentation knowledge base (reduce waste, improve nutrition) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_05_food_preservation</code> • Category: <b>food</b> • People: <b>2.5B</b> (FAO 2023: 2.5B food insecure, 1/3 food wasted) • Final <b>32.0</b> • Res: 2</div>
 <p><strong>Body:</strong> Traditional preservation adapted to modern contexts, no fridge needed.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_05_food_preservation_ollama_qwen3.5_9b_1790066552_90ee</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T08:42:32.693613Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Local Food Preservation &amp; Fermentation Knowledge Base (idea_05_food_preservation)
@@ -727,8 +831,8 @@ The estimated ~2.5 billion people affected represents those living under conditi
 </pre>
 </div>
 </div>
-<div class='card'><h3>#14 Open-source menstrual health + reusable product guides (affects school/work) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_19_menstrual_health</code> • Category: <b>health</b> • People: <b>1.9B</b> (UNICEF: 1.9B menstruators, 500M lack access) • Final <b>31.7</b> • Model: human-seed</div>
+<div class='card'><h3>#41 Open-source menstrual health + reusable product guides (affects school/work) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_19_menstrual_health</code> • Category: <b>health</b> • People: <b>1.9B</b> (UNICEF: 1.9B menstruators, 500M lack access) • Final <b>31.7</b> • Res: 2</div>
 <p><strong>Body:</strong> Sewing patterns, hygiene, pain management, no shame. Up to 30% school absenteeism linked.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_19_menstrual_health_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790061415_0064</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T07:16:55.115653Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Open-Source Menstrual Health + Reusable Product Guides (idea_19_menstrual_health)
@@ -792,8 +896,8 @@ A comprehensive approach must therefore involve more than just distributing sani
 [5] Human Rights advocacy reports focused on WASH and bodily autonomy.</pre>
 </div>
 </div>
-<div class='card'><h3>#15 [OUTSIDE BOX] Mycelial sneaker-net: USB stick + human mesh, no ISP needed — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_15_mycelial_sneakernet</code> • Category: <b>education</b> • People: <b>2.6B</b> (ITU 2.6B offline + censorship in 50+ countries) • Final <b>31.5</b> • Model: human-seed</div>
+<div class='card'><h3>#42 [OUTSIDE BOX] Mycelial sneaker-net: USB stick + human mesh, no ISP needed — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_15_mycelial_sneakernet</code> • Category: <b>education</b> • People: <b>2.6B</b> (ITU 2.6B offline + censorship in 50+ countries) • Final <b>31.5</b> • Res: 1</div>
 <p><strong>Body:</strong> Delay-tolerant network via humans carrying USBs/sd cards + Bluetooth mesh. Share knowledge where internet censored/expensive.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_15_mycelial_sneakernet_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790069632_eed5</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T09:33:52.393864Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Mycelial Sneaker-Net — idea_15_mycelial_sneakernet
@@ -844,8 +948,8 @@ Sources:
 </pre>
 </div>
 </div>
-<div class='card'><h3>#16 Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_01_passive_cooling</code> • Category: <b>housing</b> • People: <b>2.0B</b> (UNEP 2024: 2B+ exposed to extreme heat in inadequate housing) • Final <b>30.3</b> • Model: agent.py-mock</div>
+<div class='card'><h3>#47 Passive cooling retrofit guides for extreme heat (reflective roofs, evaporative, shading) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_01_passive_cooling</code> • Category: <b>housing</b> • People: <b>2.0B</b> (UNEP 2024: 2B+ exposed to extreme heat in inadequate housing) • Final <b>30.3</b> • Res: 2</div>
 <p><strong>Body:</strong> Open guide for retrofitting existing housing with no-electricity cooling. Target: informal housing, rentals. Source: UN Habitat + WHO heat deaths rise.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_01_passive_cooling_ollama_qwen3.5_9b_1790072540_2c81</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T10:22:20.479896Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Passive Cooling Retrofit for Extreme Heat (idea_01_passive_cooling)
@@ -984,8 +1088,8 @@ Combined deployment of reflective roofing paired with evaporative cooling and sh
 **Step**: Conduct basic measurements assess</pre>
 </div>
 </div>
-<div class='card'><h3>#17 Offline-first P2P education mesh (IPFS textbooks on $20 phones, no internet) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_02_offline_education_mesh</code> • Category: <b>education</b> • People: <b>3.0B</b> (ITU 2024: 2.6B offline; UNESCO: 244M out-of-school) • Final <b>30.3</b> • Model: human-seed</div>
+<div class='card'><h3>#48 Offline-first P2P education mesh (IPFS textbooks on $20 phones, no internet) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_02_offline_education_mesh</code> • Category: <b>education</b> • People: <b>3.0B</b> (ITU 2024: 2.6B offline; UNESCO: 244M out-of-school) • Final <b>30.3</b> • Res: 2</div>
 <p><strong>Body:</strong> Sneakernet + mesh to share textbooks/Khan Academy offline. For areas with no internet/school.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_02_offline_education_mesh_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790072841_d8b3</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T10:27:21.340504Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Offline-first P2P Education Mesh — idea_02_offline_education_mesh
@@ -1044,8 +1148,8 @@ Mock - will retry next cycle.
 </pre>
 </div>
 </div>
-<div class='card'><h3>#18 Voice-to-text oral history archiving for low-literacy communities <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_25_oral_history_voice</code> • Category: <b>education</b> • People: <b>750M</b> (UNESCO: 750M illiterate adults) • Final <b>30.3</b> • Model: human-seed</div>
+<div class='card'><h3>#50 Voice-to-text oral history archiving for low-literacy communities <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_25_oral_history_voice</code> • Category: <b>education</b> • People: <b>750M</b> (UNESCO: 750M illiterate adults) • Final <b>30.3</b> • Res: 1</div>
 <p><strong>Body:</strong> Record via phone call, transcribe offline with tiny STT, share via audio mesh. Preserve + share farming/medicine knowledge without literacy.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_25_oral_history_voice_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790063155_e2d4</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T07:45:55.218513Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Voice-to-Text Oral History Archiving for Low-Literacy Communities (idea_25_oral_history_voice)
@@ -1097,8 +1201,18 @@ Deploy pilot recording sessions in communities of high oral knowledge transfer, 
 </pre>
 </div>
 </div>
-<div class='card'><h3>#19 Cooperative housing + tenant rights legal templates (50 countries) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_10_coop_housing_templates</code> • Category: <b>housing</b> • People: <b>1.0B</b> (OECD 2023: 1B+ rent-burdened (&gt;30% income)) • Final <b>29.7</b> • Model: human-seed</div>
+<div class='card'><h3>#58 [CN] Air pollution + 1M deaths - citizen sensors + car-free <span class='badge region'>CN</span></h3>
+<div class='meta'>ID: <code>idea_cn_air_pollution</code> • Category: <b>health</b> • People: <b>2.0B</b> (MEE 1M + WHO 2B) • Final <b>30.2</b> • Res: 1</div>
+<p><strong>Body:</strong> Sensors, car-free for 1M deaths, 300M exposed. Indirect via CN pollution standards 2B. Direct: 300M in China, Indirect: 2.0B globally.</p>
+<div class='research'><div class='meta'>Research <code>research_idea_cn_air_pollution_ollama_qwen3.5_9b_1790076701_1575</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T11:31:41.029315Z • Citations: https://un.org, https://who.int</div>
+<pre># Research idea_cn_air_pollution
+Fallback via ollama/qwen3.5:9b Tue 22 Sep 2026 23:31:40 NZST
+Mock - will retry next cycle.
+</pre>
+</div>
+</div>
+<div class='card'><h3>#69 Cooperative housing + tenant rights legal templates (50 countries) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_10_coop_housing_templates</code> • Category: <b>housing</b> • People: <b>1.0B</b> (OECD 2023: 1B+ rent-burdened (&gt;30% income)) • Final <b>29.7</b> • Res: 1</div>
 <p><strong>Body:</strong> Copy-paste legal docs for co-ops, community land trusts, anti-eviction. Translate + localize.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_10_coop_housing_templates_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790058763_8fde</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T06:32:43.052383Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Cooperative Housing + Tenant Rights Legal Templates (idea_10_coop_housing_templates)
@@ -1131,8 +1245,8 @@ Cooperative housing legal templates present high knowledge_share feasibility thr
 </pre>
 </div>
 </div>
-<div class='card'><h3>#20 Debt jubilee toolkit + collective bargaining templates <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_24_debt_jubilee</code> • Category: <b>cost_of_living</b> • People: <b>1.0B</b> (World Bank: 1B+ in debt distress) • Final <b>29.4</b> • Model: human-seed</div>
+<div class='card'><h3>#71 Debt jubilee toolkit + collective bargaining templates <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_24_debt_jubilee</code> • Category: <b>cost_of_living</b> • People: <b>1.0B</b> (World Bank: 1B+ in debt distress) • Final <b>29.4</b> • Res: 1</div>
 <p><strong>Body:</strong> How to organize debtors union, negotiate, use legal defenses. For student/medical/microfinance debt.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_24_debt_jubilee_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790075551_5eeb</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T11:12:31.480003Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Debt Jubilee Toolkit + Collective Bargeling Templates (idea_24_debt_jubilee)
@@ -1188,8 +1302,8 @@ The **~1 billion estimate** (source: World Bank) aligns with documented microfin
 </pre>
 </div>
 </div>
-<div class='card'><h3>#21 [CN] Aging + 4-2-1 family (300M over 60, 100M only child) - timebank + co-housing <span class='badge'>CN</span></h3>
-<div class='meta'>ID: <code>idea_cn_aging</code> • Category: <b>health</b> • People: <b>1.0B</b> (Stats China 300M + UN 1B) • Final <b>29.4</b> • Model: human-seed-cn</div>
+<div class='card'><h3>#96 [CN] Aging + 4-2-1 family (300M over 60, 100M only child) - timebank + co-housing <span class='badge region'>CN</span></h3>
+<div class='meta'>ID: <code>idea_cn_aging</code> • Category: <b>health</b> • People: <b>1.0B</b> (Stats China 300M + UN 1B) • Final <b>29.4</b> • Res: 1</div>
 <p><strong>Body:</strong> Timebank, co-housing for 300M elderly, 4-2-1 families. Indirect via China aging model 1B. Direct: 300M in China, Indirect: 1.0B globally.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_cn_aging_ollama_gemma4_e4b_1790076240_0e07</code> • Model: gemma4:e4b (ollama) • Status: open • Created: 2026-09-22T11:24:00.417445Z • Citations: https://un.org, https://who.int</div>
 <pre># Research idea_cn_aging
@@ -1198,8 +1312,8 @@ Mock - will retry next cycle.
 </pre>
 </div>
 </div>
-<div class='card'><h3>#22 [OUTSIDE BOX] Nighttime commons - reclaim streets 22:00-06:00 for sleeping/shelter — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_13_nighttime_commons</code> • Category: <b>housing</b> • People: <b>1.0B</b> (UN 1B+ in slums, plus 100M homeless) • Final <b>28.2</b> • Model: human-seed</div>
+<div class='card'><h3>#121 [OUTSIDE BOX] Nighttime commons - reclaim streets 22:00-06:00 for sleeping/shelter — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_13_nighttime_commons</code> • Category: <b>housing</b> • People: <b>1.0B</b> (UN 1B+ in slums, plus 100M homeless) • Final <b>28.2</b> • Res: 1</div>
 <p><strong>Body:</strong> Invert city use: parking lots/streets become housing at night, legal + safety protocol. Like Bogotá Ciclovía but for housing.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_13_nighttime_commons_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790059693_1fc1</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T06:48:13.482018Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Nighttime Commons — Reclaiming Streets 22:00–06:00 for Sleeping &amp; Shelter (idea_13)
@@ -1274,8 +1388,8 @@ Nighttime Commons directly connects to the board&#x27;s housing-improvement agen
 </pre>
 </div>
 </div>
-<div class='card'><h3>#23 Community tool libraries + repair cafés network template (physical tools: hammers, drills, saws - not LLM software tools) <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_03_tool_libraries</code> • Category: <b>cost_of_living</b> • People: <b>1.5B</b> (World Bank: 1.5B face high cost of durable goods) • Final <b>27.7</b> • Model: human-seed</div>
+<div class='card'><h3>#124 Community tool libraries + repair cafés network template (physical tools: hammers, drills, saws - not LLM software tools) <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_03_tool_libraries</code> • Category: <b>cost_of_living</b> • People: <b>1.5B</b> (World Bank: 1.5B face high cost of durable goods) • Final <b>27.7</b> • Res: 2</div>
 <p><strong>Body:</strong> Kit to start local lending library for physical tools/appliances (hammers, drills, saws, etc., not LLM software tools), reduce cost of living, repair instead of buy. For physical community sharing.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_03_tool_libraries_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790065950_35c7</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T08:32:30.774550Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Community Tool Libraries + Repair Cafés Network Template (idea_03_tool_libraries)
@@ -1341,8 +1455,8 @@ Industry Trends Report (2024). *State of Applied Enterprise AI*. Global Tech Ana
 ````</pre>
 </div>
 </div>
-<div class='card'><h3>#24 [OUTSIDE BOX] Children-designed neighborhoods (design briefs by 10-year-olds) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_18_children_designed</code> • Category: <b>community</b> • People: <b>2.0B</b> (2B children, urban design excludes them, affects families) • Final <b>27.1</b> • Model: human-seed</div>
+<div class='card'><h3>#125 [OUTSIDE BOX] Children-designed neighborhoods (design briefs by 10-year-olds) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_18_children_designed</code> • Category: <b>community</b> • People: <b>2.0B</b> (2B children, urban design excludes them, affects families) • Final <b>27.1</b> • Res: 1</div>
 <p><strong>Body:</strong> Invite children to design streets/play/housing, translate into buildable plans. Shifts power, reveals blind spots. Low-cost participatory design kit.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_18_children_designed_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790070410_dbdb</code> • Model: Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M (ollama) • Status: open • Created: 2026-09-22T09:46:50.654524Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Children-designed Neighborhoods — idea_18_children_designed
@@ -1395,8 +1509,8 @@ The **2 billion figure** derives from global census projections of children belo
 [5] https://gokz.info</pre>
 </div>
 </div>
-<div class='card'><h3>#25 Urban foraging &amp; food forest maps + planting guides for cities <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_21_food_forest_maps</code> • Category: <b>food</b> • People: <b>1.0B</b> (FAO: 1B urban poor face food insecurity) • Final <b>27.0</b> • Model: human-seed</div>
+<div class='card'><h3>#126 Urban foraging &amp; food forest maps + planting guides for cities <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_21_food_forest_maps</code> • Category: <b>food</b> • People: <b>1.0B</b> (FAO: 1B urban poor face food insecurity) • Final <b>27.0</b> • Res: 2</div>
 <p><strong>Body:</strong> Map edible plants, plant guilds for 1m², maintain collectively. Reduce food cost.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_21_food_forest_maps_ollama_qwen3.5_9b_1790061949_73c2</code> • Model: qwen3.5:9b (ollama) • Status: open • Created: 2026-09-22T07:25:49.446682Z • Citations: https://un.org, https://who.int</div>
 <pre># Research Report: Urban Foraging &amp; Food Forest Maps + Planting Guides for Cities (idea_21)
@@ -1499,8 +1613,8 @@ This project targets knowledge_sh=10 (universal applicability), modest feasibili
 </pre>
 </div>
 </div>
-<div class='card'><h3>#26 [OUTSIDE BOX] Gift economy app where money expires after 30 days (demurrage) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge'>Global</span></h3>
-<div class='meta'>ID: <code>idea_14_demurrage_currency</code> • Category: <b>work</b> • People: <b>2.0B</b> (World Bank: 2B under financial exclusion, wealth concentration) • Final <b>26.2</b> • Model: human-seed</div>
+<div class='card'><h3>#127 [OUTSIDE BOX] Gift economy app where money expires after 30 days (demurrage) — <span class='badge outside'>OUTSIDE THE BOX</span> <span class='badge region'>Global</span></h3>
+<div class='meta'>ID: <code>idea_14_demurrage_currency</code> • Category: <b>work</b> • People: <b>2.0B</b> (World Bank: 2B under financial exclusion, wealth concentration) • Final <b>26.2</b> • Res: 1</div>
 <p><strong>Body:</strong> Money loses 1% per day, incentivizes circulation not hoarding. Based on Wörgl experiment. Open app + paper ledger fallback.</p>
 <div class='research'><div class='meta'>Research <code>research_idea_14_demurrage_currency_ollama_gemma4_e4b_1790059842_cae6</code> • Model: gemma4:e4b (ollama) • Status: open • Created: 2026-09-22T06:50:42.411058Z • Citations: https://un.org, https://who.int</div>
 <pre>## Research Report: Idea 14 - Demurrage Currency
@@ -1523,13 +1637,28 @@ The people initially affected and benefiting are logistics stakeholders, includi
 ***\n**This report is approximately 400 words.**&quot;</pre>
 </div>
 </div>
+<h2>Not Yet Researched — 100 Topics (Minimal)</h2>
+<p class='meta'>These 101 topics are in ranked table above but have no RESEARCH yet - they will get full cards once researched. Listed here for completeness with minimal info.</p><ul>
+<li><code>idea_usa_ubi_ak</code> [USA][OUTSIDE BOX] UBI via Alaska Fund expansion - dividend  - work - 2.0B</li>
+<li><code>idea_eu_outside_ubi</code> [EU][OUTSIDE BOX] EU-wide UBI via carbon dividend - climate  - work - 2.0B</li>
+<li><code>idea_eu_outside_citizens_assembly</code> [EU][OUTSIDE BOX] Permanent citizens&#x27; assemblies sortition - - community - 2.0B</li>
+<li><code>idea_cn_outside_great_wall_mesh</code> [CN][OUTSIDE BOX] Great Wall mesh - delay-tolerant USB + hum - education - 2.0B</li>
+<li><code>idea_cn_outside_social_credit_flip</code> [CN][OUTSIDE BOX] Social credit flip - community trust timeb - community - 2.0B</li>
+<li><code>meta_generate_new_topics_1</code> [META] Generate 10 new research topics - think deeply, indir - meta - 1.0B</li>
+<li><code>idea_usa_free_transit</code> [USA][OUTSIDE BOX] Free fare transit + fare strike - housing - 1.5B</li>
+<li><code>idea_eu_outside_energy_commons</code> [EU][OUTSIDE BOX] Energy as commons - remunicipalize + free  - energy - 1.5B</li>
+<li><code>idea_usa_platform_coop</code> [USA][OUTSIDE BOX] Platform co-op to replace Uber/Doordash - - work - 1.0B</li>
+<li><code>idea_usa_debt_strike</code> [USA][OUTSIDE BOX] Student debt strike + rolling jubilee - cost_of_living - 1.0B</li>
+<li><em>... and 90 more not yet researched (see ranked table and board.json)</em></li>
+</ul>
 <h2>Stats</h2><ul>
-<li>Researched IDEA: 26/127 (excluded 101 not yet researched) • RESEARCH: 34 • Models: human-seed:25, human-seed-usa:25, human-seed-eu:25, human-seed-ru:25, human-seed-cn:25</li>
-<li>Live: https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/board.json • Generated: 2026-09-22T11:29:26.674713Z</li>
+<li>IDEA: 127 • Researched: 27 • Not yet: 100 • RESEARCH: 35</li>
+<li>Models: human-seed:25, human-seed-usa:25, human-seed-eu:25, human-seed-ru:25, human-seed-cn:25</li>
+<li>Generated: 2026-09-22T11:33:59.939794Z</li>
 </ul>
 <h2>Agent Prompts</h2><ul>
 <li><a href="https://prometheananthropo.github.io/ForHumanity/prompt_research_only.html">SAFE</a> / <a href="https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/prompt_research_only.md">raw</a></li>
 <li><a href="https://prometheananthropo.github.io/ForHumanity/prompt_research_safe_push.html">SAFE PUSH</a> / <a href="https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/prompt_research_safe_push.md">raw</a></li>
-<li><a href="https://prometheananthropo.github.io/ForHumanity/prompt_research_plus.html">PLUS</a></li>
+<li><a href="https://prometheananthropo.github.io/ForHumanity/prompt_research_plus.html">PLUS</a> / <a href="https://raw.githubusercontent.com/prometheananthropo/ForHumanity/main/prompt_research_plus.md">raw</a></li>
 </ul>
 </body></html>
