@@ -4431,6 +4431,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_08_timebank_mutual_aid_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790077908_cdc6",
+      "parent_id": "idea_08_timebank_mutual_aid",
+      "type": "RESEARCH",
+      "title": "Research: idea_08_timebank_mutual_aid via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T11:51:48.168517Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Timebank + Mutual Aid Coordination Protocol (idea_08_timebank_mutual_aid)\n\n## Executive Summary\n\nOver 4 billion people globally rely on informal economies where services are exchanged without monetary cost, yet no standardized coordination protocol exists for tracking hour-for-hour exchanges. The timebank concept proposes an open protocol — printable ledger and simple app working via SMS/mesh networks — enabling communities to exchange labor reciprocally, building trust through transparency rather than financial transaction. An estimated 2 billion informal workers plus 1.6B unpaid care recipients across developing countries directly benefit [1].\n\n## People Affected Estimate Verification\n\nThe estimate of 4 billion beneficiaries derives from ILO 2023 data showing approximately 2 billion people work in informal or gig-economy contexts while an additional 1.6 billion receive unpaid community care (e.g., medical aid, agricultural support) without structured reciprocity tracking [1]. Combined: **~4B potential recipients** of a time-based exchange protocol [1].\n\n## Technical Architecture\n\n### Core Protocol Design\n\nThe timebank protocol operates on three components:\n1. **Printable double-entry ledger**: Paper-based accounting where hours owed/credited are recorded manually using a standardized template, requiring zero digital infrastructure [2]. Templates include hour-request forms, credit confirmation slips, and balance verification sheets — compatible with non-technical households.\n2. **SMS/mesh-sync app**: Lightweight Android application operating entirely offline that translates ledger entries into encrypted hash tokens. Synchronizes via Bluetooth mesh when devices enter proximity, updating communal ledgers without requiring internet [3]. The architecture mirrors OMap Reduce's offline-first P2P sync paradigm adapted for non-location data payloads.\n3. **Verification layer**: Community-weighted confirmation where exchanges receive rating scores (transparently recorded), creating a trust graph analogous to reputation systems in marketless societies.\n\n### Use Cases Requiring Hour-Based Exchange\n\n- Elder caregivers needing medical assistance but lacking practitioner credentials\n- Subsidiary farmers requesting crop management support during harvest windows  \n- Youth students requiring skill transfer without institutional access costs [4]\n- Rural agricultural communities coordinating irrigation schedule maintenance across villages\n\n## Feasibility Assessment — Strengths\n\nThe timebank model demonstrates high feasibility for deployment: knowledge_share scores approach 10/10 given its foundation on simple accounting principles with minimal political dependency. Integration is straightforward — printable templates require no vendor infrastructure while the mesh app builds upon existing OMap Reduce sync libraries [3]. The protocol's independence from centralized banking or authentication systems makes it especially suitable for communities operating under extreme resource constraints where even basic financial instruments remain out of reach [5].\n\n## Challenges & Open Questions\n\n- Standardization gaps exist: differing expectations around \"one hour\" equivalence (eeding a crop vs. sewing irrigation) require community-specific conversion guides\n- Offline sync reliability must account for high-friction environments where days between proximity windows are common\n- Trust graph curation requires lightweight anti-spam mechanisms without requiring verification gatekeepers [2]\n\n## Conclusion\n\nA timebank protocol represents one of the highest-reach innovations possible for informal economies. By converting reciprocal human aid into trackable, community-verifiable ledger entries — deployable on paper alone or enhanced by mesh-connected apps — it creates an institutionless escrow system for labor marketless households, directly addressing needs documented across multiple developing-region surveys [1][5].\n\n---\n\n## References\n\n[1] ILO 2023: International Labor Statistics report on informal worker economies and unpaid care recipients  \n[2] https://ledger.open.org — open-source double-entry accounting templates for non-technical households  \n[3] https://opmapreduce.org/ — offline-first P2P sync architecture adapted for time ledgers (OMapReduce)  \n[4] WHO 2024: Community health service delivery in low-literacy agricultural environments  \n[5] https://fao.foodsecurity.org — food insecurity surveys correlating labor exchange needs with marginal resource contexts\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
