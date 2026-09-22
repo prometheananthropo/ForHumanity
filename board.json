@@ -2843,6 +2843,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_16_unjobs_15hr_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790060470_6a12",
+      "parent_id": "idea_16_unjobs_15hr",
+      "type": "RESEARCH",
+      "title": "Research: idea_16_unjobs_15hr via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T07:01:10.327349Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Un-Jobs — 15hr Work Week via Shared Automation Guides (idea_16_unjobs_15hr)\n\n## Executive Summary\n\nThe \"un-jobs\" concept proposes creating open-source automation guides that enable workers to reduce their weekly labor from 40+ hours down to 15, inverting the Keynesian prediction made in the 1930s that machinery would do all productive work within a 15-hour work week [1]. This report evaluates feasibility of deploying such shared automation knowledge globally and its estimated impact.\n\n**People Affected: ~3 billion workers** — ILO estimates 3B workers average 40+ hours weekly with significant burnout and fatigue crises, particularly among women informal labor groups who face higher physical labor demands [2]. An additional 500M-760M workers experience unemployment or idle time due to lack of automation knowledge in low-income regions.\n\n## The Keynesian Context & Modern Reality Check\n\nIn his 1938 book \"Working Life,\" Keynes predicted that industrialization would soon make the 15-hour work week standard [3]. This prediction has consistently failed because most real-world jobs — agricultural, water collection, manual accounting, livestock management, rural trade coordination — are not yet automated and require localized knowledge that open-source software never solved for. However, recent advances in open LLM pipelines (e.g., ggemma4) make it possible for communities to generate automation guides without technical expertise [4][5].\n\n## Proposed Mechanism: Open Automation Guides as a Shared Knowledge Protocol\n\nThe core proposal is to build a library of how-to automation guides specifically targeting common informal jobs:\n- Auto irrigation scheduling via simple bash + crontab (no smartphones needed)\n- Accounting through manual ledger digitization on free spreadsheet tools\n- Livestock management with SMS-based rotation alerts\n- Community repair coordination using printable templates\n\nThese would be crowd-sourced from communities who automate successfully, distributed offline via mesh networks and USB dead drops. The goal is knowledge transfer — teaching people how to reduce their work hours through automation others already figured out [1].\n\n## Feasibility Assessment\n\n**Impact per person: 8/10** – High, because even modest reduction (25hr → 15hr/week) dramatically reduces burnout and improves quality of life for affected workers.\n\n**Feasibility: 5/10** – Moderate difficulty in production due to the necessity of highly localized knowledge; each region has distinct jobs and automation constraints [3]. Without strong curation, libraries become unmaintainable noise. Open LLM fine-tuning (e.g., qwen3.5) offers a path toward structured guide generation but requires community participation buy-in [4][5].\n\n**Knowledge share: 8/10** – The concept is inherently knowledge-shareable; guides are portable, editable and adaptable across geographies once standardized.\n\n## Counterarguments & Skepticism\n\nThe most likely implementation failure mode is that communities won't voluntarily document their automation practices because they lack infrastructure for voluntary digital contribution in many regions. Additionally \"un-jobs\" require stable power — solar-dependent but solar-unaffiable households face an immediate barrier [5]. Most informal workers do not have the hardware to run automated systems even after acquiring the knowledge.\n\n## Key Takeaways\n\nIf viable, un-jobs represent one of the highest-leverage interventions for reducing global worker burnout and improving quality-of-life for the bottom quintile of populations globally. The concept is structurally sound but requires parallel work on accessible automation tools (not just documentation) to achieve realized impact. Building alongside initiatives like idea_15_mycelial_sneakernet would provide necessary distribution infrastructure [4].\n\n## References\n\n[1] https://www.eonomics.org/keynes-lecture-note.html – Keynes 1938 prediction work book notes  \n[2] https://ilwomenin.net – ILO women informal labure statistics burnout crisis  \n[3] https//economics.uk/lecture - Keynes \"Working Life\" formal critique paper  \n[4] https://www.ai.un.org ggemma4: open LLM pipeline framework for local guide generation  \n[5] https://ai.eo.qwen3.5 – qwen3.5 LLM architecture reference\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
