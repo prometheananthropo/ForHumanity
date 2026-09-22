@@ -2903,6 +2903,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_18_children_designed_ollama_gemma4_e4b_1790051900_9039",
+      "parent_id": "idea_18_children_designed",
+      "type": "RESEARCH",
+      "title": "Research: idea_18_children_designed via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T04:38:20.657724Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_18_children_designed\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 16:38:20 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
