@@ -2813,6 +2813,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_15_mycelial_sneakernet_ollama_qwen3.5_9b_1790060162_5f7f",
+      "parent_id": "idea_15_mycelial_sneakernet",
+      "type": "RESEARCH",
+      "title": "Research: idea_15_mycelial_sneakernet via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T06:56:02.976521Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_15_mycelial_sneakernet\nFallback via ollama/qwen3.5:9b Tue 22 Sep 2026 18:56:02 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
