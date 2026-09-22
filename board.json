@@ -1883,6 +1883,2584 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "idea_usa_housing_coastal",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Coastal housing affordability (NYC/SF/LA) - CLT + missing middle + ADU",
+      "body": "Zoning reform + CLT + ADU guides where median rent >50% income. Direct: 15M in USA, Indirect: 1.2B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1200000000,
+      "people_affected_source": "US Census 15M + IMF spillover 1.2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_healthcare_debt",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Medical debt $88B - transparent pricing + mutual aid",
+      "body": "Negotiation templates, co-ops for 100M Americans. Direct: 100M in USA, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "CFPB 100M + WHO pharma 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_student_debt",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Student debt $1.7T (43M) - IDR + co-op peer learning",
+      "body": "IDR templates, P2P mesh tutoring, timebank. Direct: 43M in USA, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Fed 43M + OECD 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_polarization",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Polarization + misinformation (240M voters) - depolarization circles",
+      "body": "Bridge-building, media literacy for 240M voters. Direct: 240M in USA, Indirect: 3.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "Pew 240M + Freedom House 3B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_gun_violence",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Gun violence + school lockdowns (50M students) - Cure Violence",
+      "body": "Violence interruption, safe storage for 50M students. Direct: 50M in USA, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 500000000,
+      "people_affected_source": "CDC 50M + UN arms 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_infrastructure",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Crumbling infrastructure (200M, ASCE D+) - citizen sensors",
+      "body": "Water testing, bridge sensors for 200M. Direct: 200M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "water",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "ASCE 200M + World Bank 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_wildfire",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Wildfire/hurricane (60M at risk) - firewise + microgrids",
+      "body": "Firewise + microgrid for 60M. Direct: 60M in USA, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "NOAA 60M + UNFCCC 1.5B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_supply_chain",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Supply chain fragility (100M workers) - local manufacturing",
+      "body": "Open hardware, repair cafés for 100M. Direct: 100M in USA, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "BLS 100M + WTO 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_tech_monopoly",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Big Tech surveillance (300M users) - Fediverse",
+      "body": "Fediverse for 300M. Direct: 300M in USA, Indirect: 3.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "Pew 300M + ITU 3B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_grid",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Aging grid - community solar + V2G for 130M households",
+      "body": "Community solar + V2G for 130M. Direct: 130M in USA, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "energy",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "DOE 130M + IEA 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_food_desert",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Food deserts (40M) - urban food forests",
+      "body": "Food forests for 40M. Direct: 40M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "USDA 40M + FAO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_childcare",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Childcare $10k/yr (20M families) - co-ops",
+      "body": "Co-op guides for 20M families. Direct: 20M in USA, Indirect: 0.6B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 600000000,
+      "people_affected_source": "Census 20M + ILO 600M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_mental_opioid",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Mental health + opioid (50M) - peer support + harm reduction",
+      "body": "Peer support, naloxone for 50M. Direct: 50M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "SAMHSA 50M + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_broadband",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Rural broadband gap (30M) - mesh + TV white space",
+      "body": "Mesh for 30M unserved. Direct: 30M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "FCC 30M + ITU 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_car_dependency",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Car dependency (100M transit deserts) - bike co-ops",
+      "body": "Bike co-ops for 100M. Direct: 100M in USA, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "DOT 100M + IEA 1.5B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_prison",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Mass incarceration (2.3M +10M) - restorative justice",
+      "body": "Restorative guides for 2.3M. Direct: 10M in USA, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 500000000,
+      "people_affected_source": "BJS 2.3M + UN 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_veterans",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Veteran care gap (18M) - peer support",
+      "body": "Peer support for 18M veterans. Direct: 18M in USA, Indirect: 0.3B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 300000000,
+      "people_affected_source": "VA 18M + WHO 300M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_vacancy",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Vacant homes 10M vs 600k homeless - vacancy tax + CLT",
+      "body": "Tactics for 10M vacant. Direct: 1M in USA, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Census 10M + UN 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_gig",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Wage stagnation + gig precarity (60M) - worker co-ops",
+      "body": "Co-ops for 60M gig workers. Direct: 60M in USA, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "BLS 60M + ILO 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_climate_migration",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA] Climate migration Sun Belt (10M moved) - managed retreat",
+      "body": "Guides for 10M moved. Direct: 10M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Census 10M + IOM 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_ubi_ak",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA][OUTSIDE BOX] UBI via Alaska Fund expansion - dividend commons",
+      "body": "Expand Alaska $1300/yr to national dividend for 250M adults. Direct: 250M in USA, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "Census 250M + World Bank 2B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_platform_coop",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA][OUTSIDE BOX] Platform co-op to replace Uber/Doordash - driver-owned app",
+      "body": "Driver-owned app for 10M gig drivers. Direct: 10M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "BLS 10M + ILO 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_debt_strike",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA][OUTSIDE BOX] Student debt strike + rolling jubilee",
+      "body": "Strike guide for 43M borrowers. Direct: 43M in USA, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Fed 43M + BIS 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_free_transit",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA][OUTSIDE BOX] Free fare transit + fare strike",
+      "body": "Free transit guides for 100M. Direct: 100M in USA, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "APTA 100M + UITP 1.5B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_usa_land_back",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[USA][OUTSIDE BOX] Land Back + Indigenous co-management",
+      "body": "Rematriation guides for 7M Native Americans. Direct: 7M in USA, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Census 7M + UN 500M",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-usa",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_aging_care",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Aging + care crisis (100M over 65, 50M caregivers) - community care co-ops",
+      "body": "Care co-ops, timebank for 100M elderly + 50M unpaid caregivers. Indirect via EU care model for 1B aging globally. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 100M + WHO aging 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_housing_crisis",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Housing crisis (Paris/Berlin 40% rent) - Mietshäuser + cooperative",
+      "body": "Mietshäuser syndicate, cooperative for 50M rent-burdened. Indirect via EU housing standards 800M. Direct: 50M in Europe, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Eurostat 50M + EU housing 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_energy_crisis",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Energy crisis + Nord Stream - community energy + retrofit",
+      "body": "Community energy + deep retrofit for 100M hit by 300% price. Indirect via EU energy market 1.5B. Direct: 100M in Europe, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "energy",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "Eurostat 100M + IEA 1.5B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_migration",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Migration + integration (30M migrants, 5M refugees) - community sponsorship",
+      "body": "Sponsorship, language co-ops for 30M migrants. Indirect via EU migration policy 1B. Direct: 30M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 30M + UNHCR 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_youth_unemployment",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Youth unemployment 15% (15M NEET) - timebank + peer learning",
+      "body": "Timebank, peer mesh for 15M NEET. Indirect via EU labor model 600M youth globally. Direct: 15M in Europe, Indirect: 0.6B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 600000000,
+      "people_affected_source": "Eurostat 15M NEET + ILO 600M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_food_system",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] CAP + food system (30M small farmers) - food forests + CSAs",
+      "body": "Food forests, CSAs for 30M small farmers. Indirect via CAP for 1B food system. Direct: 30M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 30M + FAO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_debt_austerity",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Debt + austerity (100M at risk poverty) - debtors unions",
+      "body": "Debtors unions for 100M at poverty risk. Indirect via EU austerity model 1B. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 100M + IMF 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_air_pollution",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Air pollution (300k deaths) - citizen sensors + car-free",
+      "body": "Citizen sensors, car-free guides for 300k deaths, 100M exposed. Indirect via EU standards 1B. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "EEA 300k + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_digital_divide",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Digital divide + GDPR (20M offline) - mesh + data co-ops",
+      "body": "Mesh, data co-ops for 20M offline, GDPR guides for 400M. Indirect via GDPR for 3B. Direct: 20M in Europe, Indirect: 3.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "Eurostat 20M + GDPR 3B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_mental_health",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Mental health + loneliness (30M) - peer circles + timebank",
+      "body": "Peer circles for 30M lonely, 50M mental health. Indirect via EU model 1B. Direct: 30M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 30M + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_education_cost",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] University cost + Bologna (20M students) - P2P mesh + OER",
+      "body": "P2P mesh, OER for 20M students. Indirect via Bologna process 800M. Direct: 20M in Europe, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Eurostat 20M + UNESCO 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_transit",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Transit + car-free cities (100M car-dependent) - bike co-ops + free fare",
+      "body": "Bike co-ops, free fare for 100M. Indirect via EU transit model 1.5B. Direct: 100M in Europe, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "Eurostat 100M + UITP 1.5B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_water_drought",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Drought + water (100M water-stressed) - rainwater + greywater",
+      "body": "Rainwater, greywater for 100M water-stressed. Indirect via EU water directive 1B. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "water",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "EEA 100M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_biodiversity",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Biodiversity loss + rewilding (50M farmers affected) - rewilding + food forests",
+      "body": "Rewilding guides for 50M farmers. Indirect via EU Green Deal 1B. Direct: 50M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "EEA 50M + IPBES 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_disinfo",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Disinfo + far-right (100M targeted) - media literacy + depolarization",
+      "body": "Media literacy for 100M targeted. Indirect via EU disinfo model 2B. Direct: 100M in Europe, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "EU Disinfo 100M + Freedom House 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_pension",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Pension crisis (100M retirees) - timebank + intergenerational co-housing",
+      "body": "Timebank, co-housing for 100M retirees. Indirect via EU pension model 1B. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 100M + IMF 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_tourism",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Overtourism + housing (50M locals displaced) - community tourism + CLT",
+      "body": "Community tourism, CLT for 50M locals. Indirect via EU tourism model 800M. Direct: 50M in Europe, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Eurostat 50M + UNWTO 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_bureaucracy",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Bureaucracy + admin burden (200M) - open guides + mutual aid",
+      "body": "Guides for 200M facing bureaucracy. Indirect via EU admin model 1B. Direct: 200M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 200M + OECD 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_heatwave",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU] Heatwave + 2022 60k deaths - passive cooling + community checks",
+      "body": "Cooling, checks for 60k deaths, 100M at risk. Indirect via EU climate model 1B. Direct: 100M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "EEA 60k + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_ubi",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] EU-wide UBI via carbon dividend - climate income",
+      "body": "Carbon dividend for 450M EU citizens via ETS revenue. Outside: pay to pollute, get paid. Direct: 450M in Europe, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "Eurostat 450M + World Bank 2B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_rent_cap",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] EU rent cap + vacancy expropriation",
+      "body": "Expropriate vacant (11M) for 1M homeless, rent cap for 50M. Outside: take vacant. Direct: 50M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 11M vacant + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_energy_commons",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] Energy as commons - remunicipalize + free baseline",
+      "body": "Remunicipalize + free 2kWh/day for 100M. Outside: free energy. Direct: 100M in Europe, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "energy",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "Eurostat 100M + IEA 1.5B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_citizens_assembly",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] Permanent citizens' assemblies sortition - replace parliament",
+      "body": "Sortition guides for 450M EU, perma-assemblies. Outside: random citizens rule. Direct: 450M in Europe, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "Eurostat 450M + OECD 2B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_degrowth",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] Degrowth + 20h week via work-sharing",
+      "body": "Work-sharing guides for 50M overworked. Outside: work less. Direct: 50M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 50M + ILO 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_eu_outside_migration_no_borders",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[EU][OUTSIDE BOX] No borders + freedom of movement kits",
+      "body": "Kits for 5M undocumented, 30M migrants. Outside: no borders. Direct: 30M in Europe, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Eurostat 30M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-eu",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_demographics",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Demographics collapse (1M excess deaths, 700k emigration) - community care + timebank",
+      "body": "Care co-ops, timebank for 10M elderly + 1M emigrants. Indirect via Russian demographic model 1B aging. Direct: 10M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 10M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_energy_sanctions",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Energy + sanctions (100M dependent) - community microgrids + repair",
+      "body": "Microgrids, repair for 100M hit by sanctions/energy. Indirect via RU energy exports 1.5B. Direct: 100M in Russia, Indirect: 1.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "energy",
+      "people_affected_est": 1500000000,
+      "people_affected_source": "Rosstat 100M + IEA 1.5B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_housing_decay",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Housing decay (Khrushchyovka, 20M) - DIY retrofit + mycelium",
+      "body": "Retrofit guides for 20M in decaying Khrushchyovka. Indirect via Soviet housing model 800M. Direct: 20M in Russia, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Rosstat 20M + UN Habitat 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_healthcare_rural",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Rural healthcare gap (40M villages) - offline wiki + mesh",
+      "body": "Offline wiki, mesh for 40M villages. Indirect via RU rural model 1B. Direct: 40M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "WHO 40M + World Bank 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_education_brain_drain",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Brain drain (1M emigrated) - P2P mesh + open science",
+      "body": "P2P mesh, open science for 1M emigrated, 10M students. Indirect via RU science diaspora 500M. Direct: 10M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Rosstat 1M + UNESCO 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_food_security",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Food security + import dependence (30M smallholders) - food forests",
+      "body": "Food forests for 30M smallholders. Indirect via RU grain exports for 1B food insecure. Direct: 30M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 30M + FAO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_water_arctic",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Water + Arctic thaw (20M Arctic) - rainwater + biochar",
+      "body": "Rainwater, biochar for 20M Arctic. Indirect via permafrost thaw affects 1B via climate. Direct: 20M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "water",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 20M + UNFCCC 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_corruption",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Corruption + bureaucracy (100M) - open guides + mutual aid",
+      "body": "Guides for 100M facing bureaucracy. Indirect via RU corruption model 1B. Direct: 100M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Transparency 100M + World Bank 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_mental_health",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Mental health + alcohol (30M) - peer circles + harm reduction",
+      "body": "Peer circles for 30M, alcohol harm 1M deaths. Indirect via RU model 1B. Direct: 30M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "WHO 30M + Lancet 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_transport",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Transport + vast distances (50M remote) - mesh + timebank",
+      "body": "Mesh, timebank for 50M remote. Indirect via RU vast model 1B. Direct: 50M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 50M + UITP 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_pension",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Pension + aging (30M retirees) - intergenerational co-housing",
+      "body": "Co-housing for 30M retirees. Indirect via RU aging 500M. Direct: 30M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Rosstat 30M + UN 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_censorship",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Censorship + Runet (100M users) - mesh + sneakernet",
+      "body": "Mesh, sneakernet for 100M censored. Indirect via Runet model 1B. Direct: 100M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Roskomnadzor 100M + Freedom House 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_environment",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Environment + Norilsk (20M polluted) - citizen sensors",
+      "body": "Sensors for 20M polluted. Indirect via RU pollution 500M. Direct: 20M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 500000000,
+      "people_affected_source": "EEA 20M + UNEP 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_youth",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Youth + conscription (15M youth) - peer support + alternatives",
+      "body": "Peer support for 15M youth. Indirect via RU youth model 500M. Direct: 15M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Rosstat 15M + UN 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_indigenous",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Indigenous + Siberia (2M) - oral history + offline LLM",
+      "body": "Oral history, offline LLM for 2M indigenous. Indirect via RU indigenous 300M. Direct: 2M in Russia, Indirect: 0.3B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 300000000,
+      "people_affected_source": "Census 2M + UNESCO 300M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_energy_efficiency",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Energy efficiency -66C (50M in Siberia) - passive retrofit",
+      "body": "Passive retrofit for 50M in -66C Siberia. Indirect via RU cold model 500M. Direct: 50M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Rosstat 50M + IEA 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_debt",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU] Debt + microfinance (20M) - debtors unions",
+      "body": "Unions for 20M borrowers. Indirect via RU debt model 500M. Direct: 20M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 500000000,
+      "people_affected_source": "CBR 20M + World Bank 500M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_commons",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Commons rewilding + free energy from gas flares",
+      "body": "Free energy from flares for 10M, rewilding. Outside: free from waste. Direct: 10M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "energy",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "IEA flares 10M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_mir",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Mir-style timebank - hour ruble",
+      "body": "Hour ruble timebank for 100M. Outside: hour = ruble. Direct: 100M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "CBR 100M + ILO 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_dacha",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Dacha as commons - expand 50M dachas to co-ops",
+      "body": "Dacha co-ops for 50M dacha users. Outside: dacha as commons. Direct: 50M in Russia, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "food",
+      "people_affected_est": 800000000,
+      "people_affected_source": "Rosstat 50M + FAO 800M",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_nuclear",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Nuclear as commons - community small modular reactors",
+      "body": "Community SMRs for 10M remote. Outside: community nuke. Direct: 10M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "energy",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosatom 10M + IEA 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_no_war",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Anti-war + draft resistance guides",
+      "body": "Guides for 5M draft-age, 1M mobilized. Outside: don't fight. Direct: 5M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 5M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_soviet_repair",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Soviet repair culture revival - fix, not buy",
+      "body": "Repair guides for 100M, fix Soviet appliances. Outside: fix Soviet. Direct: 100M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Rosstat 100M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_siberian_mesh",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Siberian mesh - delay-tolerant USB + reindeer",
+      "body": "USB + reindeer mesh for 2M nomadic. Outside: reindeer internet. Direct: 2M in Russia, Indirect: 0.5B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "education",
+      "people_affected_est": 500000000,
+      "people_affected_source": "Census 2M + ITU 500M",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_ru_outside_permafrost",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[RU][OUTSIDE BOX] Permafrost as commons - biochar to stabilize",
+      "body": "Biochar for 20M permafrost. Outside: stabilize thaw. Direct: 20M in Russia, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "water",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "UNFCCC 20M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-ru",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_aging",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Aging + 4-2-1 family (300M over 60, 100M only child) - timebank + co-housing",
+      "body": "Timebank, co-housing for 300M elderly, 4-2-1 families. Indirect via China aging model 1B. Direct: 300M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats China 300M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_housing_bubble",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Housing bubble + ghost cities (100M overleveraged) - cooperative + CLT",
+      "body": "Cooperative, CLT for 100M overleveraged, 50M ghost city. Indirect via CN real estate 2B global bubble. Direct: 100M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "Stats China 100M + IMF 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_education_gaokao",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Gaokao pressure + 50M students - P2P mesh + peer learning",
+      "body": "P2P mesh, peer learning for 50M Gaokao students. Indirect via CN education export 800M. Direct: 50M in China, Indirect: 0.8B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 800000000,
+      "people_affected_source": "MoE 50M + UNESCO 800M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_healthcare_rural",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Rural healthcare gap (500M rural) - barefoot doctor 2.0 + offline wiki",
+      "body": "Offline wiki, barefoot 2.0 for 500M rural. Indirect via CN rural model 1B. Direct: 500M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "NHC 500M + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_food_security",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Food security + pork cycle (800M smallholders) - food forests + CSAs",
+      "body": "Food forests, CSAs for 800M smallholders. Indirect via CN food demand 2B. Direct: 800M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "Stats 800M + FAO 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_water_crisis",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Water crisis + South-North (400M water-stressed) - rainwater + greywater",
+      "body": "Rainwater, greywater for 400M water-stressed. Indirect via CN water model 1B. Direct: 400M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "water",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "MWR 400M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_air_pollution",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Air pollution + 1M deaths - citizen sensors + car-free",
+      "body": "Sensors, car-free for 1M deaths, 300M exposed. Indirect via CN pollution standards 2B. Direct: 300M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "MEE 1M + WHO 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_energy_coal",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Coal + 60% energy (1B dependent) - community solar + retrofit",
+      "body": "Community solar, retrofit for 1B coal-dependent. Indirect via CN coal 3B via climate. Direct: 1000M in China, Indirect: 3.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "energy",
+      "people_affected_est": 3000000000,
+      "people_affected_source": "NEA 1B + IEA 3B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_youth_unemployment",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Youth unemployment 20% (15M) - timebank + peer mesh",
+      "body": "Timebank, peer mesh for 15M unemployed youth. Indirect via CN youth model 600M. Direct: 15M in China, Indirect: 0.6B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 600000000,
+      "people_affected_source": "Stats 15M + ILO 600M",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_surveillance",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Surveillance + social credit (1B users) - mesh + data co-ops",
+      "body": "Mesh, data co-ops for 1B users. Indirect via CN surveillance export 2B. Direct: 1000M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "CAC 1B + Freedom House 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_debt_lg",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Local gov debt $9T + LGFV (100M affected) - debtors unions",
+      "body": "Unions for 100M affected by LGFV. Indirect via CN debt 2B global. Direct: 100M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "MoF 100M + IMF 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_migrant_workers",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Migrant workers 300M - mutual aid + mesh + timebank",
+      "body": "Mutual aid, mesh for 300M migrants. Indirect via CN migrant model 1B. Direct: 300M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 300M + ILO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_mental_health",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Mental health + 996 (50M) - peer circles + 4-day week",
+      "body": "Peer circles, 4-day week for 50M 996 workers. Indirect via CN 996 model 1B. Direct: 50M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "health",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "NHC 50M + WHO 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_transport",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Transport + car surge (300M car owners) - bike co-ops + free fare",
+      "body": "Bike co-ops, free fare for 300M car owners. Indirect via CN transport 2B. Direct: 300M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "housing",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "MoT 300M + ITF 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_biodiversity",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Biodiversity + Yangtze (50M fishermen) - rewilding + food forests",
+      "body": "Rewilding for 50M fishermen. Indirect via CN biodiversity 1B. Direct: 50M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "MEE 50M + IPBES 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_disinfo",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Censorship + Great Firewall (1B users) - mesh + sneakernet",
+      "body": "Mesh, sneakernet for 1B censored. Indirect via GFW model 2B. Direct: 1000M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "education",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "CAC 1B + Freedom House 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_pension",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Pension gap + 300M retirees - timebank + co-housing",
+      "body": "Timebank, co-housing for 300M retirees. Indirect via CN pension 1B. Direct: 300M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "community",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 300M + IMF 1B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_factory",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN] Factory conditions + 100M workers - worker co-ops + timebank",
+      "body": "Co-ops for 100M factory workers. Indirect via CN factory model 2B. Direct: 100M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "work",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "ACFTU 100M + ILO 2B",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 6,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_lying_flat",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Lying flat + 4-day week via shared automation",
+      "body": "Automation guides for 50M lying flat youth. Outside: don't work, share. Direct: 50M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "work",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 50M + ILO 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_danwei",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Danwei as commons - work unit co-ops + free housing",
+      "body": "Danwei co-ops for 100M in danwei. Outside: work unit as commons. Direct: 100M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 100M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_shanzhai",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Shanzhai as open hardware - copy, not buy",
+      "body": "Shanzhai guides for 100M makers. Outside: copy, don't buy. Direct: 100M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "cost_of_living",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 100M + OECD 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_great_wall_mesh",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Great Wall mesh - delay-tolerant USB + human",
+      "body": "USB + human mesh for 1B censored. Outside: human internet. Direct: 1000M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "education",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "CAC 1B + ITU 2B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_community_canteen",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Community canteens + free baseline rice",
+      "body": "Canteens for 100M, free 300g rice/day. Outside: free food. Direct: 100M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "food",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 100M + FAO 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_tofu_dreg",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Tofu-dreg retrofit - citizen mycelium + earth",
+      "body": "Mycelium retrofit for 100M in tofu-dreg housing. Outside: fix bad builds with fungus. Direct: 100M in China, Indirect: 1.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "housing",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Stats 100M + UN 1B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "idea_cn_outside_social_credit_flip",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[CN][OUTSIDE BOX] Social credit flip - community trust timebank",
+      "body": "Timebank trust for 1B, flip credit. Outside: community trust, not state. Direct: 1000M in China, Indirect: 2.0B globally.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": true
+      },
+      "category": "community",
+      "people_affected_est": 2000000000,
+      "people_affected_source": "CAC 1B + ILO 2B",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 5,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-cn",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp"
+    },
+    {
+      "id": "meta_generate_new_topics_1",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[META] Generate 10 new research topics - think deeply, indirect, outside-the-box",
+      "body": "Think deeply: generate 10 new IDEA topics not in current 125 (25 global + 25x4 regions). Focus on indirect effects, global spillover, developed->developing, and outside-the-box (invert ownership, remove money, etc.). For each, provide title, body, category, direct/indirect people, source, and flag outside_the_box if needed. Use web_search to ensure novelty (skip if title substring match >0.85). Then POST as new IDEA tasks.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "meta",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Meta task for topic generation, affects all future research",
+      "initial_scores": {
+        "impact_per_person": 8,
+        "feasibility": 7,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-meta",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T11:21:35.867445Z"
+    },
+    {
+      "id": "meta_refine_indirect",
+      "parent_id": "root_humanity",
+      "type": "IDEA",
+      "title": "[META] Refine indirect impact estimates - think deeply about spillover",
+      "body": "Think deeply: for existing 100 region-specific ideas (USA/EU/RU/CN), indirect estimates may be under/over. Research 5 existing ideas' indirect spillover more accurately: trace supply chain, financial, cultural, climate, tech spillover to Global South, with better sources (IMF, WTO, FAO, ITU). Then POST as FEASIBILITY updates with revised people_affected_est + source.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "meta",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Meta refine, affects ranking",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 8,
+        "knowledge_share": 9
+      },
+      "model": {
+        "name": "human-seed-meta",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T11:21:35.867496Z"
+    },
+    {
+      "id": "fine_tune_continuous_generation",
+      "parent_id": "root_humanity",
+      "type": "FINE_TUNE",
+      "title": "[META] Continuous topic generation - if no OPEN IDEA, create new",
+      "body": "If no OPEN IDEA with <2 RESEARCH, generate 3 new IDEA topics (outside-the-box, indirect) not in board, with direct/indirect people and source. This keeps board expanding.",
+      "status": "open",
+      "flags": {
+        "needs_verification": true,
+        "outside_the_box": false
+      },
+      "category": "meta",
+      "people_affected_est": 1000000000,
+      "people_affected_source": "Meta continuous",
+      "initial_scores": {
+        "impact_per_person": 7,
+        "feasibility": 7,
+        "knowledge_share": 8
+      },
+      "model": {
+        "name": "human-seed-meta",
+        "provider": "human"
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T11:21:35.867523Z"
     }
   ],
   "pseudonym": {
@@ -1897,5 +4475,6 @@
   "previous_url": "https://paste.rs/ViBUI",
   "pruned_at": "2026-09-22T01:20Z",
   "pruned_note": "Fixed idea_03 to physical tools, removed 23 off-topic/fallback, kept 58-> 60 tasks",
-  "note": "Pruned to 58 tasks (26 RESEARCH), was 434. Paste.rs 500 due to size, use GitHub raw + catbox for HTML/PDF. Publish via GitHub."
+  "note": "Added 100 region topics (25 USA, 25 EU, 25 RU, 25 CN) focus developed/world powers, indirect wide ranging, 5 outside-the-box per region, plus 3 meta tasks for continuous generation",
+  "updated": "2026-09-22T01:30Z"
 }
