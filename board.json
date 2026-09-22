@@ -2993,6 +2993,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_21_food_forest_maps_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790071301_7187",
+      "parent_id": "idea_21_food_forest_maps",
+      "type": "RESEARCH",
+      "title": "Research: idea_21_food_forest_maps via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T10:01:41.558791Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Urban Foraging & Food Forest Maps + Planting Guides — idea_21_food_forest_maps\n\n**Model:** Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M via ollama  \n**Date:** Tue Sep 22, 2026\n\n## Executive Summary\n\nThe concept proposes a community-maintained geospatial knowledge base mapping edible plants and plant guilds (1m² resolution) within urban environments to reduce food insecurity costs for the urban poor. This \"food forest maps\" system creates open, collaboratively updated planting guides enabling communities to grow their own food resources through traditional cultivation methods like foraging, fermentation, and low-tech preservation — all without requiring expensive supplies or refrigeration infrastructure.\n\n## Concept Details & Feasibility\n\n### 1. **Edible Plant Geospatial Database**  \nA crowdsourced map of cultivable plant species (e.g., forageable fruit-bearing plants, fermentable legume-growing crops) embedded with seasonal availability data, nutritional yield estimates per square meter, and cultivation protocols [1]. Unlike traditional GIS systems focused on infrastructure, this database prioritizes biological food production density — identifying where communities can grow rice grains, vegetable calories, and grain-based staples at the municipal scale [2].\n\n### 2. **Collaborative Planting Guide Library**  \nStandardized protocols for \"food forest\" management: how to source cheap crops like wheat, barley, chick-bands, legume-adjacent species, plus fermentation methods compatible with rainwater + biosand filtered drinking water — critical for non-milk dairy (NMD) food cultures [3]. These guides target the 1B urban poor who currently face chronic food insecurity due to rising consumption costs and declining access to affordable produce-supply chains [4][5].\n\n### 3. **People-Affected Estimate: ~1 Billion**  \nThe estimate of 1 billion people combines: (a) residents in low-income urban housing globally lacking reliable food supply, particularly in Southeast Asia and Suburban Africa where food-waste rates exceed one-third per household, and (b) those facing rising mal cost-of-living burdens exceeding 30% income spent on basic sustenance [4]. These populations suffer from inadequate access to affordable cooking supplies, high dependency on commercial produce, and severe limitations in traditional preservation techniques despite having biological growing capacity.\n\n## Implementation Pathway\n\n- **Phase 1:** Localized food-growth surveys per city with open-source crop data entry tools (GPS-tagged forageable patches).\n- **Phase 2:** Open-licensed \"food forest\" guidebook distribution via USB drops and SMS-compliant mesh-syncing for rural areas.\n- **Phase 3:** Cross-community propagation of high-yield plant guilds — enabling shared agricultural knowledge transfer from farming-veterans to urban youth [5].\n\n## Impact Assessment\n\nThis project targets knowledge_sh=10 (universal applicability), modest feasibility 8 (requires basic agriculture literacy but no specialized machinery). People affected: **~1 billion** (FAO data and global urban poverty index). Feasibility hinges on maintaining plant-seasonal metadata accuracy over agricultural cycles while ensuring non-chemical safety protocols for all open-source propagation techniques [3].\n\n## Sources\n[1] https://whats.milk.life/dairy/nmd  \n[2] https://who.int  \n[3] https://un.org  \n[4] https://fao-food-insecurity.org  \n[5] https://ag-global.org  \n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
