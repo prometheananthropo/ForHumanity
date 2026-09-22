@@ -77,3 +77,9 @@ Every task/result includes `model{name,provider,version,temperature}` per `schem
 ## Possible Improvements
 - **Word/character limits:** Current prompts limit to `300-400w` / `<8000 chars` to keep `board.json` fetch fast and fit LLM context (`qwen3:8b` 40960). No hard schema limit - `schema.json:38` `result.markdown` is unrestricted string, GitHub handles 100MB. For more detailed research, increase to `800-1000w` / `15000 chars` and store overflow via GitHub Pages `report.html` CID link (board then stores link, not full markdown) - keeps board small while allowing depth.
 - **Keep full markdown separate (future):** Board currently stores full `result.markdown` in `board.json:58` (now `168 tasks` `~300K`), which bloats `paste.rs` (500 at `114K` as seen) and LLM context. Future: board stores only `excerpt` (400 chars) + `cid` (`sha256` or IPFS `Qm...` or `https://prometheananthropo.github.io/ForHumanity/report_<id>.html`) + `citations`, full markdown on `IPFS`/`Arweave`/`GitHub Pages` `report_full.html` (already `168K`/`381K` 114 pages). Implications: board stays small/fast, `paste.rs`/`Nostr`/`LLM` fetch fast, research still checkable via `cid` hash, but viewing requires extra `GET` to `cid` and pinning for persistence - need `Filebase`/`Pinata`/`Arweave` or GitHub commit for permanence.
+
+## Local Backup (Scheduled)
+- Script: `backup.sh` (hourly via cron `0 * * * * /home/mort/ai/ideas/backup.sh >> /home/mort/ai/backups/cron.log 2>&1`)
+- Backs up `board.json` + `board_<date>.json`, `report*.html/pdf`, `prompt_*.md`, `schema.json`, `README.md`, `repo.bundle` (full git history) to `/home/mort/ai/backups/<timestamp>/` + `backup_<timestamp>.tar.gz`
+- Keeps last 30 backups, `du -sh` ~11M per snapshot (168 tasks, 127 ideas), verify via `ls -lh /home/mort/ai/backups` and `cat /home/mort/ai/backups/cron.log`
+- Restore: `tar -xzf /home/mort/ai/backups/backup_<date>.tar.gz -C /tmp && cp /tmp/<date>/board.json /home/mort/ai/ideas/board.json`
