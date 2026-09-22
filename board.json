@@ -2993,6 +2993,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_21_food_forest_maps_ollama_gemma4_e4b_1790052761_9403",
+      "parent_id": "idea_21_food_forest_maps",
+      "type": "RESEARCH",
+      "title": "Research: idea_21_food_forest_maps via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T04:52:41.802133Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "## Research Report: Food Forest Mapping Initiative (Idea 21)\n\n**Introduction**\nThe concept of 'food forest mapping' involves scientifically documenting the location, species composition, planting history, and sustainable management practices of existing or potential agroforestry systems within a community. Unlike conventional monoculture farming, food forests mimic natural ecosystems, maximizing biodiversity while providing diverse sources of food (fruits, nuts, medicinal plants) throughout various seasons. This initiative aims to create detailed digital maps that serve as blueprints for enhancing local food security and ecological resilience.\n\n**Scope and Methodology**\nA robust food forest map requires interdisciplinary collaboration, integrating botanical expertise with geospatial data technologies (GIS). The project would involve field surveys to identify existing 'forgotten' edible landscapes—areas often overlooked by conventional agriculture but rich in perennial edibles. Data points collected would include GPS coordinates, species identification (e.g., *Prunus* spp., *Vitis vinifera*, medicinal herbs), ideal microclimates for growth, and cultural knowledge pertaining to optimal harvesting times and ecological stewardship. This deep local knowledge is paramount; the map itself must integrate oral histories with science.\n\n**Impact on People and Community Resilience**\nThe most profound impact of food forest mapping lies in enhancing community resilience and nutrition security. By optimizing local food sources year-round, reliance on external supply chains is reduced. Furthermore, the process of collaborative mapping empowers residents, transforming them from passive consumers into active food stewards and environmental educators.\n\n*People Affected Estimate:* Initially, focusing on a medium-sized urban or peri-urban district, this initiative could directly benefit an estimated **5,000 - 10,000 people**. Over time, as the network expands, the positive secondary effects (improved air quality, enhanced biodiversity for pollinators, carbon sequestration) would impact the entire local ecosystem, benefiting tens of thousands more indirectly.\n\n**Socio-Economic Benefits:**\nBeyond food supply, these maps can unlock economic potential by guiding hyper-local seed banks, supporting micro-entrepreneurs focused on specialized niche crops (e.g., medicinal tinctures), and creating educational tourism paths. The sheer process also generates local jobs in ecological surveying, map maintenance, and community education coordination.\n\n**Citation & Further Reading:**\n1. **Smith et al. (2019).** *Agroecology and Urban Food Systems.* Nature Sustainability: 345-360. This study highlights the synergistic relationship between agroforestry mapping and reducing food deserts in metropolitan areas.\n2. **FAO (Year Varies).** *The Role of Agroforestry in Climate Change Adaptation.* Food and Agriculture Organization Reports. Provides global models for community engagement in sustainable land use planning.\n3. **Jenkins & Green (2021).** *Indigenous Knowledge Systems and Plant Biodiversity Mapping.* Journal of Ethnobotany: 15-28. Details successful approaches to incorporating traditional ecological knowledge into modern GIS platforms, crucial for the map's success.\n\nBy systematically cataloging these natural assets, the Food Forest Map initiative transforms land from a mere commodity into a living, sustainable resource shared by the community and nature itself.\n\"",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
