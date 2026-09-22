@@ -2933,6 +2933,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_19_menstrual_health_ollama_gemma4_e4b_1790070553_9057",
+      "parent_id": "idea_19_menstrual_health",
+      "type": "RESEARCH",
+      "title": "Research: idea_19_menstrual_health via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T09:49:13.070126Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Idea 19 - Menstrual Health\n\nMenstrual health represents a critical, yet often overlooked, aspect of women’s physical and mental well-being globally. Period-related issues, including pain (dysmenorrhea) and heavy bleeding, affect hundreds of millions of people, disproportionately impacting educational attainment, workforce participation, and overall quality of life [1]. The conversation around menstruation is shifting from mere biological cycles to a complex public health issue incorporating cultural, economic, and psychological dimensions.\n\nGlobally, the estimated number of people affected by menstrual health issues due to lack of access to sanitary products or education is enormous, totaling hundreds of millions—a figure exacerbated by poverty. Within developed nations, while product availability is high, practices surrounding disposal, pain management, and general hygiene remain unevenly addressed [2]. In low-resource settings, the inability to manage menstruation safely often leads to periods of deprivation and seclusion, which significantly impacts school attendance and economic activity among young women [3].\n\nThe core challenges span multiple domains. Firstly, **menstrual dignity** refers not only to access to products but also to privacy and respectful disposal mechanisms. Secondly, **education gaps** persist regarding optimal hygiene practices and the body's physiological processes themselves. Thirdly, there is the significant economic burden: missing work or school days due to pain or product scarcity contributes billions to lost productivity annually [4].\n\nA comprehensive approach must therefore involve more than just distributing sanitary products. It requires systemic interventions encompassing educational campaigns on reproductive health literacy within schools and communities, advocating for affordable and accessible menstrual hygiene management (MHM) infrastructure (including water and appropriate disposal facilities), and fostering supportive social policies in workplaces and educational institutions. Treating menstrual health as a fundamental human right—and thereby integrating it into broader public health policy—is key to mitigating the vast global impact of these issues [5].\n\n***\n**Citations:**\n[1] WHO/UNICEF data on WASH and menstrual hygiene management (Source needed for estimate adjustment).\n[2] Global Survey on Menstrual Hygiene Practices (Academic source, e.g., World Bank/Journal of Public Health).\n[3] Research reports detailing periods of isolation in developing regions (NGO or academic source).\n[4] Economic impact assessment studies published by academic research groups.\n[5] Human Rights advocacy reports focused on WASH and bodily autonomy.",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
