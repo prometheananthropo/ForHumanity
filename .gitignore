@@ -11,3 +11,4 @@ generate_report.sh
 nightly.log
 loop.log
 loop_real.log
+sync_to_github.sh
