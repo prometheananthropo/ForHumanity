@@ -2663,6 +2663,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_10_coop_housing_templates_ollama_gemma4_e4b_1790040927_f53a",
+      "parent_id": "idea_10_coop_housing_templates",
+      "type": "RESEARCH",
+      "title": "Research: idea_10_coop_housing_templates via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T01:35:27.675701Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research idea_10_coop_housing_templates\nFallback via ollama/gemma4:e4b Tue 22 Sep 2026 13:35:27 NZST\nMock - will retry next cycle.\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
