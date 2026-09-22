@@ -6,3 +6,8 @@ research_report_offline_education.md
 tools.json
 offered_line.pdf offline education.md
 lucid_dreaming/
+backup.sh
+generate_report.sh
+nightly.log
+loop.log
+loop_real.log
