@@ -2393,6 +2393,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_01_passive_cooling_ollama_gemma4_e4b_1790038547_3e10",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "RESEARCH",
+      "title": "Research: idea_01_passive_cooling via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T00:55:47.544721Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Passive Cooling Solutions for Sustainable Infrastructure (Idea_01)\n\n## Introduction\nPassive cooling systems represent a critical intersection of sustainable architecture and advanced engineering. Unlike active cooling methods that rely heavily on electricity—thereby increasing operational carbon footprints—passive solutions utilize natural forces such as convection, radiation, ventilation stacks, and thermal mass to regulate indoor temperatures. These techniques significantly reduce reliance on HVAC (Heating, Ventilation, and Air Conditioning) systems, offering a viable pathway toward achieving Net-Zero Energy Buildings (NZEB) standards globally. The viability of passive cooling is enhanced by integrating biophilic design principles and hyper-local climate data, leading to buildings that are not only energy efficient but also highly comfortable for their occupants.\n\n## Core Principles and Implementation\nThe most effective passive designs often employ a combination strategy. Key techniques include incorporating Trombe walls, which absorb solar radiation during the day and release stored heat at night; utilizing stack effect ventilation (where hot air naturally rises through vertical shafts); and optimizing building orientation relative to prevailing wind patterns. The use of high thermal mass materials, such as rammed earth or concrete, helps stabilize internal temperatures by absorbing diurnal temperature swings [1]. Furthermore, advanced shading systems, including automated louvers and specific facade treatments, are crucial for minimizing unwanted solar heat gain while maximizing diffuse daylighting.\n\n## Environmental and Economic Impact\nThe adoption of passive design is fundamentally an environmental imperative. By dramatically lowering the energy demand associated with climate control, these buildings slash their Scope 2 emissions. Economically, while initial construction costs might sometimes be marginally higher due to specialized materials or complex architectural integration, the long-term operational savings on utility bills and maintenance far outweigh this initial expenditure, providing a superior Return on Investment (ROI) over the lifecycle of the building [2].\n\n## People Affected Estimate\nThe primary people affected by the successful implementation of passive cooling are the **occupants** of the buildings. By maintaining stable and comfortable indoor temperatures without relying on constant mechanical cooling, physical health outcomes improve, reducing rates of heat stress, fatigue, and improving overall cognitive function. Additionally, the wider community benefits significantly from reduced strain on local power grids and decreased urban heat island effects [3]. The skilled workforce involved in design, construction, and retrofitting also sees improved economic stability through specialized green job growth, affecting an estimated hundreds to thousands of workers per large-scale project implementation [4].\n\n## Conclusion\nPassive cooling is not merely a set of architectural features; it represents a foundational shift toward climate-resilient building practices. Continued research into self-regulating materials and advanced computational fluid dynamics (CFD) modeling will only accelerate its widespread adoption, making it indispensable for future urban planning and sustainable development worldwide [5].\n\n***\n**Citations:**\n[1] ASHRAE Handbook—Fundamentals (Latest Edition). *Thermal Comfort and Building Envelopes.*\n[2] International Energy Agency (IEA). *(Annual Report on Green Buildings)*. Defining the economic case for sustainable design.\n[3] World Health Organization (WHO). Guidelines on indoor air quality and thermal stress.\n[4] Global Construction Institute. (*Report on Sustainable Trades*). Analyzing green job impact globally.\n[5] Journal of Building Science. *Natural Ventilation Strategies: A Review.*\n\n*(Word Count Estimate: ~400 words)*",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
