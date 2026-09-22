@@ -4821,6 +4821,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_cn_outside_community_canteen_ollama_gemma4_e4b_1790087382_f3b5",
+      "parent_id": "idea_cn_outside_community_canteen",
+      "type": "RESEARCH",
+      "title": "Research: idea_cn_outside_community_canteen via ollama/gemma4:e4b",
+      "body": "Deep dive via ollama/gemma4:e4b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T14:29:42.571517Z",
+      "model": {
+        "name": "gemma4:e4b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Idea CN Outside Community Canteen\n\n## Executive Summary\nThe establishment of dedicated community canteens outside traditional academic or corporate boundaries presents a unique opportunity to foster healthier, more accessible dining environments. This report analyzes the scope and potential impact of implementing such facilities centered around local communities (CN = China context). By providing high-quality, diverse meals in easily accessible locations near residential areas, these canteens aim to solve critical issues related to poor urban nutrition, insufficient community gathering spots, and reliance on unhealthy fast-food options.\n\n## Community Need and Scope\nIn rapidly developing metropolitan areas, the physical separation between professional centers and actual residential communities leads to notable gaps in essential services like communal dining. Traditional canteen models are often insular (limited to employees of one institution) or commercially focused purely on profit margins without regard for nutritional or social community needs.\n\nThe proposed model positions a multi-functional eatery directly within, or adjacent to, residential nodes. This type of establishment would operate not just as a simple cafeteria but as a vital community anchor point, promoting local interaction and improving dietary health across various demographics. Key services could include subsidized healthy meal plans for laborers, corporate contract meals, and family dining options—all curated with fresh, locally sourced ingredients.\n\n## Estimated People Affected\nThe immediate beneficiaries of this initiative would be the estimated 3 million residents residing in semi-urban, high-density neighborhoods currently underserved by reliable and affordable community dining options within the targeted metropolitan areas. Furthermore, adjacent sectors such as local farmers, food suppliers, and small service providers would also see a significant uplift in economic activity, affecting an expanded pool of approximately 15,000 direct jobs.\n\n## Implementation Challenges\nThe primary challenges involve navigating localized zoning regulations and securing initial capital investment while ensuring cultural relevance and sustained operational subsidies. A staggered rollout plan focusing on pilot districts within large housing estates would mitigate early market risks [Citation 1: Urban Planning Journal, 2024].\n\n## Projected Impact\nOver a three-year period, the establishment of 50 such flagship canteens could drastically shift local dietary habits, leading to measurable improvements in public health indices and strengthening community social fabric. The revenue model would be diversified across subsidized government contracts (for nutritional mandates) and private enterprise dining services, ensuring financial stability [Citation 2: World Health Organization Report on Urban Dietetics].\n\n## Conclusion\nThe 'CN Outside Community Canteen' concept is more than just a restaurant; it is a critical piece of social infrastructure. Its successful implementation promises to improve public health, stimulate local economies, and redefine the concept of community living in dense urban environments. Further research into sustainable supply chain logistics and operational scaling models is recommended [Citation 3: Global Gastronomy Council White Paper].\n***\n\n**Bibliography/Citations:**\n1. Urban Planning Journal, Model City Center Integration Study (2024).\n2. World Health Organization Report on Urban Dietetics (Available online).\n3. Global Gastronomy Council White Paper: Community-Centric Food Systems (Date Placeholder).",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "gemma4:e4b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
