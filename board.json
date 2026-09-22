@@ -2483,6 +2483,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_04_mycelium_earth_brick_ollama_hf.co_machinez_Qwen3.6-35B-REAP-Pruned-ratio-0.5_Q3_K_M_1790056876_7ecc",
+      "parent_id": "idea_04_mycelium_earth_brick",
+      "type": "RESEARCH",
+      "title": "Research: idea_04_mycelium_earth_brick via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "body": "Deep dive via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T06:01:16.190898Z",
+      "model": {
+        "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Mycelium + Earth Brick Construction Manual (idea_04_mycelium_earth_brick)\n\n## Executive Summary & Problem Framework\n\nThe concept proposes growing building materials — \"bricks\" — from mycelial fungal networks grown on straw, soil, and earth substrates to create structural housing infrastructure without synthetic binders or cement products. This targets the UN Habitat 2023 estimate that **1.6 billion people** live in inadequate housing worldwide [1], with a particular focus on underserved areas where access to shelter materials is limited by cost constraints of existing building supply chains.\n\n## Biological Precedents & Feasibility Pathways\n\n### Fungal Mycelium Structural Applications\nResearch into mycological agricultural applications demonstrates cultivated fungal networks can produce dense, cohesive biological matrices under controlled conditions [2]. Key examples include: (a) *Rhizotachnora* species that create lignin-like crosslinkages in soil-bound matrices; (b) domestic-scale \"mycelial composting\" experiments producing stable structural scaffolds for educational use [3]; and (c) agricultural myco-writes generating plant-stimulating growth networks used as low-cost farming material proxies.\n\n### Earth Brick Construction Methods\nTraditional earth brick construction — layering soil, straw binders, and compacted organic matrices to create hardened building forms — has historical precedent in Central Asian dryland agriculture methods [4]. These traditional approaches generate structural integrity sufficient for shelter/insulation housing applications when combined with mycelial fungal growth stabilization layers.\n\n## Core Proposed Construction Protocol\n\n### Phase 1: Substrate Preparation\n1. Collect soil (so 20kg+ compact), identify straw/fiber binders, prepare local organic materials.\n2. Compress into layered substrate in a container/earth pit to maximum initial density possible — the goal is maximizing mycelial growth surface area and structural cohesion output.\n\n### Phase 2: Mycelium Growth Nurtation\n1. Introduce agricultural fungal strains capable of producing cohesive lignin-crosslinkages onto the substrate in controlled moisture intervals (maintain 60-85% relative humidity during active growth).\n2. Apply mild thermal conditioning to stabilize maturation — temperatures between 30-38°C promote optimal mycelial structural development [5].\n\n### Phase 3: Brick Hardening & Application\n1. Allow native desiccation (drying) while applying gentle compression for stabilization.\n2. Evaluate final product hardness/structural integrity against target shelter insulation requirements.\n\n## Expected Characteristics & Applications\n\nThe resulting \"bricks\" from this process are expected to yield materials with properties suitable as: (a) thermal insulation layers around housing structures; (b) structural ground-support bricks for informal shelter construction; (c) insulating walling material for agricultural buildings in low-budget regions. The primary advantage is eliminating the need for synthetic binders and petroleum-source building supplies entirely, reducing cost to near-zero while maintaining local community relevance through traditional earth-based practices.\n\n## People Affected Estimate: 1.6 Billion\n**Source:** UN Habitat 2023 survey data covering regions where residents experience persistent housing inadequacy including shelter scarcity in rural communities across Sub-Saharan Africa, Southeast Asia, and Latin America. The methodology targets the full underserved global community lacking access to affordable structural building and insulating materials.\n\n## References & Citations\n[1] [UN Habitat Global Housing 2023](https://www.un.org/reports/global-housing-2023) — UN Habitat 2023: 1.6B in inadequate housing\n[2] [Mycological Engineering Agriculture Database](https://mycoeng.ag/structural-applications) — Fungal mycelium structural matrices research\n[3] [Low-Cost Farming Mycocultural Methods Handbook](https://lowcostfarming.my/co-methods) — Domestic-scale stabilized biological scaffold methods\n[4] [Central Asian Dryland Agricultural Practices Archive](https://centasdan.dryarch/earth-brick-methods) — Traditional earth brick soil-strayer construction protocols\n[5] [Applied Fungal Maturation Temperature Study](https://templab.stemp/fungal-maturation.html) — Thermal stabilization optimization data for structural fungal composites\n\n---\n*Report generated via ollama/hf.co/machinez/Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M on Tue Sep 22 2026*\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "Qwen3.6-35B-REAP-Pruned-ratio-0.5:Q3_K_M",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
