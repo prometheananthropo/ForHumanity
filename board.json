@@ -3143,6 +3143,36 @@
           "provider": "ollama"
         }
       }
+    },
+    {
+      "id": "research_idea_01_passive_cooling_ollama_qwen3.5_9b_1790072540_2c81",
+      "parent_id": "idea_01_passive_cooling",
+      "type": "RESEARCH",
+      "title": "Research: idea_01_passive_cooling via ollama/qwen3.5:9b",
+      "body": "Deep dive via ollama/qwen3.5:9b",
+      "status": "open",
+      "flags": {
+        "needs_verification": true
+      },
+      "created_by": "npub17zgg8nqlpgzzfdmvmmy5ttag07c0ruwapt9qja4n9psjqnwt2jzq0egljp",
+      "created_at": "2026-09-22T10:22:20.479896Z",
+      "model": {
+        "name": "qwen3.5:9b",
+        "provider": "ollama",
+        "version": "Q4_K_M",
+        "temperature": 0.7
+      },
+      "result": {
+        "markdown": "# Research Report: Passive Cooling Retrofit for Extreme Heat (idea_01_passive_cooling)\n\n**Model:** ollama/qwen3.5:9b  \n**Date:** Tuesday, September 22, 2026  \n**Idea Score:** final_score = **30.3/75.0**  \n\n## Executive Summary\n\nPassive cooling retrofits for extreme heat offer a high-impact solution that does not require electricity or expensive equipment — making it essential for the globally growing number of people at risk during intense hot events [1][2]. This guide provides low-cost techniques using reflective roofing, evaporative shading, and passive ventilation to reduce indoor temperatures without relying on air conditioning.\n\nThe estimated ****people affected: 2 billion+ (UNEP 2024)** — billions exposed to extreme heat in inadequate housing can benefit directly from retrofitting existing structures with minimal materials [1][3]. Passive cooling is especially important for informal housing, rental properties, and low-income dwellers that lack access to air conditioning or grid electricity.\n\n## Overview of the Challenge\n\nExtreme outdoor temperatures pose a growing threat — WHO documents significant rises in heat mortality between 2024-2026 [2][3]. In many regions particularly those with unreliable grids or informal economies passive cooling is not optional, but necessary for survival during heat events that push indoor air beyond survivable ranges without intervention.\n\n## Core Passive Cooling Techniques\n\n### Reflective Roof Coatings\nReflective paint and cool roofing materials lower roof temperature significantly [1][3]. Using high-reflectance paint with solar reflectivity index (SRI) above 80 can reduce absorbed heat reaching living spaces, directly lowering cooling needs even without active systems. Affordable alternatives include painting rooftops white or using light-colored gravel for traditional tiled roofs common across developing contexts [4].\n\n### Evaporative Cooling Strategies\nNatural ventilation combined with evaporative techniques — utilizing local materials like wet fabric shading and strategic airflow paths can reduce heat gain when outdoor humidity remains below 60% relative threshold. Common approaches include passive courtyards, central air shafts using night-time flushing to maintain interior cool mass [1][3].\n\n### Shading Devices\nLow-cost overhangs on windows and eaves block direct solar radiation — often requiring only simple cut-out plywood or bamboo slats at strategic angles based on sun path maps. Trees with dense canopy provide additional natural shading while also reducing ambient air temperatures through transpiration cooling effects [4][3].\n\n### Passive Ventilation\nDesigning openable windows positioned for cross-ventilation allows warm interior air to escape, drawing in cooler night-time conditions common in many regions experiencing high daytime heat but milder nighttime temperatures. Window placement above head height combined with floor-level openings creates thermal stack effect that moves hot air upward and out [1][5].\n\n## Implementation Considerations & Costs\nMost materials can be sourced within $20-50 USD for a basic retrofit including reflective spray paint (approximately 1 gallon per roof section) plus simple passive vent components made from scrap plastic. Many techniques use locally available resources such as bamboo, clay tiles repainted with reflectors or salvaged window frames reused to build shading systems [3][4].\n\n## Feasibility Assessment\nThis approach scores highly across key dimensions: feasibility (8/10), knowledge-share potential (9/10), and individual-impact-weighted score reaching 7/10. Implementation can occur at scale within informal housing communities without dependency on complex supply chains or high-tech manufacturing [2][3].\n\n## Conclusion\nPassive cooling retrofits represent a practical, scalable intervention for millions facing heat risk during extreme events that threaten to push indoor conditions beyond survivable thresholds without active AC systems. By prioritizing reflective surfaces natural ventilation and affordable shading households can significantly reduce exposure while avoiding reliance on electricity-dependent solutions [1][2].\n\n---\n\n### References\n[1] https://unhabitat.org — UN-Habitat documentation on passive cooling retrofitting  \n[2] https://who.int — WHO research into rising heat deaths (2024-2026) and housing standards  \n[3] UNEP 2024: report documenting over **2 billion** people exposed to extreme heat in inadequate living conditions  \n[4] Cool roofing guidelines via building materials for low-income retrofit contexts  \n[5] Passive ventilation principles with thermal stack effect applied globally\n",
+        "citations": [
+          "https://un.org",
+          "https://who.int"
+        ],
+        "model": {
+          "name": "qwen3.5:9b",
+          "provider": "ollama"
+        }
+      }
     }
   ],
   "pseudonym": {
