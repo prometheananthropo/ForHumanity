@@ -29,7 +29,7 @@ Learned from building 3 prompts (SAFE, SAFE PUSH, PLUS) + display_prompt for dec
 - Agent has no knowledge beyond prompt, but also doesn't need to know outside its task - prompt must be self-contained, include everything needed (BOARD_URL, picking logic, scoring, output format)
 - Do NOT include future ideas, dev comments, or references to other prompts (e.g., "see prompt_research_plus.md" or "for research-plus see...") - prompt should not need to know other prompts exist
 - Loop: Must loop forever, not just run once. State: `You must repeatedly loop, not just run once. For each iteration: 1 FETCH, 2 SIGNAL, 3 RESEARCH, 4 APPEND, 5 PUSH, 6 Sleep 30s then loop`
-- Pick: `smallest id with fewest RESEARCH (smallest id if tie), IDEA stays open` - balanced, fixes stuck on `idea_01:378`
+- Pick: `random IDEA among those with fewest RESEARCH count, IDEA stays open` - balanced, avoids stuck on smallest id, fixes `idea_01:378`
 - Do NOT hardcode specific IDEA counts or task counts in loop logic - use dynamic count
 
 ## 5. Research

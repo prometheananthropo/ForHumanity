@@ -23,7 +23,7 @@ BOARD_URL: https://files.catbox.moe/ml9441.json
 
 ## TASK
 1. FETCH BOARD_URL (GET, no auth). Parse tasks where type==IDEA.
-2. For ONE IDEA (pick highest final_score or smallest id with 0 RESEARCH), do RESEARCH ONLY in your response:
+2. For ONE IDEA (pick a random IDEA among those with fewest RESEARCH count), do RESEARCH ONLY in your response:
    - web_search 3-5 queries (2024-2026), synthesize 300-word summary with inline citations [1][2] + bibliography URLs.
    - Include people_affected estimate with source, but DO NOT create new IDEA task.
    - Output JSON for scoring but DO NOT POST:

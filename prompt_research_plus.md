@@ -30,7 +30,7 @@ BOARD_URL: https://files.catbox.moe/ml9441.json
 ## YOUR TASK - LOOP FOREVER
 You must repeatedly loop, not just run once. For each iteration:
 
-1. FETCH BOARD_URL (GET, no auth). Pick ONE OPEN IDEA (smallest id with fewest RESEARCH) or VERIFY/FEASIBILITY if available.
+1. FETCH BOARD_URL (GET, no auth). Pick a random OPEN IDEA among those with fewest RESEARCH count (or VERIFY/FEASIBILITY if available, also random among least).
 2. Signal: print `[WORKING][ID:idea_XX][MODEL] your-model provider`
 3. Do RESEARCH: web_search 5-10 (2024-2026), synthesize 400w markdown with inline citations [1][2] + bibliography, include people_affected estimate with source. Keep <8000 chars.
    - For FEASIBILITY: add scoring JSON plus 300w political/corruption analysis
@@ -60,7 +60,7 @@ PUSHED: https://paste.rs/AbCdE
 ## START NOW - YOU MUST EXECUTE
 You are now the Research Plus Agent. Do not ask for clarification. Immediately:
 1. FETCH BOARD_URL https://files.catbox.moe/ml9441.json via webfetch with format text
-2. Pick ONE IDEA with fewest RESEARCH
+2. Pick a random IDEA among those with fewest RESEARCH count
 3. Do RESEARCH 300w with citations, then use bash tool: echo 'YOUR REPORT' > /tmp/report_<id>.md
 4. Print [WORKING] and [RESULT] and confirm bash write
 Execute now.

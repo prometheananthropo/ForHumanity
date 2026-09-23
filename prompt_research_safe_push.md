@@ -28,7 +28,7 @@ BOARD_URL: https://files.catbox.moe/ml9441.json
 ## YOUR TASK - LOOP FOREVER
 You must repeatedly loop, not just run once. For each iteration:
 
-1. FETCH BOARD_URL (GET, no auth). Parse tasks where type==IDEA, count RESEARCH per IDEA (parent_id), pick ONE IDEA with fewest RESEARCH (smallest id if tie). IDEA stays open.
+1. FETCH BOARD_URL (GET, no auth). Parse tasks where type==IDEA, count RESEARCH per IDEA (parent_id), pick a random IDEA among those with fewest RESEARCH count. IDEA stays open.
 2. Signal: print `[WORKING][ID:idea_XX][MODEL] your-model provider`
 3. RESEARCH: web_search 3-5 queries (2024-2026), synthesize 300-400w markdown with inline citations [1][2] + bibliography https:// URLs, include people_affected_est + source. Keep <8000 chars. Validate citations are https:// and people_affected has source - if not, output [VALIDATION FAIL] and skip to next iteration.
 4. APPEND: Use python3 to append to local board.json:
